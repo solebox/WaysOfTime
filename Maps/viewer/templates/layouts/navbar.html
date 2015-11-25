@@ -1,0 +1,14 @@
+{% block navbar %}
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <nav class="mdl-navigation">
+                    {% for name, href in links.items %}
+                        <a class="mdl-navigation__link" href="{{ href }}">{{ name }}</a>
+                    {% endfor %}
+                </nav>
+            </div>
+        </header>
+{% endblock %}

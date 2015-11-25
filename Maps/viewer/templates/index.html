@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+
+{% block content %}
+    <div id="map"></div>
+{% endblock %}
+
+
+{% block script %}
+    <script src="{% static 'js/leaflet_map.js' %}"></script>
+{% endblock %}
