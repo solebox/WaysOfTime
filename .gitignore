@@ -2,6 +2,14 @@
 
 ### Linux ###
 *~
-
 ### Vagrant ###
 .vagrant/
+### python ###
+*.py[cod]
+
+#### images ###
+*.tif
+mapwarper/public/mapimages/dst/png/*.png
+mapwarper/public/mapimages/dst/png/*.png.aux.xml
+mapwarper/log/development.log
+mapwarper/tmp/pids/server.pid
