@@ -24,16 +24,35 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        {% block content %}{% endblock %}
 
-        <footer class="mdl-mini-footer">
-            <div class="mdl-mini-footer__left-section">
-                <div class="mdl-logo">National Library Maps</div>
-                <ul class="mdl-mini-footer__link-list">
-                    <li><a href="{% url 'privacyAndTerms' %}">Privacy & Terms</a></li>
-                </ul>
+        <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+            <div class="mdl-layout__drawer">
+                <header>
+                    <span class="mdl-layout-title">
+                        <img id="mainLogo" src="../static/img/mapabazman-logo-v1.png">
+                    </span>
+
+                    <div class="mdl-textfield">
+                        <input id="fixed-search" name="searchInput" type="text" placeholder="Type something" />
+                    </div>
+                </header>
+
+                <footer class="mdl-mini-footer">
+                    <div class="mdl-mini-footer__left-section">
+                        <a href="/">
+                            <div class="mdl-logo">Home</div>
+                        </a>
+                        <a href="/privacyAndTerms">
+                            <div class="mdl-logo">Privacy & Terms</div>
+                        </a>
+                    </div>
+                </footer>
             </div>
-        </footer>
+            <main class="mdl-layout__content">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>

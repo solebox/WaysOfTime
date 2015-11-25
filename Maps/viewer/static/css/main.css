@@ -58,7 +58,7 @@ textarea {
 
    #map {
      width: 100vw;
-     height: 90vh;
+     height: 100vh;
    }
 
    .mdl-layout__header, .mdl-layout__drawer-button,
@@ -72,7 +72,7 @@ textarea {
      position:fixed;
      left:0px;
      bottom:0px;
-     width:100vw;
+     width: 87%;
      height: 1.5vh;
    }
 
@@ -80,8 +80,28 @@ textarea {
      margin-top: -2vh;
    }
 
+   .leaflet-left {
+       left: auto;
+       right: 1%;
+   }
 
+   #mainLogo {
+       width: 50%;
+   }
 
+   .mdl-layout__drawer >.mdl-layout__title, .mdl-layout__drawer .mdl-layout-title {
+       text-align: center;
+       padding-left: 0;
+       padding-top: 5px;
+   }
+
+   .material-icons {
+       margin-top: 10px;
+   }
+
+   #fixed-search {
+       width: 98%;
+   }
 
 /* ==========================================================================
    Media Queries
