@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from viewer.models import MyMaps
 from django.http import JsonResponse
+from . import searchview, thumbview, layersview
 
 links = {'Home':'/home', 'Contact':'/contact',
          'About':'/about', 'Help':'/help',}
