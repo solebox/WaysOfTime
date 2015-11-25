@@ -1,10 +1,8 @@
 # waysoftime
-
 The best project in the world!
 
 
 ## Development
-
 There is a vagrantfile you can use.
 First clone the project, then enter mapwarper folder by type `cd mapwarper` and type `vagrant up` to get and install the virtual machine - this will also install pip and the libraries and depencies into the virtual machine.
 After that runs, type `vagrant ssh` to login.
@@ -26,4 +24,3 @@ user.save
 
 ```
 When you'll type the last command (`user.save`) there'll be a url in the console output, copy it to the browser to activate the user, and try to login to the system.
-
