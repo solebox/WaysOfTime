@@ -1,0 +1,7 @@
+# Created by https://www.gitignore.io/api/jetbrains,python,django,vagrant,ruby,rails,linux
+
+### Linux ###
+*~
+
+### Vagrant ###
+.vagrant/
