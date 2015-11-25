@@ -30,16 +30,16 @@ function showPosition(position) {
       openstreets =  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'),
       hiking =  L.tileLayer('http://osm.org.il/IsraelHiking/Tiles/{z}/{x}/{y}.png');
 
-    var baseLayers = {
+    var baseMaps = {
             "Base Map": base_map,
 			"OVI Satellite": ovi,
 			"OpenStreet map": openstreets,
 			"Israel Hiking Trails": hiking
-		};
+	    };
 
     // add the widget layers to the map, and set the base map to be the default
-    L.control.layers(baseLayers).addTo(map);
-    //base_map.addTo(map);
+    L.control.layers(map.layers).addTo(map);
+    base_map.addTo(map);
 
     // get all the maps from the db
     getMapsListId(map);
@@ -49,10 +49,7 @@ function showPosition(position) {
 function getMapsListId(onMap){
     $.get("/getMaps/", function (maps) {
         $.each(maps, function (i, map) {
-            m = map;
-            //onMap = base_map;
             L.tileLayer(map.url).addTo(onMap);
-            //L.tileLayer(map.url).addTo($('#map'));
         })
     });
 }
