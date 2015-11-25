@@ -1,8 +1,9 @@
-# National Library Maps Project
-
-
+# waysoftime
+=======
+ The best project in the world!
 
 ## Development
+=======
 
 There is a vagrantfile you can use.
 First clone the project, then enter mapwarper folder by type `cd mapwarper` and type `vagrant up` to get and install the virtual machine - this will also install pip and the libraries and depencies into the virtual machine.
