@@ -13,7 +13,7 @@ def getAllThumbs(request):
     for map in maps:
         thumb_file_name, ext = os.path.splitext(map.upload_file_name)
         results.append({'id': map.id,
-                       'thumbnail': url.format(id=map.id,
+                       'url': url.format(id=map.id,
                                                 thumb_name_ext_stripped=thumb_file_name)}),
     return JsonResponse(results,safe=False)
 
