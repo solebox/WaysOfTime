@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.index, name='home'),
     url(r'^privacyAndTerms', views.privacyAndTerms, name='privacyAndTerms'),
-    url(r'^getMaps', views.getAllMaps),
+    url(r'^getMaps', views.thumbview.getAllMaps),
+    url(r'^getThumbs', views.thumbview.getAllThumbs),
 ]
