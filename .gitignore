@@ -14,6 +14,7 @@ mapwarper/public/mapimages/dst/png/*.png
 mapwarper/public/mapimages/dst/png/*.png.aux.xml
 mapwarper/log/development.log
 mapwarper/tmp/pids/server.pid
+mapwarper/public/uploads/*
 
 ## Directory-based project format:
 .idea/
