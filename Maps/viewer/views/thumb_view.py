@@ -1,7 +1,6 @@
 import os
 from django.http import JsonResponse
-from viewer import models
-#from Maps.viewer.models import Maps, MyMaps
+from viewer.models import Maps, MyMaps
 
 
 def getAllThumbs(request):
