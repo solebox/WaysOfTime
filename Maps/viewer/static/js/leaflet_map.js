@@ -16,8 +16,8 @@ function getLocation() {
 
 function showPosition(position) {
     // set the map where the uer is (based on his coordinates
-    var map = L.map('map').setView([position.coords.latitude, position.coords.longitude], 16);
-    var marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(map);
+    baseMap = L.map('map').setView([position.coords.latitude, position.coords.longitude], 16);
+    var marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(baseMap);
 
     // create a base map layer
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -25,17 +25,8 @@ function showPosition(position) {
                     maxZoom: 18,
                     id: 'nirgn975.cigmtjxyw000rc3knz02njkhn',
                     accessToken: 'pk.eyJ1IjoibmlyZ245NzUiLCJhIjoiY2lnbXRqeTcxMDAwdmx6a3RueGViemV0eCJ9.3wBhw04dxzXHfd56yUfufQ'
-    }).addTo(map);
+    }).addTo(baseMap);
 
-    // get all the maps from the db
-    getMapsListId(map);
 }
 
 
-function getMapsListId(onMap){
-    $.get("/getMaps/", function (maps) {
-        $.each(maps, function (i, map) {
-            L.tileLayer(map.url).addTo(onMap);
-        })
-    });
-}

@@ -8,7 +8,13 @@ def getAllThumbs(request):
     :param request: http get request (no params ofc)
     :return: reutrns all the available thumbnails fof the uploaded maps
     """
-    maps = Maps.objects.all()
+
+    searchString = 'null'
+    if searchString != 'null':
+        maps = Maps.objects.filter(title__contains=searchString)
+    else:
+        maps = Maps.objects.all()
+
     url = "http://localhost:3000/uploads/{id}/thumb/{thumb_name_ext_stripped}.png"
     path = "/uploads/thumb/{thumb_name_ext_stripped}.png"
     results = []
@@ -22,17 +28,4 @@ def getAllThumbs(request):
 
     return JsonResponse(results, safe=False)
 
-
-def getAllMaps(request):
-    # TODO - this function will be deprecated as soon as we finish, until then , it returns
-    # TODO - an array with only one map in it , the last one.
-    my_map = MyMaps.objects.last()
-    url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
-
-    response = JsonResponse([{
-        'id': my_map.id,
-        'url': url.format(id=my_map.id, xyz='{z}/{x}/{y}')
-    }], safe=False)
-
-    return response
 
