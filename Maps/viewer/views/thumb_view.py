@@ -1,8 +1,7 @@
 import os
-
 from django.http import JsonResponse
-
-from .models import Maps, MyMaps
+from viewer import models
+#from Maps.viewer.models import Maps, MyMaps
 
 
 def getAllThumbs(request):
@@ -21,6 +20,7 @@ def getAllThumbs(request):
 def getAllMaps(request):
     my_maps = MyMaps.objects.all()
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
+
     return JsonResponse([{
         'id': map.id,
         'url': url.format(id=map.id, xyz='{z}/{x}/{y}')
