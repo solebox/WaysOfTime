@@ -21,8 +21,9 @@ def getAllThumbs(request):
     return JsonResponse(results, safe=False)
 
 
-def getAllMaps(request): # fixme - this function will be deprecated as soon as we finish, until then , it returns
-                         # fixme - an array with only one map in it , the last one.
+def getAllMaps(request):
+    """ fixme - this function will be deprecated as soon as we finish, until then , it returns
+     fixme - an array with only one map in it , the last one. """
     my_map = MyMaps.objects.last()
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
 
