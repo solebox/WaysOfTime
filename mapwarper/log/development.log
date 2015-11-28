@@ -26629,3 +26629,3770 @@ Processing by MapsController#tile as PNG
   Rendered text template (0.0ms)
 Sent data  (1.1ms)
 Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/16/39177/26657.png" for 10.0.2.2 at 2015-11-28 15:20:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39177", "y"=>"26657"}
+  [1m[35mMap Load (0.7ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (87.0ms)
+Completed 200 OK in 449ms (Views: 86.7ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/maps/tile/1/16/39177/26656.png" for 10.0.2.2 at 2015-11-28 15:20:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39177", "y"=>"26656"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 20ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/1/16/39180/26657.png" for 10.0.2.2 at 2015-11-28 15:20:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39180", "y"=>"26657"}
+  [1m[35mMap Load (0.7ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.1ms)
+Sent data  (2.1ms)
+Completed 200 OK in 33ms (Views: 1.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/maps/tile/1/16/39174/26655.png" for 10.0.2.2 at 2015-11-28 15:20:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39174", "y"=>"26655"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 8ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/1/16/39180/26655.png" for 10.0.2.2 at 2015-11-28 15:20:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39180", "y"=>"26655"}
+  [1m[35mMap Load (0.7ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/maps/tile/1/16/39175/26657.png" for 10.0.2.2 at 2015-11-28 15:20:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39175", "y"=>"26657"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/1/16/39178/26655.png" for 10.0.2.2 at 2015-11-28 15:20:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39178", "y"=>"26655"}
+  [1m[35mMap Load (0.4ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/2/16/39177/26656.png" for 10.0.2.2 at 2015-11-28 15:20:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 22ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26657.png" for 10.0.2.2 at 2015-11-28 15:20:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26657"}
+  [1m[35mMap Load (0.4ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/2/16/39180/26656.png" for 10.0.2.2 at 2015-11-28 15:20:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39180", "y"=>"26656"}
+  [1m[36mMap Load (0.6ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (2.4ms)
+Completed 200 OK in 24ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/maps/tile/1/16/39177/26655.png" for 10.0.2.2 at 2015-11-28 15:20:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39177", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (2.1ms)
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39176/26656.png" for 10.0.2.2 at 2015-11-28 15:20:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39176", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39175/26656.png" for 10.0.2.2 at 2015-11-28 15:20:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39175", "y"=>"26656"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39175/26656.png" for 10.0.2.2 at 2015-11-28 15:20:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26655.png" for 10.0.2.2 at 2015-11-28 15:20:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26655"}
+  [1m[35mMap Load (1.7ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 19ms (Views: 0.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/maps/tile/2/16/39175/26657.png" for 10.0.2.2 at 2015-11-28 15:20:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26657"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/1/16/39174/26657.png" for 10.0.2.2 at 2015-11-28 15:20:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39174", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26656.png" for 10.0.2.2 at 2015-11-28 15:20:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26654.png" for 10.0.2.2 at 2015-11-28 15:20:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 20ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39175/26654.png" for 10.0.2.2 at 2015-11-28 15:20:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39175", "y"=>"26654"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39174/26654.png" for 10.0.2.2 at 2015-11-28 15:20:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39174/26654.png" for 10.0.2.2 at 2015-11-28 15:20:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39174", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39176/26655.png" for 10.0.2.2 at 2015-11-28 15:20:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39176", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26657.png" for 10.0.2.2 at 2015-11-28 15:20:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 21ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26655.png" for 10.0.2.2 at 2015-11-28 15:20:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39179/26655.png" for 10.0.2.2 at 2015-11-28 15:20:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39179", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39180/26657.png" for 10.0.2.2 at 2015-11-28 15:20:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39180", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26657.png" for 10.0.2.2 at 2015-11-28 15:20:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39178/26656.png" for 10.0.2.2 at 2015-11-28 15:20:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39178", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26655.png" for 10.0.2.2 at 2015-11-28 15:20:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26655"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 19ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39176/26655.png" for 10.0.2.2 at 2015-11-28 15:20:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39179/26656.png" for 10.0.2.2 at 2015-11-28 15:20:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39179", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+Completed 200 OK in 24ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26656.png" for 10.0.2.2 at 2015-11-28 15:20:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 21ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39179/26657.png" for 10.0.2.2 at 2015-11-28 15:20:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39179", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 30ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39173/26654.png" for 10.0.2.2 at 2015-11-28 15:20:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39173", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39173/26654.png" for 10.0.2.2 at 2015-11-28 15:20:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39173", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39181/26658.png" for 10.0.2.2 at 2015-11-28 15:20:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39181", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 32ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39181/26654.png" for 10.0.2.2 at 2015-11-28 15:20:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39181", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39181/26656.png" for 10.0.2.2 at 2015-11-28 15:20:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39181", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 61ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39181/26656.png" for 10.0.2.2 at 2015-11-28 15:20:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39181", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39181/26657.png" for 10.0.2.2 at 2015-11-28 15:20:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39181", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.4ms)
+Completed 200 OK in 19ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39181/26655.png" for 10.0.2.2 at 2015-11-28 15:20:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39181", "y"=>"26655"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/2/16/39181/26658.png" for 10.0.2.2 at 2015-11-28 15:20:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39181", "y"=>"26658"}
+  [1m[35mMap Load (0.8ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 30ms (Views: 1.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/maps/tile/2/16/39181/26655.png" for 10.0.2.2 at 2015-11-28 15:20:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39181", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (2.2ms)
+Completed 200 OK in 32ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39181/26654.png" for 10.0.2.2 at 2015-11-28 15:20:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39181", "y"=>"26654"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/16/39181/26657.png" for 10.0.2.2 at 2015-11-28 15:20:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39181", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 28ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39173/26657.png" for 10.0.2.2 at 2015-11-28 15:20:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39173", "y"=>"26657"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 18ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39177/26658.png" for 10.0.2.2 at 2015-11-28 15:20:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 17ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26656.png" for 10.0.2.2 at 2015-11-28 15:20:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39174/26656.png" for 10.0.2.2 at 2015-11-28 15:20:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39174", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39173/26656.png" for 10.0.2.2 at 2015-11-28 15:20:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39173", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39173/26656.png" for 10.0.2.2 at 2015-11-28 15:20:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39173", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26655.png" for 10.0.2.2 at 2015-11-28 15:20:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26655"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (2.4ms)
+Completed 200 OK in 23ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/16/39173/26655.png" for 10.0.2.2 at 2015-11-28 15:20:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39173", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39173/26655.png" for 10.0.2.2 at 2015-11-28 15:20:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39173", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 21ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39173/26657.png" for 10.0.2.2 at 2015-11-28 15:20:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39173", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39175/26655.png" for 10.0.2.2 at 2015-11-28 15:20:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39175", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26658.png" for 10.0.2.2 at 2015-11-28 15:20:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 16ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26658.png" for 10.0.2.2 at 2015-11-28 15:20:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26658"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 23ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39174/26658.png" for 10.0.2.2 at 2015-11-28 15:20:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 18ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39177/26658.png" for 10.0.2.2 at 2015-11-28 15:20:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39177", "y"=>"26658"}
+  [1m[35mMap Load (0.4ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.2ms)
+Sent data  (2.8ms)
+Completed 200 OK in 37ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/2/16/39177/26655.png" for 10.0.2.2 at 2015-11-28 15:20:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (1.4ms)
+Completed 200 OK in 18ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39179/26654.png" for 10.0.2.2 at 2015-11-28 15:20:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39179", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26658.png" for 10.0.2.2 at 2015-11-28 15:20:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 16ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39173/26658.png" for 10.0.2.2 at 2015-11-28 15:20:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39173", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26654.png" for 10.0.2.2 at 2015-11-28 15:20:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 19ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26654.png" for 10.0.2.2 at 2015-11-28 15:20:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.0ms)
+Completed 200 OK in 19ms (Views: 0.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39176/26654.png" for 10.0.2.2 at 2015-11-28 15:20:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39176", "y"=>"26654"}
+  [1m[36mMap Load (0.0ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/maps/tile/1/16/39176/26657.png" for 10.0.2.2 at 2015-11-28 15:20:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39176", "y"=>"26657"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 23ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39180/26655.png" for 10.0.2.2 at 2015-11-28 15:20:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39180", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 16ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26657.png" for 10.0.2.2 at 2015-11-28 15:20:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 18ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39175/26658.png" for 10.0.2.2 at 2015-11-28 15:20:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39175", "y"=>"26658"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39180/26658.png" for 10.0.2.2 at 2015-11-28 15:20:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39180", "y"=>"26658"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.0ms)
+Completed 200 OK in 17ms (Views: 0.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/16/39176/26658.png" for 10.0.2.2 at 2015-11-28 15:20:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39176", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 30ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26654.png" for 10.0.2.2 at 2015-11-28 15:20:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26654"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 21ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/16/39180/26656.png" for 10.0.2.2 at 2015-11-28 15:20:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39180", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+Completed 200 OK in 17ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39180/26658.png" for 10.0.2.2 at 2015-11-28 15:20:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39180", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.1ms)
+Sent data  (1.5ms)
+Completed 200 OK in 32ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26654.png" for 10.0.2.2 at 2015-11-28 15:20:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (5.0ms)
+Completed 200 OK in 30ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39178/26658.png" for 10.0.2.2 at 2015-11-28 15:20:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39178", "y"=>"26658"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 34ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/16/39174/26658.png" for 10.0.2.2 at 2015-11-28 15:20:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39174", "y"=>"26658"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.1ms)
+Sent data  (2.6ms)
+Completed 200 OK in 14ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39173/26658.png" for 10.0.2.2 at 2015-11-28 15:20:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39173", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 19ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39178/26657.png" for 10.0.2.2 at 2015-11-28 15:20:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39178", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 77ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39179/26658.png" for 10.0.2.2 at 2015-11-28 15:20:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39179", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (2.5ms)
+Completed 200 OK in 33ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39177/26654.png" for 10.0.2.2 at 2015-11-28 15:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39177", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26657.png" for 10.0.2.2 at 2015-11-28 15:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 18ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39180/26654.png" for 10.0.2.2 at 2015-11-28 15:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39180", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26656.png" for 10.0.2.2 at 2015-11-28 15:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39180/26654.png" for 10.0.2.2 at 2015-11-28 15:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39180", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/16/39178/26654.png" for 10.0.2.2 at 2015-11-28 15:20:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"16", "x"=>"39178", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26658.png" for 10.0.2.2 at 2015-11-28 15:20:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26658"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (2.1ms)
+Completed 200 OK in 19ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/12/2448/1667.png" for 10.0.2.2 at 2015-11-28 15:20:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2448", "y"=>"1667"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2448/1666.png" for 10.0.2.2 at 2015-11-28 15:20:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2448", "y"=>"1666"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 27ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2447/1667.png" for 10.0.2.2 at 2015-11-28 15:20:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2447", "y"=>"1667"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 12ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2449/1667.png" for 10.0.2.2 at 2015-11-28 15:20:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2449", "y"=>"1667"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (2.4ms)
+Completed 200 OK in 13ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2448/1668.png" for 10.0.2.2 at 2015-11-28 15:20:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2448", "y"=>"1668"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2449/1666.png" for 10.0.2.2 at 2015-11-28 15:20:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2449", "y"=>"1666"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2447/1666.png" for 10.0.2.2 at 2015-11-28 15:20:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2447", "y"=>"1666"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2447/1668.png" for 10.0.2.2 at 2015-11-28 15:20:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2447", "y"=>"1668"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2449/1668.png" for 10.0.2.2 at 2015-11-28 15:20:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2449", "y"=>"1668"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 12ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2446/1667.png" for 10.0.2.2 at 2015-11-28 15:20:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2446", "y"=>"1667"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/12/2448/1669.png" for 10.0.2.2 at 2015-11-28 15:20:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"12", "x"=>"2448", "y"=>"1669"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/8/152/105.png" for 10.0.2.2 at 2015-11-28 15:20:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"8", "x"=>"152", "y"=>"105"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/8/152/104.png" for 10.0.2.2 at 2015-11-28 15:20:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"8", "x"=>"152", "y"=>"104"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 9ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/8/153/104.png" for 10.0.2.2 at 2015-11-28 15:20:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"8", "x"=>"153", "y"=>"104"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+Completed 200 OK in 11ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/8/153/105.png" for 10.0.2.2 at 2015-11-28 15:20:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"8", "x"=>"153", "y"=>"105"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/8/152/106.png" for 10.0.2.2 at 2015-11-28 15:20:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"8", "x"=>"152", "y"=>"106"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+Completed 200 OK in 12ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/8/153/106.png" for 10.0.2.2 at 2015-11-28 15:20:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"8", "x"=>"153", "y"=>"106"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (2.1ms)
+Completed 200 OK in 11ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/4/9/7.png" for 10.0.2.2 at 2015-11-28 15:20:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"4", "x"=>"9", "y"=>"7"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/4/9/6.png" for 10.0.2.2 at 2015-11-28 15:20:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"4", "x"=>"9", "y"=>"6"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (6.5ms)
+Completed 200 OK in 17ms (Views: 6.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/4/8/7.png" for 10.0.2.2 at 2015-11-28 15:20:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"4", "x"=>"8", "y"=>"7"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.1ms)
+Sent data  (1.5ms)
+Completed 200 OK in 11ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/4/10/7.png" for 10.0.2.2 at 2015-11-28 15:21:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"4", "x"=>"10", "y"=>"7"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/4/9/8.png" for 10.0.2.2 at 2015-11-28 15:21:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"4", "x"=>"9", "y"=>"8"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/4/10/6.png" for 10.0.2.2 at 2015-11-28 15:21:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"4", "x"=>"10", "y"=>"6"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/36/26.png" for 10.0.2.2 at 2015-11-28 15:21:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"36", "y"=>"26"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/6/36/27.png" for 10.0.2.2 at 2015-11-28 15:21:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"36", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/37/26.png" for 10.0.2.2 at 2015-11-28 15:21:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"37", "y"=>"26"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/35/26.png" for 10.0.2.2 at 2015-11-28 15:21:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"35", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/36/25.png" for 10.0.2.2 at 2015-11-28 15:21:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"36", "y"=>"25"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/1/6/37/25.png" for 10.0.2.2 at 2015-11-28 15:21:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"37", "y"=>"25"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/35/25.png" for 10.0.2.2 at 2015-11-28 15:21:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"35", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/35/27.png" for 10.0.2.2 at 2015-11-28 15:21:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"35", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/37/27.png" for 10.0.2.2 at 2015-11-28 15:21:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"37", "y"=>"27"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/1/6/34/26.png" for 10.0.2.2 at 2015-11-28 15:21:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"34", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/36/28.png" for 10.0.2.2 at 2015-11-28 15:21:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"36", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/38/26.png" for 10.0.2.2 at 2015-11-28 15:21:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"38", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 12ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/36/24.png" for 10.0.2.2 at 2015-11-28 15:21:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"36", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/34/27.png" for 10.0.2.2 at 2015-11-28 15:21:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"34", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/37/24.png" for 10.0.2.2 at 2015-11-28 15:21:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"37", "y"=>"24"}
+  [1m[36mMap Load (0.6ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 57ms (Views: 0.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/maps/tile/1/6/34/25.png" for 10.0.2.2 at 2015-11-28 15:21:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"34", "y"=>"25"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 9ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/38/25.png" for 10.0.2.2 at 2015-11-28 15:21:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"38", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/38/27.png" for 10.0.2.2 at 2015-11-28 15:21:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"38", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/35/28.png" for 10.0.2.2 at 2015-11-28 15:21:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"35", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/37/28.png" for 10.0.2.2 at 2015-11-28 15:21:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"37", "y"=>"28"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/38/24.png" for 10.0.2.2 at 2015-11-28 15:21:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"38", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/35/24.png" for 10.0.2.2 at 2015-11-28 15:21:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"35", "y"=>"24"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/34/24.png" for 10.0.2.2 at 2015-11-28 15:21:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"34", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 11ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/34/28.png" for 10.0.2.2 at 2015-11-28 15:21:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"34", "y"=>"28"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/38/28.png" for 10.0.2.2 at 2015-11-28 15:21:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"38", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/26.png" for 10.0.2.2 at 2015-11-28 15:21:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"26"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/36/25.png" for 10.0.2.2 at 2015-11-28 15:21:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/35/26.png" for 10.0.2.2 at 2015-11-28 15:21:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/26.png" for 10.0.2.2 at 2015-11-28 15:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"26"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/27.png" for 10.0.2.2 at 2015-11-28 15:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/25.png" for 10.0.2.2 at 2015-11-28 15:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"25"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 12ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/35/25.png" for 10.0.2.2 at 2015-11-28 15:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"25"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/35/27.png" for 10.0.2.2 at 2015-11-28 15:21:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"27"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/2/6/34/26.png" for 10.0.2.2 at 2015-11-28 15:21:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"34", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/28.png" for 10.0.2.2 at 2015-11-28 15:21:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 10ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/27.png" for 10.0.2.2 at 2015-11-28 15:21:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/26.png" for 10.0.2.2 at 2015-11-28 15:21:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"26"}
+  [1m[36mMap Load (0.6ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/maps/tile/2/6/34/27.png" for 10.0.2.2 at 2015-11-28 15:21:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"34", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/24.png" for 10.0.2.2 at 2015-11-28 15:21:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/24.png" for 10.0.2.2 at 2015-11-28 15:21:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"24"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/34/25.png" for 10.0.2.2 at 2015-11-28 15:21:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"34", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/25.png" for 10.0.2.2 at 2015-11-28 15:21:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"25"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/27.png" for 10.0.2.2 at 2015-11-28 15:21:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"27"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/35/28.png" for 10.0.2.2 at 2015-11-28 15:21:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"28"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/28.png" for 10.0.2.2 at 2015-11-28 15:21:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/35/24.png" for 10.0.2.2 at 2015-11-28 15:21:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"24"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/24.png" for 10.0.2.2 at 2015-11-28 15:21:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/34/24.png" for 10.0.2.2 at 2015-11-28 15:21:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"34", "y"=>"24"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/34/28.png" for 10.0.2.2 at 2015-11-28 15:21:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"34", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/28.png" for 10.0.2.2 at 2015-11-28 15:21:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"28"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/39/26.png" for 10.0.2.2 at 2015-11-28 15:21:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"39", "y"=>"26"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/39/27.png" for 10.0.2.2 at 2015-11-28 15:21:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"39", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/39/25.png" for 10.0.2.2 at 2015-11-28 15:21:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"39", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/39/24.png" for 10.0.2.2 at 2015-11-28 15:21:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"39", "y"=>"24"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/1/6/39/28.png" for 10.0.2.2 at 2015-11-28 15:21:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"1", "z"=>"6", "x"=>"39", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/26.png" for 10.0.2.2 at 2015-11-28 15:21:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/25.png" for 10.0.2.2 at 2015-11-28 15:21:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/27.png" for 10.0.2.2 at 2015-11-28 15:21:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/24.png" for 10.0.2.2 at 2015-11-28 15:21:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (0.9ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/28.png" for 10.0.2.2 at 2015-11-28 15:21:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"28"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-11-28 15:32:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36m (2.7ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "tags" JOIN (SELECT taggings.tag_id, COUNT(taggings.tag_id) AS tags_count FROM "taggings" INNER JOIN maps ON maps.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Map' AND taggings.context = 'tags') AND (taggings.taggable_id IN(SELECT maps.id FROM "maps" WHERE "maps"."public" = 't')) GROUP BY taggings.tag_id HAVING COUNT(taggings.tag_id) > 0) AS taggings ON taggings.tag_id = tags.id LIMIT 100) subquery_for_count[0m
+  Rendered shared/_search.html.erb (3.9ms)
+  [1m[35mMap Load (0.9ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."public" = 't' AND "maps"."status" IN (2, 3, 4)  ORDER BY "maps"."updated_at" DESC LIMIT 3
+  [1m[36mGcp Load (1.3ms)[0m  [1mSELECT "gcps".* FROM "gcps" WHERE "gcps"."map_id" IN (2, 1)[0m
+  [1m[35m (1.5ms)[0m  SELECT COUNT(*) FROM "layers" INNER JOIN "layers_maps" ON "layers"."id" = "layers_maps"."layer_id" WHERE "layers_maps"."map_id" = $1  [["map_id", 2]]
+  [1m[36mLayer Load (0.3ms)[0m  [1mSELECT "layers".* FROM "layers" INNER JOIN "layers_maps" ON "layers"."id" = "layers_maps"."layer_id" WHERE "layers_maps"."map_id" = $1 AND "layers"."depicts_year" = $2  ORDER BY "layers"."maps_count" ASC[0m  [["map_id", 2], ["depicts_year", "is not null"]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "gcps" WHERE "gcps"."map_id" = $1 AND (soft IS NULL OR soft = 'f')  [["map_id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "gcps" WHERE "gcps"."map_id" = $1 AND (soft IS NULL OR soft = 'f')[0m  [["map_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "layers" INNER JOIN "layers_maps" ON "layers"."id" = "layers_maps"."layer_id" WHERE "layers_maps"."map_id" = $1  [["map_id", 1]]
+  [1m[36mLayer Load (0.3ms)[0m  [1mSELECT "layers".* FROM "layers" INNER JOIN "layers_maps" ON "layers"."id" = "layers_maps"."layer_id" WHERE "layers_maps"."map_id" = $1 AND "layers"."depicts_year" = $2  ORDER BY "layers"."maps_count" ASC[0m  [["map_id", 1], ["depicts_year", "is not null"]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "gcps" WHERE "gcps"."map_id" = $1 AND (soft IS NULL OR soft = 'f')  [["map_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "gcps" WHERE "gcps"."map_id" = $1 AND (soft IS NULL OR soft = 'f')[0m  [["map_id", 1]]
+  Rendered maps/_map.html.erb (100.0ms)
+  [1m[35mLayer Load (0.3ms)[0m  SELECT  "layers".* FROM "layers"  ORDER BY "layers"."updated_at" DESC LIMIT 3
+  Rendered layers/_layer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (338.4ms)
+  Rendered shared/_header.html.erb (1.0ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered shared/_analytics.html.erb (0.5ms)
+Completed 200 OK in 3555ms (Views: 2096.4ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/assets/openlayers/theme/default/style.css?body=1" for 10.0.2.2 at 2015-11-28 15:32:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/custom-theme/jquery-ui-1.7.custom.css?body=1" for 10.0.2.2 at 2015-11-28 15:32:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-11-28 15:32:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.css?body=1" for 10.0.2.2 at 2015-11-28 15:32:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/openlayers/2.8/OpenLayers-2.8/OpenLayers.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tabs.css?body=1" for 10.0.2.2 at 2015-11-28 15:32:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-bramus-progressbar/jquery-bramus-progressbar.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/general.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.history.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-warper.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/layers.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/unwarped.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/SelectFeatureNoClick.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/querystring.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/spinner.gif" for 10.0.2.2 at 2015-11-28 15:32:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-11-28 15:32:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header_bg.jpg" for 10.0.2.2 at 2015-11-28 15:32:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header_logo.png" for 10.0.2.2 at 2015-11-28 15:32:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/maps/tile/2/16/39177/26656.png" for 10.0.2.2 at 2015-11-28 15:34:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26656"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.7ms)
+Completed 200 OK in 19ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39177/26655.png" for 10.0.2.2 at 2015-11-28 15:34:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 17ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26656.png" for 10.0.2.2 at 2015-11-28 15:34:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26656"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (2.0ms)
+Completed 200 OK in 21ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26656.png" for 10.0.2.2 at 2015-11-28 15:34:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 17ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26657.png" for 10.0.2.2 at 2015-11-28 15:34:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.7ms)
+Completed 200 OK in 20ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26655.png" for 10.0.2.2 at 2015-11-28 15:34:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26657.png" for 10.0.2.2 at 2015-11-28 15:34:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26657"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+Completed 200 OK in 22ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/2/16/39176/26657.png" for 10.0.2.2 at 2015-11-28 15:34:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26657"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 19ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39176/26655.png" for 10.0.2.2 at 2015-11-28 15:34:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26654.png" for 10.0.2.2 at 2015-11-28 15:34:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26654.png" for 10.0.2.2 at 2015-11-28 15:34:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 16ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26654.png" for 10.0.2.2 at 2015-11-28 15:34:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26655.png" for 10.0.2.2 at 2015-11-28 15:34:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26656.png" for 10.0.2.2 at 2015-11-28 15:34:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 17ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26657.png" for 10.0.2.2 at 2015-11-28 15:34:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26654.png" for 10.0.2.2 at 2015-11-28 15:34:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26658.png" for 10.0.2.2 at 2015-11-28 15:34:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26658.png" for 10.0.2.2 at 2015-11-28 15:34:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 18ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26658.png" for 10.0.2.2 at 2015-11-28 15:34:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 17ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26658.png" for 10.0.2.2 at 2015-11-28 15:34:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 17ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26655.png" for 10.0.2.2 at 2015-11-28 15:34:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 21ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26657.png" for 10.0.2.2 at 2015-11-28 15:34:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26656.png" for 10.0.2.2 at 2015-11-28 15:34:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26654.png" for 10.0.2.2 at 2015-11-28 15:34:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26658.png" for 10.0.2.2 at 2015-11-28 15:34:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/14/9794/6663.png" for 10.0.2.2 at 2015-11-28 15:34:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9794", "y"=>"6663"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (2.1ms)
+Completed 200 OK in 28ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/14/9795/6663.png" for 10.0.2.2 at 2015-11-28 15:34:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9795", "y"=>"6663"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 22ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/14/9794/6664.png" for 10.0.2.2 at 2015-11-28 15:34:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9794", "y"=>"6664"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 27ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/14/9795/6664.png" for 10.0.2.2 at 2015-11-28 15:34:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9795", "y"=>"6664"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/14/9796/6663.png" for 10.0.2.2 at 2015-11-28 15:34:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9796", "y"=>"6663"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 87ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/14/9793/6663.png" for 10.0.2.2 at 2015-11-28 15:34:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9793", "y"=>"6663"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 37ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/14/9793/6664.png" for 10.0.2.2 at 2015-11-28 15:34:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9793", "y"=>"6664"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/14/9794/6662.png" for 10.0.2.2 at 2015-11-28 15:34:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9794", "y"=>"6662"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 23ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/14/9795/6662.png" for 10.0.2.2 at 2015-11-28 15:34:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9795", "y"=>"6662"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (2.2ms)
+Completed 200 OK in 22ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/14/9794/6665.png" for 10.0.2.2 at 2015-11-28 15:34:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"14", "x"=>"9794", "y"=>"6665"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 25ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/12/2448/1665.png" for 10.0.2.2 at 2015-11-28 15:34:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"12", "x"=>"2448", "y"=>"1665"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 23ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/12/2449/1665.png" for 10.0.2.2 at 2015-11-28 15:34:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"12", "x"=>"2449", "y"=>"1665"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/12/2448/1666.png" for 10.0.2.2 at 2015-11-28 15:34:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"12", "x"=>"2448", "y"=>"1666"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (5.8ms)
+Completed 200 OK in 33ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/12/2449/1666.png" for 10.0.2.2 at 2015-11-28 15:34:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"12", "x"=>"2449", "y"=>"1666"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (6.5ms)
+Completed 200 OK in 27ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/12/2450/1665.png" for 10.0.2.2 at 2015-11-28 15:34:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"12", "x"=>"2450", "y"=>"1665"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 21ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/12/2447/1665.png" for 10.0.2.2 at 2015-11-28 15:34:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"12", "x"=>"2447", "y"=>"1665"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 23ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/10/612/416.png" for 10.0.2.2 at 2015-11-28 15:34:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"10", "x"=>"612", "y"=>"416"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 45ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/10/612/415.png" for 10.0.2.2 at 2015-11-28 15:34:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"10", "x"=>"612", "y"=>"415"}
+  [1m[36mMap Load (0.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.7ms)
+Completed 200 OK in 23ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/maps/tile/2/10/611/416.png" for 10.0.2.2 at 2015-11-28 15:34:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"10", "x"=>"611", "y"=>"416"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (3.8ms)
+Completed 200 OK in 56ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/10/613/416.png" for 10.0.2.2 at 2015-11-28 15:34:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"10", "x"=>"613", "y"=>"416"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 45ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/10/612/417.png" for 10.0.2.2 at 2015-11-28 15:34:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"10", "x"=>"612", "y"=>"417"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (1.4ms)
+Completed 200 OK in 38ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/10/613/415.png" for 10.0.2.2 at 2015-11-28 15:34:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"10", "x"=>"613", "y"=>"415"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 22ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/8/153/104.png" for 10.0.2.2 at 2015-11-28 15:34:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"8", "x"=>"153", "y"=>"104"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 30ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/8/152/104.png" for 10.0.2.2 at 2015-11-28 15:34:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"8", "x"=>"152", "y"=>"104"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 37ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/8/154/104.png" for 10.0.2.2 at 2015-11-28 15:34:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"8", "x"=>"154", "y"=>"104"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/8/153/105.png" for 10.0.2.2 at 2015-11-28 15:34:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"8", "x"=>"153", "y"=>"105"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/8/154/103.png" for 10.0.2.2 at 2015-11-28 15:34:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"8", "x"=>"154", "y"=>"103"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/8/153/103.png" for 10.0.2.2 at 2015-11-28 15:34:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"8", "x"=>"153", "y"=>"103"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.8ms)
+Completed 200 OK in 18ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/25.png" for 10.0.2.2 at 2015-11-28 15:34:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"25"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/38/25.png" for 10.0.2.2 at 2015-11-28 15:34:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 11ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/26.png" for 10.0.2.2 at 2015-11-28 15:34:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/26.png" for 10.0.2.2 at 2015-11-28 15:34:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"26"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/25.png" for 10.0.2.2 at 2015-11-28 15:34:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"25"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/36/25.png" for 10.0.2.2 at 2015-11-28 15:34:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"25"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/36/26.png" for 10.0.2.2 at 2015-11-28 15:34:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/24.png" for 10.0.2.2 at 2015-11-28 15:34:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"24"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/37/27.png" for 10.0.2.2 at 2015-11-28 15:34:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/24.png" for 10.0.2.2 at 2015-11-28 15:34:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/27.png" for 10.0.2.2 at 2015-11-28 15:34:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/26.png" for 10.0.2.2 at 2015-11-28 15:34:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"26"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/27.png" for 10.0.2.2 at 2015-11-28 15:34:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"27"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (9.0ms)
+Completed 200 OK in 16ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/24.png" for 10.0.2.2 at 2015-11-28 15:34:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"24"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/24.png" for 10.0.2.2 at 2015-11-28 15:34:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"24"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/27.png" for 10.0.2.2 at 2015-11-28 15:34:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"27"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/23.png" for 10.0.2.2 at 2015-11-28 15:34:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"23"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/38/28.png" for 10.0.2.2 at 2015-11-28 15:34:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"38", "y"=>"28"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/28.png" for 10.0.2.2 at 2015-11-28 15:34:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"28"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/37/23.png" for 10.0.2.2 at 2015-11-28 15:34:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"37", "y"=>"23"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/28.png" for 10.0.2.2 at 2015-11-28 15:34:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"28"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/36/23.png" for 10.0.2.2 at 2015-11-28 15:34:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"36", "y"=>"23"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/23.png" for 10.0.2.2 at 2015-11-28 15:34:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"23"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/39/28.png" for 10.0.2.2 at 2015-11-28 15:34:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"39", "y"=>"28"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/35/26.png" for 10.0.2.2 at 2015-11-28 16:37:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"26"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/40/25.png" for 10.0.2.2 at 2015-11-28 16:37:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"40", "y"=>"25"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (3.6ms)
+Completed 200 OK in 13ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/40/26.png" for 10.0.2.2 at 2015-11-28 16:37:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"40", "y"=>"26"}
+  [1m[35mMap Load (0.7ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 15ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/maps/tile/2/6/35/25.png" for 10.0.2.2 at 2015-11-28 16:37:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"25"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/40/27.png" for 10.0.2.2 at 2015-11-28 16:37:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"40", "y"=>"27"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (10.3ms)
+Completed 200 OK in 30ms (Views: 10.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/40/24.png" for 10.0.2.2 at 2015-11-28 16:37:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"40", "y"=>"24"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 14ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/40/28.png" for 10.0.2.2 at 2015-11-28 16:37:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"40", "y"=>"28"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/40/23.png" for 10.0.2.2 at 2015-11-28 16:37:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"40", "y"=>"23"}
+  [1m[36mMap Load (0.5ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/maps/tile/2/6/35/24.png" for 10.0.2.2 at 2015-11-28 16:37:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"24"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 11ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/35/27.png" for 10.0.2.2 at 2015-11-28 16:37:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"27"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 13ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/6/35/23.png" for 10.0.2.2 at 2015-11-28 16:37:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"23"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 12ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/6/35/28.png" for 10.0.2.2 at 2015-11-28 16:37:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"6", "x"=>"35", "y"=>"28"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39177/26656.png" for 10.0.2.2 at 2015-11-28 16:39:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26656"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39176/26656.png" for 10.0.2.2 at 2015-11-28 16:39:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26656"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 26ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39177/26657.png" for 10.0.2.2 at 2015-11-28 16:39:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 20ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26657.png" for 10.0.2.2 at 2015-11-28 16:39:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26657"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39176/26655.png" for 10.0.2.2 at 2015-11-28 16:39:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26655.png" for 10.0.2.2 at 2015-11-28 16:39:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26655.png" for 10.0.2.2 at 2015-11-28 16:39:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26655"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 17ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26656.png" for 10.0.2.2 at 2015-11-28 16:39:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26655.png" for 10.0.2.2 at 2015-11-28 16:39:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 18ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26654.png" for 10.0.2.2 at 2015-11-28 16:39:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26654.png" for 10.0.2.2 at 2015-11-28 16:39:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26654.png" for 10.0.2.2 at 2015-11-28 16:39:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26656.png" for 10.0.2.2 at 2015-11-28 16:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 18ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26654.png" for 10.0.2.2 at 2015-11-28 16:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 21ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26654.png" for 10.0.2.2 at 2015-11-28 16:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26654"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 22ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39179/26656.png" for 10.0.2.2 at 2015-11-28 16:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26655.png" for 10.0.2.2 at 2015-11-28 16:39:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26655"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+Completed 200 OK in 21ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39175/26657.png" for 10.0.2.2 at 2015-11-28 16:39:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26657"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 23ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26657.png" for 10.0.2.2 at 2015-11-28 16:39:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26657.png" for 10.0.2.2 at 2015-11-28 16:39:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 32ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26656.png" for 10.0.2.2 at 2015-11-28 16:39:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (1.8ms)
+Completed 200 OK in 29ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26654.png" for 10.0.2.2 at 2015-11-28 16:39:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26655.png" for 10.0.2.2 at 2015-11-28 16:39:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26657.png" for 10.0.2.2 at 2015-11-28 16:39:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26658.png" for 10.0.2.2 at 2015-11-28 16:39:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 18ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26658.png" for 10.0.2.2 at 2015-11-28 16:39:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26658.png" for 10.0.2.2 at 2015-11-28 16:39:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26658"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 22ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26658.png" for 10.0.2.2 at 2015-11-28 16:39:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 20ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26658.png" for 10.0.2.2 at 2015-11-28 16:39:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26658.png" for 10.0.2.2 at 2015-11-28 16:39:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+Completed 200 OK in 20ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26655.png" for 10.0.2.2 at 2015-11-28 16:43:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26655"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 21ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26656.png" for 10.0.2.2 at 2015-11-28 16:43:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 21ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26656.png" for 10.0.2.2 at 2015-11-28 16:43:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26656"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 24ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26655.png" for 10.0.2.2 at 2015-11-28 16:43:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 21ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26657.png" for 10.0.2.2 at 2015-11-28 16:43:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26655.png" for 10.0.2.2 at 2015-11-28 16:43:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26655"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 29ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39177/26656.png" for 10.0.2.2 at 2015-11-28 16:43:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26655.png" for 10.0.2.2 at 2015-11-28 16:43:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26657.png" for 10.0.2.2 at 2015-11-28 16:43:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26657"}
+  [1m[35mMap Load (0.6ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 22ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/maps/tile/2/16/39176/26657.png" for 10.0.2.2 at 2015-11-28 16:43:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26656.png" for 10.0.2.2 at 2015-11-28 16:43:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 36ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26658.png" for 10.0.2.2 at 2015-11-28 16:43:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26658.png" for 10.0.2.2 at 2015-11-28 16:43:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26658.png" for 10.0.2.2 at 2015-11-28 16:43:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26658.png" for 10.0.2.2 at 2015-11-28 16:43:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26658.png" for 10.0.2.2 at 2015-11-28 16:43:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26654.png" for 10.0.2.2 at 2015-11-28 16:43:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 21ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26658.png" for 10.0.2.2 at 2015-11-28 16:43:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26658"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 24ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26657.png" for 10.0.2.2 at 2015-11-28 16:43:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26657"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39177/26654.png" for 10.0.2.2 at 2015-11-28 16:43:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26654.png" for 10.0.2.2 at 2015-11-28 16:43:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+Completed 200 OK in 19ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26654.png" for 10.0.2.2 at 2015-11-28 16:43:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26654"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 24ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39174/26656.png" for 10.0.2.2 at 2015-11-28 16:43:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26656.png" for 10.0.2.2 at 2015-11-28 16:43:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 22ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26654.png" for 10.0.2.2 at 2015-11-28 16:43:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 24ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26657.png" for 10.0.2.2 at 2015-11-28 16:43:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26657"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 23ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39174/26657.png" for 10.0.2.2 at 2015-11-28 16:43:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26655.png" for 10.0.2.2 at 2015-11-28 16:43:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26655"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39174/26655.png" for 10.0.2.2 at 2015-11-28 16:43:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26654.png" for 10.0.2.2 at 2015-11-28 16:43:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.9ms)
+Completed 200 OK in 20ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26656.png" for 10.0.2.2 at 2015-11-28 16:44:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26656"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (2.7ms)
+Completed 200 OK in 32ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39176/26656.png" for 10.0.2.2 at 2015-11-28 16:45:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26657.png" for 10.0.2.2 at 2015-11-28 16:45:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26657"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 26ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39176/26657.png" for 10.0.2.2 at 2015-11-28 16:45:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26657"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (0.9ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26655.png" for 10.0.2.2 at 2015-11-28 16:45:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 21ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26655.png" for 10.0.2.2 at 2015-11-28 16:45:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 17ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39177/26658.png" for 10.0.2.2 at 2015-11-28 16:45:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 22ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26658.png" for 10.0.2.2 at 2015-11-28 16:45:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26658"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 22ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26658.png" for 10.0.2.2 at 2015-11-28 16:45:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26658"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 18ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26658.png" for 10.0.2.2 at 2015-11-28 16:45:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26658"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 19ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26658.png" for 10.0.2.2 at 2015-11-28 16:45:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26658"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 33ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26656.png" for 10.0.2.2 at 2015-11-28 16:45:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26656.png" for 10.0.2.2 at 2015-11-28 16:45:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (5.9ms)
+Completed 200 OK in 113ms (Views: 5.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26655.png" for 10.0.2.2 at 2015-11-28 16:45:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26655"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (2.3ms)
+Completed 200 OK in 39ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39175/26657.png" for 10.0.2.2 at 2015-11-28 16:45:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26657"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26655.png" for 10.0.2.2 at 2015-11-28 16:45:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26655"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (3.3ms)
+Completed 200 OK in 28ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39178/26657.png" for 10.0.2.2 at 2015-11-28 16:45:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26657"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (2.0ms)
+Completed 200 OK in 20ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39177/26654.png" for 10.0.2.2 at 2015-11-28 16:45:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39177", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 22ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39176/26654.png" for 10.0.2.2 at 2015-11-28 16:45:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39176", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.1ms)
+Sent data  (0.8ms)
+Completed 200 OK in 17ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39178/26654.png" for 10.0.2.2 at 2015-11-28 16:45:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39178", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 21ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26656.png" for 10.0.2.2 at 2015-11-28 16:45:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26656"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+Completed 200 OK in 18ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26656.png" for 10.0.2.2 at 2015-11-28 16:45:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26656"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.7ms)
+Completed 200 OK in 21ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39175/26654.png" for 10.0.2.2 at 2015-11-28 16:45:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39175", "y"=>"26654"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26657.png" for 10.0.2.2 at 2015-11-28 16:45:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26657"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 26ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39174/26657.png" for 10.0.2.2 at 2015-11-28 16:45:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26657"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 28ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39179/26655.png" for 10.0.2.2 at 2015-11-28 16:45:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26655"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 23ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26655.png" for 10.0.2.2 at 2015-11-28 16:45:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26655"}
+  [1m[35mMap Load (0.2ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 27ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39179/26654.png" for 10.0.2.2 at 2015-11-28 16:45:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26654"}
+  [1m[36mMap Load (0.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+Completed 200 OK in 18ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/maps/tile/2/16/39174/26654.png" for 10.0.2.2 at 2015-11-28 16:45:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39174", "y"=>"26654"}
+  [1m[35mMap Load (0.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+Completed 200 OK in 31ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/maps/tile/2/16/39179/26658.png" for 10.0.2.2 at 2015-11-28 16:45:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MapsController#tile as PNG
+  Parameters: {"id"=>"2", "z"=>"16", "x"=>"39179", "y"=>"26658"}
+  [1m[36mMap Load (0.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+Completed 200 OK in 28ms (Views: 1.1ms | ActiveRecord: 0.3ms)

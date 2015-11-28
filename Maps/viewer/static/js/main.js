@@ -1,4 +1,4 @@
-fetch_thumbnails = function (){
+(function fetch_thumbnails(){
     $.getJSON("getThumbs", function(data){
         var thumbs =[];
         var thumbs_container = $("#thumb");
@@ -10,4 +10,4 @@ fetch_thumbnails = function (){
             thumbs_container.append(marked_up_thumb);
         });
     });
-}();
+})();
