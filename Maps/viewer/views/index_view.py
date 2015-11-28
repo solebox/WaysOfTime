@@ -10,7 +10,7 @@ def privacyAndTerms(request):
     '''privacy and terms page'''
     return render(request, 'privacyAndTerms.html')
 
-def getAllMaps2(request):
+def getAllMaps(request):
     my_maps = MyMaps.objects.all()
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
 
