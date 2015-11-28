@@ -10,20 +10,22 @@ def getAllThumbs(request):
     """
     maps = Maps.objects.all()
     url = "http://localhost:3000/uploads/{id}/thumb/{thumb_name_ext_stripped}.png"
-
+    path = "/uploads/thumb/{thumb_name_ext_stripped}.png"
     results = []
     for map in maps:
         thumb_file_name, ext = os.path.splitext(map.upload_file_name)
         results.append({'id': map.id,
                        'url': url.format(id=map.id,
-                                         thumb_name_ext_stripped=thumb_file_name)})
+                                         thumb_name_ext_stripped=thumb_file_name),
+                        'path': path.format(id=map.id,
+                                            thumb_name_ext_stripped=thumb_file_name)})
 
     return JsonResponse(results, safe=False)
 
 
 def getAllMaps(request):
-    """ fixme - this function will be deprecated as soon as we finish, until then , it returns
-     fixme - an array with only one map in it , the last one. """
+    # TODO - this function will be deprecated as soon as we finish, until then , it returns
+    # TODO - an array with only one map in it , the last one.
     my_map = MyMaps.objects.last()
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
 

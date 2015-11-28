@@ -16,12 +16,11 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from viewer import views
-from Maps.viewer.views import *
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', Maps.viewer.views, name='home'),
-    url(r'^privacyAndTerms', index_view.privacyAndTerms, name='privacyAndTerms'),
-    url(r'^getMaps', index_view.getAllMaps),
-    #url(r'^getThumbs', views.thumbview.getAllThumbs),
+    url(r'^$', views.index, name='home'),
+    url(r'^privacyAndTerms', views.privacyAndTerms, name='privacyAndTerms'),
+    url(r'^getMaps', views.getAllMaps),
+    url(r'^getThumbs', views.getAllThumbs),
 ]

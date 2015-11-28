@@ -16,7 +16,11 @@
         <link rel="stylesheet" href="{% static 'css/normalize.min.css' %}">
         <link rel="stylesheet" href="{% static 'css/main.css' %}">
 
+
         <script src="{% static 'js/vendor/modernizr-2.8.3.min.js' %}"></script>
+
+
+
         {% block header %}{% endblock %}
     </head>
     <body>
@@ -26,7 +30,7 @@
 
 
         <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-            <div class="mdl-layout__drawer">
+            <div id="slider" class="mdl-layout__drawer">
                 <header>
                     <span class="mdl-layout-title">
                         <a href="/">
@@ -53,7 +57,8 @@
         </div>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="{% static 'js/vendor/jquery.lazyload.js' %}"></script>
         <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
         <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
         <script src="{% static 'js/plugins.js' %}"></script>
