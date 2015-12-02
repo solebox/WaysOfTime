@@ -32,12 +32,13 @@ $(document).ready(function(){
 
 $('#thumb').on('click', '.thumbnail-click', function(){
     var imgId = $(this).find('img').data('id');
+    console.log("some thumb was clicked");
 
-    $.get("/getMapById/" + imgId, function (maps) {
-        $.each(maps, function (i, map) {
-            L.tileLayer(map.url).addTo(baseMap);
-        })
-    });
+    //$.get("/getMapById/" + imgId, function (maps) {
+    //    $.each(maps, function (i, map) {
+    //        L.tileLayer(map.url).addTo(baseMap);
+    //    })
+    //});
 });
 
 
