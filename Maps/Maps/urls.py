@@ -22,5 +22,5 @@ urlpatterns = [
     url(r'^$', views.index, name='home'),
     url(r'^privacyAndTerms', views.privacyAndTerms, name='privacyAndTerms'),
     url(r'^getMapById/(?P<img_id>[-\w]+)/$', views.getImage),
-    url(r'^getThumbs', views.getAllThumbs),
+    url(r'^getThumbs/(?P<stringToSearch>[-\w]+)/$', views.getAllThumbs),
 ]

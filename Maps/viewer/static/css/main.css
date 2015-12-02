@@ -115,6 +115,7 @@ textarea {
 
    #fixed-search {
        width: 98%;
+       padding: 7px;
    }
 
    #thumb {
