@@ -20,7 +20,7 @@ def getImage(request, img_id):
 
     response = JsonResponse([{
         'id': my_map[0].id,
-        'url': url.format(id=my_map.id, xyz='{z}/{x}/{y}')
+        'url': url.format(id=my_map[0].id, xyz='{z}/{x}/{y}')
     }], safe=False)
 
     return response

@@ -35,11 +35,11 @@ $('#thumb').on('click', '.thumbnail-click', function(){
     $('#chosenLayers').show();
     console.log("some thumb was clicked");
 
-    //$.get("/getMapById/" + imgId, function (maps) {
-    //    $.each(maps, function (i, map) {
-    //        L.tileLayer(map.url).addTo(baseMap);
-    //    })
-    //});
+    $.get("/getMapById/" + imgId, function (maps) {
+        $.each(maps, function (i, map) {
+            L.tileLayer(map.url).addTo(window.NLIMaps.map);
+        })
+    });
 });
 
 
