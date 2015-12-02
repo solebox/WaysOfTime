@@ -16,6 +16,7 @@ def privacyAndTerms(request):
 def getImage(request, img_id):
     ''' get an image url to place on the page when thumbnail is clicked '''
     my_map = MyMaps.objects.filter(map_id__contains=img_id)
+
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
 
     response = JsonResponse([{

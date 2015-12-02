@@ -1,5 +1,10 @@
+window.NLIMaps = {
+
+};
+
 $(document).ready(function(){
-  getLocation();
+    NLIMaps.map = createMap();
+
 });
 
 /**
@@ -14,10 +19,10 @@ function getLocation() {
 }
 
 
-function showPosition(position) {
+function createMap() {
     // set the map where the uer is (based on his coordinates
-    baseMap = L.map('map').setView([position.coords.latitude, position.coords.longitude], 16);
-    var marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(baseMap);
+    baseMap = L.map('map').setView(["31.771959", "35.217018"], 16);
+
 
     // create a base map layer
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -26,7 +31,7 @@ function showPosition(position) {
                     id: 'nirgn975.cigmtjxyw000rc3knz02njkhn',
                     accessToken: 'pk.eyJ1IjoibmlyZ245NzUiLCJhIjoiY2lnbXRqeTcxMDAwdmx6a3RueGViemV0eCJ9.3wBhw04dxzXHfd56yUfufQ'
     }).addTo(baseMap);
-
+    return baseMap;
 }
 
 

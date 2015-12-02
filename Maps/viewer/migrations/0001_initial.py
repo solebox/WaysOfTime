@@ -1,0 +1,525 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.db import migrations, models
+import django.contrib.gis.db.models.fields
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+    ]
+
+    operations = [
+        migrations.CreateModel(
+            name='Audits',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('auditable_id', models.IntegerField(null=True, blank=True)),
+                ('auditable_type', models.CharField(max_length=255, null=True, blank=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('user_type', models.CharField(max_length=255, null=True, blank=True)),
+                ('username', models.CharField(max_length=255, null=True, blank=True)),
+                ('action', models.CharField(max_length=255, null=True, blank=True)),
+                ('audited_changes', models.TextField(null=True, blank=True)),
+                ('version', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('comment', models.CharField(max_length=255, null=True, blank=True)),
+                ('remote_address', models.CharField(max_length=255, null=True, blank=True)),
+                ('association_id', models.IntegerField(null=True, blank=True)),
+                ('association_type', models.CharField(max_length=255, null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'audits',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='AuthGroup',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(unique=True, max_length=80)),
+            ],
+            options={
+                'db_table': 'auth_group',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='AuthGroupPermissions',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+            ],
+            options={
+                'db_table': 'auth_group_permissions',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='AuthPermission',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=255)),
+                ('codename', models.CharField(max_length=100)),
+            ],
+            options={
+                'db_table': 'auth_permission',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='AuthUser',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('password', models.CharField(max_length=128)),
+                ('last_login', models.DateTimeField(null=True, blank=True)),
+                ('is_superuser', models.BooleanField()),
+                ('username', models.CharField(unique=True, max_length=30)),
+                ('first_name', models.CharField(max_length=30)),
+                ('last_name', models.CharField(max_length=30)),
+                ('email', models.CharField(max_length=254)),
+                ('is_staff', models.BooleanField()),
+                ('is_active', models.BooleanField()),
+                ('date_joined', models.DateTimeField()),
+            ],
+            options={
+                'db_table': 'auth_user',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='AuthUserGroups',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+            ],
+            options={
+                'db_table': 'auth_user_groups',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='AuthUserUserPermissions',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+            ],
+            options={
+                'db_table': 'auth_user_user_permissions',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='ClientApplications',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=255, null=True, blank=True)),
+                ('url', models.CharField(max_length=255, null=True, blank=True)),
+                ('support_url', models.CharField(max_length=255, null=True, blank=True)),
+                ('callback_url', models.CharField(max_length=255, null=True, blank=True)),
+                ('key', models.CharField(max_length=20, unique=True, null=True, blank=True)),
+                ('secret', models.CharField(max_length=40, null=True, blank=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'client_applications',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Comments',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('title', models.CharField(max_length=50, null=True, blank=True)),
+                ('comment', models.TextField(null=True, blank=True)),
+                ('commentable_id', models.IntegerField(null=True, blank=True)),
+                ('commentable_type', models.CharField(max_length=255, null=True, blank=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'comments',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='DjangoAdminLog',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('action_time', models.DateTimeField()),
+                ('object_id', models.TextField(null=True, blank=True)),
+                ('object_repr', models.CharField(max_length=200)),
+                ('action_flag', models.SmallIntegerField()),
+                ('change_message', models.TextField()),
+            ],
+            options={
+                'db_table': 'django_admin_log',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='DjangoContentType',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('app_label', models.CharField(max_length=100)),
+                ('model', models.CharField(max_length=100)),
+            ],
+            options={
+                'db_table': 'django_content_type',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='DjangoMigrations',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('app', models.CharField(max_length=255)),
+                ('name', models.CharField(max_length=255)),
+                ('applied', models.DateTimeField()),
+            ],
+            options={
+                'db_table': 'django_migrations',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='DjangoSession',
+            fields=[
+                ('session_key', models.CharField(max_length=40, serialize=False, primary_key=True)),
+                ('session_data', models.TextField()),
+                ('expire_date', models.DateTimeField()),
+            ],
+            options={
+                'db_table': 'django_session',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Gcps',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('map_id', models.IntegerField(null=True, blank=True)),
+                ('x', models.FloatField(null=True, blank=True)),
+                ('y', models.FloatField(null=True, blank=True)),
+                ('lat', models.DecimalField(null=True, max_digits=15, decimal_places=10, blank=True)),
+                ('lon', models.DecimalField(null=True, max_digits=15, decimal_places=10, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+                ('soft', models.NullBooleanField()),
+                ('name', models.CharField(max_length=255, null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'gcps',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Groups',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=255, null=True, blank=True)),
+                ('description', models.TextField(null=True, blank=True)),
+                ('creator_id', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'groups',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='GroupsMaps',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('group_id', models.IntegerField(null=True, blank=True)),
+                ('map_id', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'groups_maps',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Imports',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('path', models.CharField(max_length=255, null=True, blank=True)),
+                ('name', models.CharField(max_length=255, null=True, blank=True)),
+                ('layer_title', models.CharField(max_length=255, null=True, blank=True)),
+                ('map_title_suffix', models.CharField(max_length=255, null=True, blank=True)),
+                ('map_description', models.CharField(max_length=255, null=True, blank=True)),
+                ('map_publisher', models.CharField(max_length=255, null=True, blank=True)),
+                ('map_author', models.CharField(max_length=255, null=True, blank=True)),
+                ('state', models.CharField(max_length=255, null=True, blank=True)),
+                ('layer_id', models.IntegerField(null=True, blank=True)),
+                ('uploader_user_id', models.IntegerField(null=True, blank=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('file_count', models.IntegerField(null=True, blank=True)),
+                ('imported_count', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'imports',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Layers',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=255, null=True, blank=True)),
+                ('description', models.TextField(null=True, blank=True)),
+                ('bbox', models.CharField(max_length=255, null=True, blank=True)),
+                ('owner', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('depicts_year', models.CharField(max_length=4, null=True, blank=True)),
+                ('maps_count', models.IntegerField(null=True, blank=True)),
+                ('rectified_maps_count', models.IntegerField(null=True, blank=True)),
+                ('is_visible', models.NullBooleanField()),
+                ('source_uri', models.CharField(max_length=255, null=True, blank=True)),
+                ('bbox_geom', django.contrib.gis.db.models.fields.PolygonField(srid=4326, null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'layers',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='LayersMaps',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('layer_id', models.IntegerField(null=True, blank=True)),
+                ('map_id', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'layers_maps',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Maps',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('title', models.CharField(max_length=255, null=True, blank=True)),
+                ('description', models.TextField(null=True, blank=True)),
+                ('filename', models.CharField(max_length=255, null=True, blank=True)),
+                ('width', models.IntegerField(null=True, blank=True)),
+                ('height', models.IntegerField(null=True, blank=True)),
+                ('status', models.IntegerField(null=True, blank=True)),
+                ('mask_status', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+                ('upload_file_name', models.CharField(max_length=255, null=True, blank=True)),
+                ('upload_content_type', models.CharField(max_length=255, null=True, blank=True)),
+                ('upload_file_size', models.IntegerField(null=True, blank=True)),
+                ('upload_file_updated_at', models.DateTimeField(null=True, blank=True)),
+                ('bbox', models.CharField(max_length=255, null=True, blank=True)),
+                ('publisher', models.CharField(max_length=255, null=True, blank=True)),
+                ('authors', models.CharField(max_length=255, null=True, blank=True)),
+                ('scale', models.CharField(max_length=255, null=True, blank=True)),
+                ('published_date', models.DateTimeField(null=True, blank=True)),
+                ('reprint_date', models.DateTimeField(null=True, blank=True)),
+                ('owner_id', models.IntegerField(null=True, blank=True)),
+                ('public', models.NullBooleanField()),
+                ('downloadable', models.NullBooleanField()),
+                ('cached_tag_list', models.CharField(max_length=255, null=True, blank=True)),
+                ('map_type', models.IntegerField(null=True, blank=True)),
+                ('source_uri', models.CharField(max_length=255, null=True, blank=True)),
+                ('bbox_geom', django.contrib.gis.db.models.fields.PolygonField(srid=4236, null=True, blank=True)),
+                ('rough_lat', models.DecimalField(null=True, max_digits=15, decimal_places=10, blank=True)),
+                ('rough_lon', models.DecimalField(null=True, max_digits=15, decimal_places=10, blank=True)),
+                ('rough_centroid', django.contrib.gis.db.models.fields.PointField(srid=4326, null=True, blank=True)),
+                ('rough_zoom', models.IntegerField(null=True, blank=True)),
+                ('rough_state', models.IntegerField(null=True, blank=True)),
+                ('import_id', models.IntegerField(null=True, blank=True)),
+                ('publication_place', models.CharField(max_length=255, null=True, blank=True)),
+                ('subject_area', models.CharField(max_length=255, null=True, blank=True)),
+                ('unique_id', models.CharField(max_length=255, null=True, blank=True)),
+                ('metadata_projection', models.CharField(max_length=255, null=True, blank=True)),
+                ('metadata_lat', models.DecimalField(null=True, max_digits=15, decimal_places=10, blank=True)),
+                ('metadata_lon', models.DecimalField(null=True, max_digits=15, decimal_places=10, blank=True)),
+                ('date_depicted', models.CharField(max_length=4, null=True, blank=True)),
+                ('call_number', models.CharField(max_length=255, null=True, blank=True)),
+                ('rectified_at', models.DateTimeField(null=True, blank=True)),
+                ('gcp_touched_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'maps',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Memberships',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('group_id', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'memberships',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='MyMaps',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('map_id', models.IntegerField(null=True, blank=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'my_maps',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='OauthNonces',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('nonce', models.CharField(max_length=255, null=True, blank=True)),
+                ('timestamp', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'oauth_nonces',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='OauthTokens',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('user_id', models.IntegerField(null=True, blank=True)),
+                ('type', models.CharField(max_length=20, null=True, blank=True)),
+                ('client_application_id', models.IntegerField(null=True, blank=True)),
+                ('token', models.CharField(max_length=20, unique=True, null=True, blank=True)),
+                ('secret', models.CharField(max_length=40, null=True, blank=True)),
+                ('callback_url', models.CharField(max_length=255, null=True, blank=True)),
+                ('verifier', models.CharField(max_length=20, null=True, blank=True)),
+                ('authorized_at', models.DateTimeField(null=True, blank=True)),
+                ('invalidated_at', models.DateTimeField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'oauth_tokens',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Permissions',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('role_id', models.IntegerField()),
+                ('user_id', models.IntegerField()),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'permissions',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Roles',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=255, null=True, blank=True)),
+                ('updated_by', models.IntegerField(null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'roles',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='SchemaMigrations',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('version', models.CharField(unique=True, max_length=255)),
+            ],
+            options={
+                'db_table': 'schema_migrations',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Taggings',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('tag_id', models.IntegerField(null=True, blank=True)),
+                ('taggable_id', models.IntegerField(null=True, blank=True)),
+                ('taggable_type', models.CharField(max_length=255, null=True, blank=True)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('context', models.CharField(max_length=128, null=True, blank=True)),
+                ('tagger_id', models.IntegerField(null=True, blank=True)),
+                ('tagger_type', models.CharField(max_length=255, null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'taggings',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Tags',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=255, null=True, blank=True)),
+                ('taggings_count', models.IntegerField(null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'tags',
+                'managed': False,
+            },
+        ),
+        migrations.CreateModel(
+            name='Users',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('login', models.CharField(max_length=255, null=True, blank=True)),
+                ('email', models.CharField(max_length=255, null=True, blank=True)),
+                ('encrypted_password', models.CharField(max_length=128)),
+                ('password_salt', models.CharField(max_length=255)),
+                ('created_at', models.DateTimeField(null=True, blank=True)),
+                ('updated_at', models.DateTimeField(null=True, blank=True)),
+                ('remember_token', models.CharField(max_length=255, null=True, blank=True)),
+                ('remember_token_expires_at', models.DateTimeField(null=True, blank=True)),
+                ('confirmation_token', models.CharField(max_length=255, null=True, blank=True)),
+                ('confirmed_at', models.DateTimeField(null=True, blank=True)),
+                ('reset_password_token', models.CharField(max_length=255, null=True, blank=True)),
+                ('enabled', models.NullBooleanField()),
+                ('updated_by', models.IntegerField(null=True, blank=True)),
+                ('description', models.TextField(null=True, blank=True)),
+                ('confirmation_sent_at', models.DateTimeField(null=True, blank=True)),
+                ('remember_created_at', models.DateTimeField(null=True, blank=True)),
+                ('sign_in_count', models.IntegerField()),
+                ('current_sign_in_at', models.DateTimeField(null=True, blank=True)),
+                ('last_sign_in_at', models.DateTimeField(null=True, blank=True)),
+                ('current_sign_in_ip', models.CharField(max_length=255, null=True, blank=True)),
+                ('last_sign_in_ip', models.CharField(max_length=255, null=True, blank=True)),
+                ('reset_password_sent_at', models.DateTimeField(null=True, blank=True)),
+                ('provider', models.CharField(max_length=255, null=True, blank=True)),
+                ('uid', models.CharField(max_length=255, null=True, blank=True)),
+            ],
+            options={
+                'db_table': 'users',
+                'managed': False,
+            },
+        ),
+    ]
