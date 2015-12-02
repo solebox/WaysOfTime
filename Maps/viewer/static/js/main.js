@@ -38,6 +38,9 @@ $('#thumb').on('click', '.thumbnail-click', function(){
             L.tileLayer(map.url).addTo(baseMap);
         })
     });
+});
 
 
+$('.mdl-cell').on('click', '.mdl-button', function(){
+	console.log('search button was clicked');
 });

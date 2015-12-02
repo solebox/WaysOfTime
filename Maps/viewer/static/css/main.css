@@ -61,6 +61,10 @@ textarea {
      height: 100vh;
    }
 
+   .mdl-layout__drawer.is-visible {
+       width: 25vw;
+   }
+
    .mdl-layout__header, .mdl-layout__drawer-button,
     .mdl-layout__header-row .mdl-navigation__link {
      /* This background is dark, so we set text to white. Use 87% black instead if
