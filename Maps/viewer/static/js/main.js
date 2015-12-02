@@ -32,6 +32,7 @@ $(document).ready(function(){
 
 $('#thumb').on('click', '.thumbnail-click', function(){
     var imgId = $(this).find('img').data('id');
+    $('#chosenLayers').show();
     console.log("some thumb was clicked");
 
     //$.get("/getMapById/" + imgId, function (maps) {

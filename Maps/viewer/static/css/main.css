@@ -61,6 +61,15 @@ textarea {
      height: 100vh;
    }
 
+  #chosenLayers {
+    display: none;
+  }
+
+  #chosenLayers > .mdl-layout__drawer {
+    left: auto;
+    right: 0;
+  }
+
    .mdl-layout__drawer.is-visible {
        width: 25vw;
    }
