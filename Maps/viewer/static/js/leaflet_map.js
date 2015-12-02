@@ -18,24 +18,6 @@ function getLocation() {
     }
 }
 
-function addNewLayer(onMap, newMap){
-
-    var newLayer =  L.tileLayer(newMap.url);
-    $.data($(".mdl-slider").get(0),"layer",newLayer);
-    newLayer.addTo(onMap);
-
-    map.setExtent(newMap.fullExtent, true);
-//    onMap.fitBounds(.getBounds());
-}
-
-function addFunctionality(){
-    $(".mdl-slider").each(function(a) {
-
-        this.onchange = function(e){
-            $.data($(".mdl-slider").get(0),"layer").setOpacity(this.value/100.0);
-
-            ;};})
-}
 
 function createMap() {
     // set the map where the uer is (based on his coordinates
