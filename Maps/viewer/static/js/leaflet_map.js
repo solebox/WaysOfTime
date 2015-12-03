@@ -1,10 +1,7 @@
-window.NLIMaps = {
-
-};
+window.NLIMaps = {};
 
 $(document).ready(function(){
     NLIMaps.map = createMap();
-
 });
 
 /**
@@ -21,8 +18,7 @@ function getLocation() {
 
 function createMap() {
     // set the map where the uer is (based on his coordinates
-    baseMap = L.map('map').setView(["31.771959", "35.217018"], 16);
-
+    var baseMap = L.map('map').setView(["31.771959", "35.217018"], 16);
 
     // create a base map layer
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -33,5 +29,3 @@ function createMap() {
     }).addTo(baseMap);
     return baseMap;
 }
-
-
