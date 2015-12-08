@@ -104,12 +104,13 @@ function fetch_thumbnails(string){
         var thumbs =[];
         var thumbs_container = $("#thumb");
         $.each(data, function(key, thumb){
-            thumbs.push("<a class='thumbnail-click' href='#'><li class='map-thumbnail' id='thumb-" + thumb.id + "'>" +
-                "<div class='demo-card-image mdl-card mdl-shadow--2dp'>" +
-                "<img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/>" +
-                "<div class='mdl-card__actions'>" +
-                "<span class='demo-card-image__filename'>Image.jpg</span>" +
-                "</div></div></li></a>");
+            //thumbs.push("<a class='thumbnail-click' href='#'><li class='map-thumbnail' id='thumb-" + thumb.id + "'>" +
+            //    "<div class='demo-card-image mdl-card mdl-shadow--2dp'>" +
+            //    "<img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/>" +
+            //    "<div class='mdl-card__actions'>" +
+            //    "<span class='demo-card-image__filename'>Image.jpg</span>" +
+            //    "</div></div></li></a>");
+            thumbs.push("<li><img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/></li>")
         });
 
         $.each(thumbs, function(key, marked_up_thumb){
@@ -118,8 +119,9 @@ function fetch_thumbnails(string){
 
         if ($().lazyload) {
             $("img.lazy").lazyload({
-                container: $("#slider"),
-                effect : "fadeIn"
+                container: $("#search"),
+                effect : "fadeIn",
+                threshold : 10
             });
         } else {
             console.log("lazyload plugin was too lazy to load");
