@@ -20,6 +20,7 @@ $(function (){
 
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
+                
                 addNewLayer(map, thumbPng);
             });
         });
@@ -64,13 +65,17 @@ $(function (){
      */
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
-        var elem = $('<div id="draggable" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight "><div class="mdl-card__media"><span><img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;"> <button class="mdl-button mdl-js-button"> <i class="material-icons">clear</i></button></span>  </div>  <div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0"></input></div></div>');
+        var elem = $('<div id="draggable" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight "><div class="mdl-card__media"><span><img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;"> <button class="mdl-button mdl-js-button"> <i class="material-icons">clear</i></button></span>  </div>  <div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0"></input></div></div>');
         ctr++;
         $($("#layers_slider").find("#sortable")).append(elem);
         elem.data("layer",newLayer);
         elem.find(".mdl-card__media").css("background-color", pallet[ctr%7]);
         componentHandler.upgradeDom();
 
+        elem.find(".mdl-button").on('click',function(e) {
+            window.NLIMaps.map.removeLayer(newLayer);
+            elem.remove();
+        });
         elem.find(".mdl-slider").on('change', function (e) {
             newLayer.setOpacity(this.value / 100.0);
         });
