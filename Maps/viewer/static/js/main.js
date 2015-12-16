@@ -50,7 +50,13 @@ $(function (){
         change: function(event, ui) {
             var start_pos = ui.item.data('start_pos');
             var index = ui.placeholder.index();
-            $(ui.item[0]).data("layer").setZIndex(index)
+            $(ui.item[0]).data("layer").setZIndex(index);
+        },
+        stop: function(event, ui) {
+            ($('#sortable').sortable('toArray')).map(function(item){
+                $('#'+item).data("layer").setZIndex($('#'+item).index());
+            })
+
         }
     });
 
@@ -65,7 +71,7 @@ $(function (){
      */
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
-        var elem = $('<div id="draggable" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight ">'+
+        var elem = $('<div id="id'+ctr+'" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight ">'+
             '<div class="mdl-card__media"><span>'+
             '<img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;">'+
             '<div class="mdl-card__title layer-year">'+newMap.year +'</div>'+
