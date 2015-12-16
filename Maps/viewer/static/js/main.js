@@ -16,8 +16,10 @@ $(function (){
     $('#thumb').on('click', '.thumbnail-click', function(){
         var imgId = $(this).find('img').data('id');
         var thumbPng = $(this).find('img').attr('src');
-        $('#chosenLayers').show();
 
+        // Add support for right side drawer
+        $('.mdl-layout__drawer-right').addClass('active'); 
+        
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
                 //L.tileLayer(map.url).addTo(window.NLIMaps.map);
@@ -71,6 +73,7 @@ $(function (){
      */
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
+
         var elem = $('<div id="id'+ctr+'" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight ">'+
             '<div class="mdl-card__media"><span>'+
             '<img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;">'+
@@ -80,6 +83,7 @@ $(function (){
             '</div>  <div class="mdl-card__actions">'+
             '<input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="100" tabindex="0">'+
             '</input></div></div>');
+
         ctr++;
         $($("#layers_slider").find("#sortable")).append(elem);
         elem.data("layer",newLayer);
@@ -145,3 +149,8 @@ function fetch_thumbnails(string){
         }
     });
 };
+
+
+$('.mdl-layout__drawer-button').click(function(){
+    $('#').hide();
+});
