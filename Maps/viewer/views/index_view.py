@@ -21,6 +21,7 @@ def getImage(request, img_id):
 
     response = JsonResponse([{
         'id': my_map[0].id,
+        'title': my_map[0].title,
         'url': url.format(id=my_map[0].id, xyz='{z}/{x}/{y}'),
         'year': my_map[0].date_depicted,
         'author': my_map[0].authors
