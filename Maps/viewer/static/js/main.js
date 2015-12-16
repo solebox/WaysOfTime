@@ -28,7 +28,7 @@ $(function (){
         // Add support for right side drawer
         $('.mdl-layout__drawer-right').addClass('active');
         $(this).hide();
-        
+
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
                 addNewLayer(map, thumbPng);
@@ -101,7 +101,7 @@ $(function (){
             window.NLIMaps.map.removeLayer(newLayer);
             elem.remove();
 
-            if($('.mdl-layout__drawer-right').children().length){
+            if(!$('#sortable').children().length){
                 $('.mdl-layout__drawer-right').removeClass('active');
             }
         });
