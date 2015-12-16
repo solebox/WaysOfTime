@@ -115,12 +115,12 @@ function fetch_thumbnails(string){
         var thumbs =[];
         var thumbs_container = $("#thumb");
         $.each(data, function(key, thumb){
-            thumbs.push("<a class='thumbnail-click' href='#'><li class='map-thumbnail' id='thumb-" + thumb.id + "'>" +
-                "<div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
+            thumbs.push(
+                "<li class='thumbnail-click'><div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
                 "<img src='"+thumb.url+"' data-id='"+thumb.id+"' style='visibility:hidden;'/>" +
                 "<div class='mdl-card__actions'>" +
                 "<span class='demo-card-image__filename'>Image.jpg</span>" +
-                "</div></div></li></a>");
+                "</div></div></li>");
         });
 
         $.each(thumbs, function(key, marked_up_thumb){
