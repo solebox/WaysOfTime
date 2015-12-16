@@ -119,7 +119,7 @@ function fetch_thumbnails(string){
                 "<li class='thumbnail-click'><div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
                 "<img src='"+thumb.url+"' data-id='"+thumb.id+"' style='visibility:hidden;'/>" +
                 "<div class='mdl-card__actions'>" +
-                "<span class='demo-card-image__filename'>Image.jpg</span>" +
+                "<span class='demo-card-image__filename'>" + thumb.title + "</span>" +
                 "</div></div></li>");
         });
 
