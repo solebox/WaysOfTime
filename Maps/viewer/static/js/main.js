@@ -16,8 +16,10 @@ $(function (){
     $('#thumb').on('click', '.thumbnail-click', function(){
         var imgId = $(this).find('img').data('id');
         var thumbPng = $(this).find('img').attr('src');
-        $('#chosenLayers').show();
 
+        // Add support for right side drawer
+        $('.mdl-layout__drawer-right').addClass('active'); 
+        
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
                 //L.tileLayer(map.url).addTo(window.NLIMaps.map);
@@ -131,3 +133,8 @@ function fetch_thumbnails(string){
         }
     });
 };
+
+
+$('.mdl-layout__drawer-button').click(function(){
+    $('#slider').hide();
+});
