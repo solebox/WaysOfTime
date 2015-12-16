@@ -57,7 +57,7 @@ $(function (){
         stop: function(event, ui) {
             ($('#sortable').sortable('toArray')).map(function(item){
                 $('#'+item).data("layer").setZIndex($('#'+item).index());
-            })
+            });
 
         }
     });
