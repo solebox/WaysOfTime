@@ -51,114 +51,139 @@ textarea {
     padding: 0.2em 0;
 }
 
-   
+
+/* ==========================================================================
+mdl styles
+========================================================================== */
+
+#sortable > .mdl-card {
+  min-height: 0;
+}
+
+#sortable img.nopadding {
+  margin: 0;
+  padding: 1px !important;
+}
+
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-   #map {
-     width: 100vw;
-     height: 100vh;
-   }
+#map {
+  width: 100vw;
+  height: 100vh;
+}
 
-   .mdl-layout__drawer.is-visible {
-       width: 28vw;
-   }
+#chosenLayers {
+  display: none;
+}
 
-   .mdl-layout__drawer {
-       overflow-y: hidden;
-   }
+#chosenLayers > .mdl-layout__drawer {
+  left: auto;
+  right: 0;
+  background-color:rgba(255,255,255,0.5);
+}
 
-   .mdl-layout__header, .mdl-layout__drawer-button,
-    .mdl-layout__header-row .mdl-navigation__link {
-     /* This background is dark, so we set text to white. Use 87% black instead if
-        your background is light. */
-     color: black;
-   }
+.mdl-layout__drawer.is-visible {
+  width: 28vw;
+}
 
-   .mdl-mini-footer {
-       position:fixed;
-       left:0px;
-       bottom:0px;
-       width: 100%;
-       height: 1.5vh;
-       z-index: 1;
-   }
+.mdl-layout__drawer {
+  overflow-y: hidden;
+}
 
-   .mdl-mini-footer__left-section {
-       margin-top: -2vh;
-   }
+.mdl-layout__header, .mdl-layout__drawer-button,
+.mdl-layout__header-row .mdl-navigation__link {
+ /* This background is dark, so we set text to white. Use 87% black instead if
+    your background is light. */
+ color: black;
+}
 
-   .leaflet-left {
-       left: auto;
-       right: 1%;
-   }
+.mdl-mini-footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width: 100%;
+  height: 1.5vh;
+  z-index: 1;
+}
 
-   #mainLogo {
-       width: 50%;
-   }
+.mdl-mini-footer__left-section {
+  margin-top: -2vh;
+}
 
-   .mdl-layout__drawer >.mdl-layout__title, .mdl-layout__drawer .mdl-layout-title {
-       text-align: center;
-       padding-left: 0;
-       padding-top: 5px;
-   }
+.leaflet-left {
+  left: auto;
+  right: 1%;
+}
 
-   .material-icons {
-       margin-top: 10px;
-   }
+#mainLogo {
+  width: 50%;
+}
 
-    .mdl-grid > .mdl-textfield {
-        width: auto;
-    }
+.mdl-layout__drawer >.mdl-layout__title, .mdl-layout__drawer .mdl-layout-title {
+  text-align: center;
+  padding-left: 0;
+  padding-top: 5px;
+}
 
-   #thumb {
-       height: 60vh;
-       overflow-y: auto;
-       padding: 0;
-   }
+.material-icons {
+  margin-top: 10px;
+}
 
-   .map-thumbnail {
-       list-style-type: none;
-       margin: 5px;
-       width: 100%;
-   }
+.mdl-grid > .mdl-textfield {
+  width: auto;
+}
 
-   .map-thumbnail > .mdl-card {
-        min-height: auto;
-       min-width: auto;
-   }
+#thumb {
+  height: 60vh;
+  overflow-y: auto;
+  padding: 0;
+}
 
-   .demo-card-image.mdl-card {
-        width: 160px;
-        height: 160px;
-        margin: auto;
-    }
+.map-thumbnail {
+  list-style-type: none;
+  margin: 5px;
+  width: 100%;
+}
 
-   .demo-card-image > .mdl-card__actions {
-        height: 52px;
-        padding: 16px;
-        background: rgba(0, 0, 0, 0.2);
-   }
+.map-thumbnail > .mdl-card {
+  min-height: auto;
+  min-width: auto;
+}
 
-   .demo-card-image > img {
-       height: 160px;
-   }
+.demo-card-image.mdl-card {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+}
 
-   .demo-card-image__filename {
-        color: #fff;
-        font-size: 14px;
-        font-weight: 500;
-   }
+.demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-card-image > img {
+   height: 160px;
+}
+
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 /*
-@media only screen and (min-width: 35em) {
-
+@media only screen and (max-width: 1025px) {
+    .mdl-layout__drawer {
+        margin-right: -25%;
+    }
 }
 
 

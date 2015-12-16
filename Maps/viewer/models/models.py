@@ -266,6 +266,17 @@ class LayersMaps(models.Model):
         managed = False
         db_table = 'layers_maps'
 
+class MyMaps(models.Model):
+    map_id = models.IntegerField(blank=True, null=True)
+    user_id = models.IntegerField(blank=True, null=True)
+    created_at = models.DateTimeField(blank=True, null=True)
+    updated_at = models.DateTimeField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'my_maps'
+        unique_together = (('map_id', 'user_id'),)
+
 
 class Maps(models.Model):
     title = models.CharField(max_length=255, blank=True, null=True)
@@ -329,16 +340,6 @@ class Memberships(models.Model):
         unique_together = (('user_id', 'group_id'),)
 
 
-class MyMaps(models.Model):
-    map_id = models.IntegerField(blank=True, null=True)
-    user_id = models.IntegerField(blank=True, null=True)
-    created_at = models.DateTimeField(blank=True, null=True)
-    updated_at = models.DateTimeField(blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'my_maps'
-        unique_together = (('map_id', 'user_id'),)
 
 
 class OauthNonces(models.Model):
