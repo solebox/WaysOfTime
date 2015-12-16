@@ -67,14 +67,14 @@ $(function (){
      */
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
-        var elem = $('<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('+ pngUrl +') center / cover;">'+
+        var elem = $('<li><div class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('+ pngUrl +') center / cover;">'+
                     '<div class="mdl-card__title mdl-card--expand"><h2 class="mdl-card__title-text">' + newMap.title + '</h2></div>'+
                     '<div class="mdl-card__menu">'+
                     '<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">info</i></button>'+
                     '<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">clear</i></button>'+
                     '</div>'+
                     '<div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0" />'+
-                    '</div></div>');
+                    '</div></div></li>');
         ctr++;
         $($("#layers_slider").find("#sortable")).append(elem);
         elem.data("layer",newLayer);

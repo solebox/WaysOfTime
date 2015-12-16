@@ -56,6 +56,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#slider{
+  background-color: rgba(255,255,255,0.8);
+}
+
 #map {
   width: 100vw;
   height: 100vh;
@@ -333,7 +337,7 @@ li.thumbnail-click{
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     -webkit-transition-property: -webkit-transform;
     transition-property: transform;
-    color: #424242;
+    color: #222222;
     overflow: visible;
     overflow-y: auto;
     z-index: 5;
@@ -394,6 +398,7 @@ li.thumbnail-click{
 }
 #layers_slider ul li{
   padding:0 10px 10px 10px;
+  display: block;
 }
 
 .demo-card-image.mdl-card {
