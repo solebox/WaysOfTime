@@ -15,13 +15,15 @@ def privacyAndTerms(request):
 
 def getImage(request, img_id):
     ''' get an image url to place on the page when thumbnail is clicked '''
-    my_map = MyMaps.objects.filter(map_id__contains=img_id)
+    my_map = Maps.objects.filter(id__contains=img_id)
 
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
 
     response = JsonResponse([{
         'id': my_map[0].id,
-        'url': url.format(id=my_map[0].id, xyz='{z}/{x}/{y}')
+        'url': url.format(id=my_map[0].id, xyz='{z}/{x}/{y}'),
+        'year': my_map[0].date_depicted,
+        'author': my_map[0].authors
     }], safe=False)
 
     return response

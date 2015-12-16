@@ -61,7 +61,7 @@ textarea {
 
     #sortable img.nopadding {
       margin: 0;
-      padding: 0;
+      padding: 1px !important;
     }
 
 
@@ -83,9 +83,7 @@ textarea {
     right: 0;
     background-color:rgba(255,255,255,0.5);
   }
-  #draggable {
 
-  }
    .mdl-layout__drawer.is-visible {
        width: 25vw;
    }
