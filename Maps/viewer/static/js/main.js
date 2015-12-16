@@ -20,6 +20,7 @@ $(function (){
 
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
+                //L.tileLayer(map.url).addTo(window.NLIMaps.map);
                 addNewLayer(map, thumbPng);
             });
         });
@@ -64,13 +65,17 @@ $(function (){
      */
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
-        var elem = $('<div id="draggable" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight "><div class="mdl-card__media"><span><img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;"> <button class="mdl-button mdl-js-button"> <i class="material-icons">clear</i></button></span>  </div>  <div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0"></input></div></div>');
+        var elem = $('<div id="draggable" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight "><div class="mdl-card__media"><span><img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;"> <button class="mdl-button mdl-js-button"> <i class="material-icons">clear</i></button></span>  </div>  <div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0"></input></div></div>');
         ctr++;
         $($("#layers_slider").find("#sortable")).append(elem);
         elem.data("layer",newLayer);
         elem.find(".mdl-card__media").css("background-color", pallet[ctr%7]);
         componentHandler.upgradeDom();
 
+        elem.find(".mdl-button").on('click',function(e) {
+            window.NLIMaps.map.removeLayer(newLayer);
+            elem.remove();
+        });
         elem.find(".mdl-slider").on('change', function (e) {
             newLayer.setOpacity(this.value / 100.0);
         });
@@ -104,13 +109,12 @@ function fetch_thumbnails(string){
         var thumbs =[];
         var thumbs_container = $("#thumb");
         $.each(data, function(key, thumb){
-            //thumbs.push("<a class='thumbnail-click' href='#'><li class='map-thumbnail' id='thumb-" + thumb.id + "'>" +
-            //    "<div class='demo-card-image mdl-card mdl-shadow--2dp'>" +
-            //    "<img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/>" +
-            //    "<div class='mdl-card__actions'>" +
-            //    "<span class='demo-card-image__filename'>Image.jpg</span>" +
-            //    "</div></div></li></a>");
-            thumbs.push("<li><img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/></li>")
+            thumbs.push("<a class='thumbnail-click' href='#'><li class='map-thumbnail' id='thumb-" + thumb.id + "'>" +
+                "<div class='demo-card-image mdl-card mdl-shadow--2dp'>" +
+                "<img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/>" +
+                "<div class='mdl-card__actions'>" +
+                "<span class='demo-card-image__filename'>Image.jpg</span>" +
+                "</div></div></li></a>");
         });
 
         $.each(thumbs, function(key, marked_up_thumb){
@@ -119,9 +123,8 @@ function fetch_thumbnails(string){
 
         if ($().lazyload) {
             $("img.lazy").lazyload({
-                container: $("#search"),
-                effect : "fadeIn",
-                threshold : 10
+                container: $("#slider"),
+                effect : "fadeIn"
             });
         } else {
             console.log("lazyload plugin was too lazy to load");
