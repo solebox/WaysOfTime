@@ -86,7 +86,7 @@ mdl styles
 }
 
 .mdl-layout__drawer.is-visible {
-  width: 28vw;
+  width: 234px;
 }
 
 .mdl-layout__drawer {
@@ -129,7 +129,7 @@ mdl styles
 }
 
 .material-icons {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .mdl-grid > .mdl-textfield {

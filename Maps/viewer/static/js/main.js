@@ -74,15 +74,14 @@ $(function (){
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
 
-        var elem = $('<div id="id'+ctr+'" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight ">'+
-            '<div class="mdl-card__media"><span>'+
-            '<img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;">'+
-            '<div class="mdl-card__title layer-year">'+newMap.year +'</div>'+
-                '<div class="mdl-card__title layer-author">'+newMap.author +'</div>'+
-            '<button class="mdl-button mdl-js-button"> <i class="material-icons">clear</i></button></span> '+
-            '</div>  <div class="mdl-card__actions">'+
-            '<input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="100" tabindex="0">'+
-            '</input></div></div>');
+        var elem = $('<div id="id'+ctr+'" class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('+ pngUrl +') center / cover;">'+
+                    '<div class="mdl-card__title mdl-card--expand"><h2 class="mdl-card__title-text">' + newMap.title + '</h2></div>'+
+                    '<div class="mdl-card__menu">'+
+                    '<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">info</i></button>'+
+                    '<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">clear</i></button>'+
+                    '</div>'+
+                    '<div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0" />'+
+                    '</div></div>');
 
         ctr++;
         $($("#layers_slider").find("#sortable")).append(elem);
@@ -127,12 +126,12 @@ function fetch_thumbnails(string){
         var thumbs =[];
         var thumbs_container = $("#thumb");
         $.each(data, function(key, thumb){
-            thumbs.push("<a class='thumbnail-click' href='#'><li class='map-thumbnail' id='thumb-" + thumb.id + "'>" +
-                "<div class='demo-card-image mdl-card mdl-shadow--2dp'>" +
-                "<img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/>" +
+            thumbs.push(
+                "<li class='thumbnail-click'><div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
+                "<img src='"+thumb.url+"' data-id='"+thumb.id+"' style='visibility:hidden;'/>" +
                 "<div class='mdl-card__actions'>" +
-                "<span class='demo-card-image__filename'>Image.jpg</span>" +
-                "</div></div></li></a>");
+                "<span class='demo-card-image__filename'>" + thumb.title + "</span>" +
+                "</div></div></li>");
         });
 
         $.each(thumbs, function(key, marked_up_thumb){
