@@ -7,7 +7,7 @@ $(function (){
 
     var pallet =["#F44336","#E91E63","#9C27B0","#3F51B5","#03A9F4","#4CAF50","#CDDC39"];
     var ctr = 0;
-
+    var chosenMaps = [];
 
     /**
      *  Handle thumbnail click.
@@ -17,12 +17,20 @@ $(function (){
         var imgId = $(this).find('img').data('id');
         var thumbPng = $(this).find('img').attr('src');
 
+        if ($.inArray(imgId, chosenMaps) !== -1){
+            console.log("no!!!!");
+            return;
+        }
+
+        // Add img id to right slider array
+        chosenMaps.push(imgId);
+
         // Add support for right side drawer
-        $('.mdl-layout__drawer-right').addClass('active'); 
+        $('.mdl-layout__drawer-right').addClass('active');
+        $(this).hide();
         
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
-                //L.tileLayer(map.url).addTo(window.NLIMaps.map);
                 addNewLayer(map, thumbPng);
             });
         });
