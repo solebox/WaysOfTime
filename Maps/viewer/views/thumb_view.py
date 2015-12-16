@@ -26,4 +26,4 @@ def getAllThumbs(request, stringToSearch):
                         'path': path.format(id=map.id,
                                             thumb_name_ext_stripped=thumb_file_name)})
 
-    return JsonResponse(15*results, safe=False)
+    return JsonResponse(results, safe=False)

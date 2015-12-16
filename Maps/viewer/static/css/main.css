@@ -53,20 +53,6 @@ textarea {
 
 
 /* ==========================================================================
-mdl styles
-========================================================================== */
-
-#sortable > .mdl-card {
-  min-height: 0;
-}
-
-#sortable img.nopadding {
-  margin: 0;
-  padding: 1px !important;
-}
-
-
-/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
@@ -154,8 +140,6 @@ mdl styles
 }
 
 .demo-card-image.mdl-card {
-  width: 160px;
-  height: 160px;
   margin: auto;
 }
 
@@ -173,6 +157,11 @@ mdl styles
     color: #fff;
     font-size: 14px;
     font-weight: 500;
+}
+
+li.thumbnail-click{
+  display:block;
+  padding: 0 10px 10px 10px;
 }
 
 /* ==========================================================================
@@ -391,10 +380,6 @@ mdl styles
   z-index: 10;
 }
 
- /* ==========================================================================
-   mdl styles
-   ========================================================================== */
-
     #sortable > .mdl-card {
       min-height: 0;
     }
@@ -407,7 +392,9 @@ mdl styles
 #layers_slider ul{
   padding:0;
 }
-
+#layers_slider ul li{
+  padding:0 10px 10px 10px;
+}
 
 .demo-card-image.mdl-card {
   width: 100%;
