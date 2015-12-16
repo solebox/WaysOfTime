@@ -129,10 +129,9 @@ textarea {
        margin-top: 10px;
    }
 
-   #fixed-search {
-       width: 98%;
-       padding: 7px;
-   }
+    .mdl-grid > .mdl-textfield {
+        width: auto;
+    }
 
    #thumb {
        height: 60vh;
