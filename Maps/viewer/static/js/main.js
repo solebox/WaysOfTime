@@ -7,7 +7,7 @@ $(function (){
 
     var pallet =["#F44336","#E91E63","#9C27B0","#3F51B5","#03A9F4","#4CAF50","#CDDC39"];
     var ctr = 0;
-
+    var chosenMaps = [];
 
     /**
      *  Handle thumbnail click.
@@ -16,11 +16,21 @@ $(function (){
     $('#thumb').on('click', '.thumbnail-click', function(){
         var imgId = $(this).find('img').data('id');
         var thumbPng = $(this).find('img').attr('src');
-        $('#chosenLayers').show();
 
+        if ($.inArray(imgId, chosenMaps) !== -1){
+            console.log("no!!!!");
+            return;
+        }
+
+        // Add img id to right slider array
+        chosenMaps.push(imgId);
+
+        // Add support for right side drawer
+        $('.mdl-layout__drawer-right').addClass('active');
+        $(this).hide();
+        
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
-                //L.tileLayer(map.url).addTo(window.NLIMaps.map);
                 addNewLayer(map, thumbPng);
             });
         });
@@ -50,7 +60,13 @@ $(function (){
         change: function(event, ui) {
             var start_pos = ui.item.data('start_pos');
             var index = ui.placeholder.index();
-            $(ui.item[0]).data("layer").setZIndex(index)
+            $(ui.item[0]).data("layer").setZIndex(index);
+        },
+        stop: function(event, ui) {
+            ($('#sortable').sortable('toArray')).map(function(item){
+                $('#'+item).data("layer").setZIndex($('#'+item).index());
+            });
+
         }
     });
 
@@ -65,16 +81,29 @@ $(function (){
      */
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
-        var elem = $('<div id="draggable" class="mdl-card maps-card mdl-cell mdl-cell--10-col ui-state-highlight "><div class="mdl-card__media"><span><img class="nopadding" src="' + pngUrl + '" height="50" width="30"  border="0" alt="" style="padding:10px;"> <button class="mdl-button mdl-js-button"> <i class="material-icons">clear</i></button></span>  </div>  <div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0"></input></div></div>');
+
+        var elem = $('<div id="id'+ctr+'" class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('+ pngUrl +') center / cover;">'+
+                    '<div class="mdl-card__title mdl-card--expand"><h2 class="mdl-card__title-text">' + newMap.title + '</h2></div>'+
+                    '<div class="mdl-card__menu">'+
+                    '<button id="info" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">info</i></button>'+
+                    '<button id="delete" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">clear</i></button>'+
+                    '</div>'+
+                    '<div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0" />'+
+                    '</div></div>');
+
         ctr++;
         $($("#layers_slider").find("#sortable")).append(elem);
         elem.data("layer",newLayer);
         elem.find(".mdl-card__media").css("background-color", pallet[ctr%7]);
         componentHandler.upgradeDom();
 
-        elem.find(".mdl-button").on('click',function(e) {
+        elem.find("#delete").on('click',function(e) {
             window.NLIMaps.map.removeLayer(newLayer);
             elem.remove();
+
+            if($('.mdl-layout__drawer-right').children().length){
+                $('.mdl-layout__drawer-right').removeClass('active');
+            }
         });
         elem.find(".mdl-slider").on('change', function (e) {
             newLayer.setOpacity(this.value / 100.0);
@@ -109,12 +138,12 @@ function fetch_thumbnails(string){
         var thumbs =[];
         var thumbs_container = $("#thumb");
         $.each(data, function(key, thumb){
-            thumbs.push("<a class='thumbnail-click' href='#'><li class='map-thumbnail' id='thumb-" + thumb.id + "'>" +
-                "<div class='demo-card-image mdl-card mdl-shadow--2dp'>" +
-                "<img class='lazy' data-original='"+thumb.url+"' data-id='"+thumb.id+"'/>" +
+            thumbs.push(
+                "<li class='thumbnail-click'><div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
+                "<img src='"+thumb.url+"' data-id='"+thumb.id+"' style='visibility:hidden;'/>" +
                 "<div class='mdl-card__actions'>" +
-                "<span class='demo-card-image__filename'>Image.jpg</span>" +
-                "</div></div></li></a>");
+                "<span class='demo-card-image__filename'>" + thumb.title + "</span>" +
+                "</div></div></li>");
         });
 
         $.each(thumbs, function(key, marked_up_thumb){
@@ -131,3 +160,8 @@ function fetch_thumbnails(string){
         }
     });
 };
+
+
+$('.mdl-layout__drawer-button').click(function(){
+    $('#').hide();
+});
