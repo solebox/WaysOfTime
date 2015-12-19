@@ -5,7 +5,6 @@ $(document).ready(function(){
 $(function (){
     "use strict"
 
-    var pallet =["#F44336","#E91E63","#9C27B0","#3F51B5","#03A9F4","#4CAF50","#CDDC39"];
     var ctr = 0;
     var chosenMaps = [];
 
@@ -21,8 +20,6 @@ $(function (){
             console.log("no!!!!");
             return;
         }
-
-        // Add img id to right slider array
         chosenMaps.push(imgId);
 
         // Add support for right side drawer
@@ -82,24 +79,25 @@ $(function (){
     function addNewLayer(newMap, pngUrl) {
         var newLayer = L.tileLayer(newMap.url);
 
-        var elem = $('<div id="id'+ctr+'" class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('+ pngUrl +') center / cover;">'+
+        var elem = $('<div id="id' + ctr + '" data-id="' + newMap.id + '" class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url(' + pngUrl + ') center / cover;">'+
                     '<div class="mdl-card__title mdl-card--expand"><h2 class="mdl-card__title-text">' + newMap.title + '</h2></div>'+
                     '<div class="mdl-card__menu">'+
                     '<button id="info" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">info</i></button>'+
                     '<button id="delete" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">clear</i></button>'+
                     '</div>'+
-                    '<div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0" />'+
+                    '<div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="100" tabindex="0" />'+
                     '</div></div>');
 
         ctr++;
         $($("#layers_slider").find("#sortable")).append(elem);
         elem.data("layer",newLayer);
-        elem.find(".mdl-card__media").css("background-color", pallet[ctr%7]);
         componentHandler.upgradeDom();
 
         elem.find("#delete").on('click',function(e) {
             window.NLIMaps.map.removeLayer(newLayer);
             elem.remove();
+            var idToRemove = $(this).parents(".demo-card-image").data("id");
+            chosenMaps.splice(chosenMaps.indexOf(idToRemove));
 
             if(!$('#sortable').children().length){
                 $('.mdl-layout__drawer-right').removeClass('active');
@@ -162,6 +160,9 @@ function fetch_thumbnails(string){
 };
 
 
+/**
+ *
+ */
 $('.mdl-layout__drawer-button').click(function(){
     $('#').hide();
 });
