@@ -103,6 +103,11 @@ $(function (){
                 $('.mdl-layout__drawer-right').removeClass('active');
             }
         });
+
+        elem.find("#info").on("click", function(){
+            $("#modal").toggle();
+        });
+
         elem.find(".mdl-slider").on('change', function (e) {
             newLayer.setOpacity(this.value / 100.0);
         });
