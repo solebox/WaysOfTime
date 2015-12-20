@@ -25,7 +25,6 @@ router.register(r'my_maps', views.MyMapsViewSet)
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.index, name='home'),
-    url(r'^privacyAndTerms', views.privacyAndTerms, name='privacyAndTerms'),
     url(r'^getMapById/(?P<img_id>[-\w]+)/$', views.getImage),
     url(r'^getThumbs/(?P<stringToSearch>[-\w]+)/$', views.getAllThumbs),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),

@@ -11,12 +11,6 @@ def index(request):
     return render(request, 'index.html')
 
 
-def privacyAndTerms(request):
-    '''
-    privacy and terms page
-    '''
-    return render(request, 'privacyAndTerms.html')
-
 def getImage(request, img_id):
     '''
     get an image url to place on the page when thumbnail is clicked

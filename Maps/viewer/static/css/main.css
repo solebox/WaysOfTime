@@ -114,6 +114,14 @@ textarea {
   width: auto;
 }
 
+#search {
+    width: 100%;
+}
+
+#search > .mdl-button {
+    float: right;
+}
+
 #thumb {
   height: 60vh;
   overflow-y: auto;
@@ -154,19 +162,6 @@ textarea {
 li.thumbnail-click{
   display:block;
   padding: 0 10px 10px 10px;
-}
-
-#modal {
-    display: none;
-    position: absolute;
-    margin: 0 auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    width: 600px;
-    height: 600px;
-    z-index: 10;
 }
 
 /* ==========================================================================
