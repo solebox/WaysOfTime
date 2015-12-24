@@ -1,0 +1,36 @@
+{
+  "name": "material-modal",
+  "version": "0.1.2",
+  "homepage": "https://github.com/MarkRabey/material-modal",
+  "authors": [
+    "Mark Rabey <mark@markrabey.com>"
+  ],
+  "description": "A modal dialog for use with Material Design Lite",
+  "keywords": [
+    "material design",
+    "material design lite",
+    "mdl",
+    "modal",
+    "dialog"
+  ],
+  "main": [
+    "dist/js/material-modal.min.js",
+    "dist/css/material-modal.min.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.2",
+    "commit": "e13f21d1eaf0a674fcac555fbb09b39b84025738"
+  },
+  "_source": "git://github.com/MarkRabey/material-modal.git",
+  "_target": "~0.1.2",
+  "_originalSource": "material-modal",
+  "_direct": true
+}

@@ -2,91 +2,113 @@
 
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% block title %}National Library{% endblock %}</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="{% static 'img/apple-touch-icon.png' %}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% block title %}National Library{% endblock %}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="{% static 'img/apple-touch-icon.png' %}">
 
-        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="{% static 'css/normalize.min.css' %}">
-        <link rel="stylesheet" href="{% static 'css/main.css' %}">
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="{% static 'css/normalize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
-
-        <script src="{% static 'js/vendor/modernizr-2.8.3.min.js' %}"></script>
-
-         <script src="../../static/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-
-          <link rel="import" href="../../static/bower_components/paper-dialog/paper-dialog.html">
+    <link rel="stylesheet" href="../../static/bower_components/material-modal/dist/css/material-modal.min.css">
+    <script src="{% static 'js/vendor/modernizr-2.8.3.min.js' %}"></script>
 
 
-        {% block header %}{% endblock %}
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+    {% block header %}{% endblock %}
+</head>
+<body>
+<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+<div id="modal" class="modal modal__bg">
+    <div class="modal__dialog">
+        <div class="modal__content">
+            <div class="modal__header">
+                <div class="modal__title">
+                    <h2 class="modal__title-text">Modal</h2>
+                </div>
 
-        <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+                <span class="mdl-button mdl-button--icon mdl-js-button  material-icons  modal__close"></span>
+            </div>
 
 
+            <div class="modal__text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam accusantium facere
+                    suscipit, alias accusamus corrupti consequatur at porro, voluptates commodi sed omnis voluptatem, ex
+                    officiis illum, architecto fugiat id?
+                </p>
+                <a href="http://markrabey.com" target="_blank">Open Link</a>
+            </div>
 
-            <div id="slider" class="mdl-layout__drawer">
-                <header>
+            <div class="modal__footer">
+                <a class="mdl-button mdl-button--colored mdl-js-button  modal__close">
+                    Close
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+
+
+    <div id="slider" class="mdl-layout__drawer">
+        <header>
+
 
                     <span class="mdl-layout-title">
                         <a href="/">
                             <img id="mainLogo" src="../static/img/mapabazman-logo-v1.png">
                         </a>
                     </span>
-<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect layer-button-info" data-dialog="dialog"><i class="material-icons">info</i></button>
-              <paper-button data-dialog="dialog">plain dialog</paper-button>
-             <paper-dialog id="dialog">
-      <h2>Dialog Title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </paper-dialog>
-                    <div class="mdl-grid">
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input id="fixed-search" class="mdl-textfield__input" name="searchInput" type="text">
-                            <label class="mdl-textfield__label" for="fixed-search">Type Something...</label>
-                        </div>
-                        <div id="search" class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
-                            <a id="search-more" href="#">More options</a>
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Search</button>
-                        </div>
-                    </div>
-                </header>
-                {% block slider_content %}{% endblock %}
-            </div>
-
-            <div class="mdl-layout__drawer-right">
-
-                <div id="layers_slider" class="">
-                    <ul id="sortable"> </ul>
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect layer-button-info"
+                    data-dialog="dialog"><i class="material-icons">info</i></button>
+            <div class="mdl-grid">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input id="fixed-search" class="mdl-textfield__input" name="searchInput" type="text">
+                    <label class="mdl-textfield__label" for="fixed-search">Type Something...</label>
                 </div>
-
+                <div id="search" class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+                    <a id="search-more" href="#">More options</a>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Search</button>
+                </div>
             </div>
+        </header>
+        {% block slider_content %}{% endblock %}
+    </div>
+</div>
+<div class="mdl-layout__drawer-right">
 
-            <main class="mdl-layout__content">
-                {% block content %}{% endblock %}
-            </main>
+    <div id="layers_slider" class="">
 
-        </div>
+        <ul id="sortable"></ul>
+    </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="{% static 'js/vendor/jquery.lazyload.js' %}"></script>
-        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
-        <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-        <script src="{% static 'js/plugins.js' %}"></script>
-        <script src="{% static 'js/main.js' %}"></script>
-        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</div>
 
-        {% block script %}{% endblock %}
-    </body>
+<main class="mdl-layout__content">
+    {% block content %}{% endblock %}
+</main>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="{% static 'js/vendor/jquery.lazyload.js' %}"></script>
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<script src="{% static 'js/plugins.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="../../static/bower_components/material-modal/src/js/material-modal.js"></script>
+{% block script %}{% endblock %}
+</body>
 </html>
