@@ -28,5 +28,6 @@ urlpatterns = [
     url(r'^getMapById/(?P<img_id>[-\w]+)/$', views.getImage),
     url(r'^getThumbs/(?P<stringToSearch>[-\w.]+)/$', views.getThumbs),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^getLayer/(?P<img_id>[-\w]+)/$',views.getLayer),
     url(r'^api/v1/', include(router.urls)),
 ]

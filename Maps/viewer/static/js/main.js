@@ -30,7 +30,7 @@ $(function (){
 
         $.get("/getMapById/" + imgId, function (maps) {
             $.each(maps, function (i, map) {
-                addNewLayer(map, thumbPng);
+                addNewLayer(imgId,map);
             });
         });
     });
@@ -87,42 +87,38 @@ $(function (){
      * @param newMap
      * @param pngUrl
      */
-    function addNewLayer(newMap, pngUrl) {
+    function addNewLayer(imgId,newMap) {
         var newLayer = L.tileLayer(newMap.url);
 
-        var elem = $('<div id="id' + ctr + '" data-id="' + newMap.id + '" class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url(' + pngUrl + ') center / cover;">'+
-                    '<div class="mdl-card__title mdl-card--expand"><h2 class="mdl-card__title-text">' + newMap.title + '</h2></div>'+
-                    '<div class="mdl-card__menu">'+
-                    '<button id="info" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">info</i></button>'+
-                    '<button id="delete" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">clear</i></button>'+
-                    '</div>'+
-                    '<div class="mdl-card__actions"><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="100" tabindex="0" />'+
-                    '</div></div>');
+        $.get("getLayer/" + String(imgId), function(data) {
+            var elem =$(data);
+            $($("#layers_slider").find("#sortable")).append(elem);
+            elem.data("layer",newLayer);
+            componentHandler.upgradeDom();
 
-        ctr++;
-        $($("#layers_slider").find("#sortable")).append(elem);
-        elem.data("layer",newLayer);
-        componentHandler.upgradeDom();
+            elem.find("#delete").on('click',function(e) {
+                window.NLIMaps.map.removeLayer(newLayer);
+                elem.remove();
+                var idToRemove = $(this).parents(".demo-card-image").data("id");
+                chosenMaps.splice(chosenMaps.indexOf(idToRemove));
 
-        elem.find("#delete").on('click',function(e) {
-            window.NLIMaps.map.removeLayer(newLayer);
-            elem.remove();
-            var idToRemove = $(this).parents(".demo-card-image").data("id");
-            chosenMaps.splice(chosenMaps.indexOf(idToRemove));
+                if(!$('#sortable').children().length){
+                    $('.mdl-layout__drawer-right').removeClass('active');
+                }
+            });
 
-            if(!$('#sortable').children().length){
-                $('.mdl-layout__drawer-right').removeClass('active');
-            }
+            elem.find("#info").on("click", function(){
+                $("#modal").toggle();
+            });
+
+            elem.find(".mdl-slider").on('change', function (e) {
+                newLayer.setOpacity(this.value / 100.0);
+            });
+            newLayer.addTo(window.NLIMaps.map);
+            ctr++;
         });
 
-        elem.find("#info").on("click", function(){
-            $("#modal").toggle();
-        });
 
-        elem.find(".mdl-slider").on('change', function (e) {
-            newLayer.setOpacity(this.value / 100.0);
-        });
-        newLayer.addTo(window.NLIMaps.map);
     }
 
 
@@ -182,3 +178,4 @@ function fetch_thumbnails(string){
 $('.mdl-layout__drawer-button').click(function(){
     $('#').toggle();
 });
+
