@@ -90,7 +90,7 @@ function createMap() {
 
 function geoSearch(array) {
     debugger;
-    $.getJSON("getThumbs/" + { "left-down": array[0], "left-up": array[1], "right-up": array[2], "right-down": array[3] })
+    $.get("getThumbs/" + { "left-down": array[0], "left-up": array[1], "right-up": array[2], "right-down": array[3] })
     .done(function(data){
         var thumbs =[];
         var thumbs_container = $("#thumb");
