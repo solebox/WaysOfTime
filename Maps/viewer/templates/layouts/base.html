@@ -46,19 +46,13 @@
                             <input id="fixed-search" class="mdl-textfield__input" name="searchInput" type="text">
                             <label class="mdl-textfield__label" for="fixed-search">Type Something...</label>
                         </div>
-                        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+                        <div id="search" class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+                            <a id="search-more" href="#">More options</a>
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Search</button>
                         </div>
                     </div>
                 </header>
                 {% block slider_content %}{% endblock %}
-                <footer class="mdl-mini-footer">
-                    <div class="mdl-mini-footer__left-section">
-                        <a href="/privacyAndTerms">
-                            <div class="mdl-logo">Privacy & Terms</div>
-                        </a>
-                    </div>
-                </footer>
             </div>
 
             <div class="mdl-layout__drawer-right">

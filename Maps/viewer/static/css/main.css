@@ -63,6 +63,7 @@ textarea {
 #map {
   width: 100vw;
   height: 100vh;
+
 }
 
 #chosenLayers {
@@ -90,15 +91,6 @@ textarea {
  color: black;
 }
 
-.mdl-mini-footer {
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  width: 100%;
-  height: 1.5vh;
-  z-index: 1;
-}
-
 .mdl-mini-footer__left-section {
   margin-top: -2vh;
 }
@@ -118,12 +110,16 @@ textarea {
   padding-top: 5px;
 }
 
-.material-icons {
-  /*margin-top: 10px;*/
-}
-
 .mdl-grid > .mdl-textfield {
   width: auto;
+}
+
+#search {
+    width: 100%;
+}
+
+#search > .mdl-button {
+    float: right;
 }
 
 #thumb {
@@ -177,14 +173,6 @@ li.thumbnail-click{
     .mdl-layout__drawer {
         margin-right: -25%;
     }
-}
-
-
-@media print{
-       -o-min-device-pixel-ratio: 5/4),
-       -webkit-min-device-pixel-ratio: 1.25),
-       min-resolution: 120dpi) {
-
 }
 */
 
@@ -301,7 +289,7 @@ li.thumbnail-click{
 }
 
 
-/***** huuuuhahahaha ***8*/
+/* huuuuhahahaha */
 .mdl-layout__drawer-right {
     display: -webkit-box;
     display: -webkit-flex;
@@ -346,7 +334,7 @@ li.thumbnail-click{
 .active {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
-    transform: translateX(0);  
+    transform: translateX(0);
 }
 
 .mdl-layout__obfuscator-right {
@@ -384,14 +372,16 @@ li.thumbnail-click{
   z-index: 10;
 }
 
-    #sortable > .mdl-card {
-      min-height: 0;
-    }
+#sortable > .mdl-card {
+  min-height: 0;
+  width: 95%;
+  margin-bottom: 10px;
+}
 
-    #sortable img.nopadding {
-      margin: 0;
-      padding: 0;
-    }
+#sortable img.nopadding {
+  margin: 0;
+  padding: 0;
+}
 
 #layers_slider ul{
   padding:0;
