@@ -135,7 +135,7 @@ $(function (){
             this.onchange = function (e) {
                 $.data($(".mdl-slider").get(0), "layer").setOpacity(this.value / 100.0);
             };
-        })
+        });
     }
 
 });

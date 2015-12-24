@@ -3,7 +3,7 @@ from django.http import JsonResponse
 from viewer.models import Maps, MyMaps
 from django.db.models import Q
 
-def getAllThumbs(request, stringToSearch):
+def getThumbs(request, stringToSearch):
     """
     :param request: http get request (no params ofc)
     :return: reutrns all the available thumbnails fof the uploaded maps
@@ -14,6 +14,13 @@ def getAllThumbs(request, stringToSearch):
     else:
         maps = Maps.objects.all()
 
+    return makeJsonReq(request, maps);
+
+
+def makeJsonReq(request, maps):
+    """
+    this is doc
+    """
     url = "http://localhost:3000/uploads/{id}/thumb/{thumb_name_ext_stripped}.png"
     path = "/uploads/thumb/{thumb_name_ext_stripped}.png"
     results = []
