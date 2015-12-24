@@ -62,8 +62,9 @@ $(function (){
             $(ui.item[0]).data("layer").setZIndex(index);
         },
         stop: function(event, ui) {
+            var len = $('#sortable').sortable('toArray').length;
             ($('#sortable').sortable('toArray')).map(function(item){
-                $('#'+item).data("layer").setZIndex($('#'+item).index());
+                $('#'+item).data("layer").setZIndex(len-$('#'+item).index()-1);
             });
 
         }
