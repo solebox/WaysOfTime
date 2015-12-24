@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.core import serializers
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
+
 from viewer.models import Maps, MyMaps
 from rest_framework import viewsets
 from viewer.serializers import MapsSerializer, MyMapsSerializer
