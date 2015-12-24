@@ -28,20 +28,14 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-
-
     <div id="slider" class="mdl-layout__drawer">
         <header>
-
-
-                    <span class="mdl-layout-title">
-                        <a href="/">
-                            <img id="mainLogo" src="../static/img/mapabazman-logo-v1.png">
-                        </a>
-                    </span>
+            <span class="mdl-layout-title">
+                <a href="/">
+                    <img id="mainLogo" src="../static/img/mapabazman-logo-v1.png">
+                </a>
+            </span>
             <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect layer-button-info"
                     data-dialog="dialog"><i class="material-icons">info</i></button>
             <div class="mdl-grid">
@@ -58,21 +52,16 @@
         {% block slider_content %}{% endblock %}
     </div>
 </div>
+
 <div class="mdl-layout__drawer-right">
-
     <div id="layers_slider" class="">
-
-
         <ul id="sortable"></ul>
     </div>
-
 </div>
 
 <main class="mdl-layout__content">
     {% block content %}{% endblock %}
 </main>
-
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="{% static 'js/vendor/jquery.lazyload.js' %}"></script>
