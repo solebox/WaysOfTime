@@ -17,10 +17,15 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from rest_framework import routers
 from viewer import views
+from django.contrib.sitemaps.views import sitemap
+
+from viewer import sitemaps
 
 router = routers.DefaultRouter()
 router.register(r'maps', views.MapsViewSet)
 router.register(r'my_maps', views.MyMapsViewSet)
+
+sitemaps = {'map': sitemaps.MapSitemap}
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -31,4 +36,6 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^getLayer/(?P<img_id>[-\w]+)/$',views.getLayer),
     url(r'^api/v1/', include(router.urls)),
+    url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
+    name='django.contrib.sitemaps.views.sitemap')
 ]
