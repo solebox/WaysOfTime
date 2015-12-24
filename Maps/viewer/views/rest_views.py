@@ -16,7 +16,7 @@ class MapsViewSet(viewsets.ModelViewSet):
 
 class MyMapsViewSet(viewsets.ModelViewSet):
     """
-    API view of MyMaps O.o
+    API view of MyMaps O.O
     """
     queryset = MyMaps.objects.all().order_by()
     serializer_class = MyMapsSerializer

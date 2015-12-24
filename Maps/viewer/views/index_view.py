@@ -5,16 +5,16 @@ from viewer.models import Maps, MyMaps
 
 
 def index(request):
-    '''This is the index views.'''
+    '''
+    This is the index views.
+    '''
     return render(request, 'index.html')
 
 
-def privacyAndTerms(request):
-    '''privacy and terms page'''
-    return render(request, 'privacyAndTerms.html')
-
 def getImage(request, img_id):
-    ''' get an image url to place on the page when thumbnail is clicked '''
+    '''
+    get an image url to place on the page when thumbnail is clicked
+    '''
     my_map = Maps.objects.filter(id__contains=img_id)
 
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
