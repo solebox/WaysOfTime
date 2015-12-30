@@ -1,25 +1,26 @@
-<div class="mdl-card maps-card mdl-cell mdl-cell--10-col ">
-    <div class="mdl-card__media"></div>
+<div id="id' + ctr + '" data-id="' + newMap.id + '" class="demo-card-image mdl-card mdl-shadow--2dp"
+     style="background: url({{ thumb_url }}) center / cover;">
+
+    <div class="mdl-card__title mdl-card--expand"><h2 class="mdl-card__title-text">{{ title }}</h2></div>
+    <div class="mdl-card__menu">
+        <button class="show-info{{ id }} mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">info</i>
+        </button>
+        <button id="delete" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">clear</i>
+        </button>
+    </div>
 
     <div class="mdl-card__actions">
-        <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+        <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="100" tabindex="0"/>
     </div>
 </div>
 
-<div id="chosenLayers" class="mdl-layout--fixed-drawer">
-    <div class="mdl-layout__drawer">
-
-        <nav class="mdl-navigation">
-
-        <div id="layers_slider" class="mdl-grid">
-            <ul id="sortable">
-                </ul>
-            </div>
-
-            </div>
-    </div>
-    <main class="mdl-layout__content">
-        <div class="page-content">
-        </div>
-    </main>
-</div>
+<script>
+    $('.mdl-card').on('click', '.show-info{{ id }}', function () {
+        showDialog({
+            title: '{{ title }}',
+            text: "{{ id }}"
+        })
+    });
+</script>
