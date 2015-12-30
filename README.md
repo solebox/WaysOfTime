@@ -23,6 +23,12 @@ user.password_confirmation = "12345678"
 user.save
 
 ```
+    if we want to give that user api access we can do that bu executing the following commands:
+```
+        user = User.objects.all()[0]
+        token = Token.object.create(user=u)
+        print(token.key)
+```
 When you'll type the last command (`user.save`) there'll be a url in the console output, copy it to the browser to activate the user, and try to login to the system.
 
 ## Contribute
