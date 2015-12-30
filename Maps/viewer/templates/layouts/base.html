@@ -17,7 +17,6 @@
         <link rel="stylesheet" href="{% static 'css/main.css' %}">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
-        <link rel="stylesheet" href="../../static/bower_components/material-modal/dist/css/material-modal.min.css">
         <script src="{% static 'js/vendor/modernizr-2.8.3.min.js' %}"></script>
 
         {% block header %}{% endblock %}
@@ -28,37 +27,6 @@
         <![endif]-->
 
         <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-
-            <!-- Efi modal -->
-            <div id="modal" class="modal modal__bg">
-                <div class="modal__dialog">
-                    <div class="modal__content">
-                        <div class="modal__header">
-                            <div class="modal__title">
-                                <h2 class="modal__title-text">Modal</h2>
-                            </div>
-
-                            <span class="mdl-button mdl-button--icon mdl-js-button  material-icons  modal__close"></span>
-                        </div>
-
-
-                        <div class="modal__text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam accusantium facere
-                                suscipit, alias accusamus corrupti consequatur at porro, voluptates commodi sed omnis voluptatem, ex
-                                officiis illum, architecto fugiat id?
-                            </p>
-                            <a href="http://markrabey.com" target="_blank">Open Link</a>
-                        </div>
-
-                        <div class="modal__footer">
-                            <a class="mdl-button mdl-button--colored mdl-js-button  modal__close">
-                                Close
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div id="slider" class="mdl-layout__drawer">
                 <header>
@@ -105,7 +73,6 @@
         <script src="{% static 'js/plugins.js' %}"></script>
         <script src="{% static 'js/main.js' %}"></script>
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-        <script src="../../static/bower_components/material-modal/src/js/material-modal.js"></script>
         {% block script %}{% endblock %}
     </body>
 </html>
