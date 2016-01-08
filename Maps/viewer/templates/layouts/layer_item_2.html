@@ -1,0 +1,12 @@
+{% for map in maps %}
+<li class='thumbnail-click'>
+    <div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("{{ map.url }}") center / cover;'>
+        <!-- please remove style from markup and move it to a css file -->
+        <img src='"{{ map.url }}"' data-id='"{{ map.id }}"' />
+                <div class='mdl-card__actions'>
+                    <span class='demo-card-image__filename'>{{ map.title }}</span>
+                </div>
+    </div>
+</li>
+{% endfor %}
+{{ sample }}

@@ -145,32 +145,23 @@ $(function (){
  * @param string - the string to search in db, "null" if there isn't any.
  */
 function fetch_thumbnails(string){
-    $.getJSON("getThumbs/" + string, function(data){
-        var thumbs =[];
-        var thumbs_container = $("#thumb");
-        $.each(data, function(key, thumb){
-            thumbs.push(
-                "<li class='thumbnail-click'><div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
-                "<img src='"+thumb.url+"' data-id='"+thumb.id+"' style='visibility:hidden;'/>" +
-                "<div class='mdl-card__actions'>" +
-                "<span class='demo-card-image__filename'>" + thumb.title + "</span>" +
-                "</div></div></li>");
-        });
+    $.get("getThumbs/" + string, function(data){
 
-        $.each(thumbs, function(key, marked_up_thumb){
-            thumbs_container.append(marked_up_thumb);
-        });
+        var thumbs_container = $("#thumb");
+
+        thumbs_container.append(data);
+
 
         if ($().lazyload) {
-            $("img.lazy").lazyload({
-                container: $("#slider"),
-                effect : "fadeIn"
-            });
+            //$("img.lazy").lazyload({
+            //    container: $("#slider"),
+            //    effect : "fadeIn"
+            //});
         } else {
             console.log("lazyload plugin was too lazy to load");
         }
     });
-};
+}
 
 
 /**

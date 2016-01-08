@@ -1,5 +1,7 @@
 import os
 from django.http import JsonResponse
+from django.shortcuts import render
+
 from viewer.models import Maps, MyMaps
 from django.db.models import Q
 
@@ -13,8 +15,9 @@ def getThumbs(request, stringToSearch):
         maps = Maps.objects.filter(Q(title__contains=stringToSearch)|Q(description__contains=stringToSearch)|Q(subject_area__contains=stringToSearch)|Q(cached_tag_list__contains=stringToSearch))
     else:
         maps = Maps.objects.all()
-
-    return makeJsonReq(request, maps);
+    val_dict = {'maps': maps}
+    val_dict["sample"] = maps[0]
+    return render(request, 'layouts/layer_item_2.html',val_dict)
 
 
 def makeJsonReq(request, maps):

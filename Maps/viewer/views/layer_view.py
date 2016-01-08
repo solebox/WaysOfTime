@@ -47,3 +47,4 @@ def getGeoThumbs(request):
     # val_dict['thumb_url'] = url.format(id=map.id,thumb_name_ext_stripped=thumb_file_name)
     # val_dict['thumb_path'] = path.format(id=map.id, thumb_name_ext_stripped=thumb_file_name)
     # return render(request, 'layouts/layer_item.html', val_dict)
+
