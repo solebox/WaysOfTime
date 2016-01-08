@@ -1,5 +1,17 @@
 $(document).ready(function(){
     fetch_thumbnails("null");
+
+    $('#layers_slider').on('click', 'button.show-info', function (e) {
+        var map_id = $(this).attr('id');
+         $.get("/get_map_info/" + map_id, function (info) {
+            showDialog({
+                text: info
+            })
+
+        });
+
+
+    });
 });
 
 $(function (){
@@ -13,24 +25,24 @@ $(function (){
      *  Set the image-map on the map and add it to chosen layers.
      */
     $('#thumb').on('click', '.thumbnail-click', function(){
-        var imgId = $(this).find('img').data('id');
+        var map_id = $(this).find('img').data('id');
         var thumbPng = $(this).find('img').attr('src');
 
-        if ($.inArray(imgId, chosenMaps) !== -1){
+        if ($.inArray(map_id, chosenMaps) !== -1){
             var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;padding: 5px;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 250px;min-height: 100px;z-index: 10;'><p>Can't load the some image twice.</p><button id='popup-button'>OK</button></div>");
 
             $('#map').append(modal);
             return;
         }
-        chosenMaps.push(imgId);
+        chosenMaps.push(map_id);
 
         // Add support for right side drawer
         $('.mdl-layout__drawer-right').addClass('active');
         $(this).hide();
 
-        $.get("/getMapById/" + imgId, function (maps) {
+        $.get("/get_map_by_id/" + map_id, function (maps) {
             $.each(maps, function (i, map) {
-                addNewLayer(imgId,map);
+                addNewLayer(map_id,map);
             });
         });
     });
@@ -88,10 +100,10 @@ $(function (){
      * @param newMap
      * @param pngUrl
      */
-    function addNewLayer(imgId,newMap) {
+    function addNewLayer(map_id,newMap) {
         var newLayer = L.tileLayer(newMap.url);
 
-        $.get("getLayer/" + String(imgId), function(data) {
+        $.get("getLayer/" + String(map_id), function(data) {
             var elem =$(data);
             $($("#layers_slider").find("#sortable")).append(elem);
             elem.data("layer",newLayer);
@@ -281,3 +293,7 @@ function hideDialog(dialog) {
         dialog.remove();
     }, 400);
 }
+
+
+
+

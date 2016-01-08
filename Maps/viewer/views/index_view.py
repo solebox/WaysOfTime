@@ -11,11 +11,11 @@ def index(request):
     return render(request, 'index.html')
 
 
-def getImage(request, img_id):
+def get_map_by_id(request, map_id):
     '''
     get an image url to place on the page when thumbnail is clicked
     '''
-    my_map = Maps.objects.filter(id__contains=img_id)
+    my_map = Maps.objects.filter(id__contains=map_id)
 
     url = "http://localhost:3000/maps/tile/{id}/{xyz}.png"
 

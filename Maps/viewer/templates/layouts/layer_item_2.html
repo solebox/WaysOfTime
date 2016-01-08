@@ -1,10 +1,14 @@
-{% for map in maps %}
-<li class='thumbnail-click'>
-    <div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("{{ map.url }}") center / cover;'>
-        <!-- please remove style from markup and move it to a css file -->
-        <img src='"{{ map.url }}"' data-id='"{{ map.id }}"' />
-                <div class='mdl-card__actions'>
+{% for map in maps_with %}
+<li class='thumbnail-click' id="map-{{ map.id }}">
+    <div class='demo-card-image mdl-card mdl-shadow--2dp'>
+        {%  include "partials/card_menu.html" %}
+<!-- remove invisible class on click and move
+          card to right slider menu -->
+        <img src="{{ map.url }}" data-id="{{ map.id }}" />
+                <div class='mdl-card__actions' >
                     <span class='demo-card-image__filename'>{{ map.title }}</span>
+                    <input class="invisible" type="range" min="0" max="100" value="100" tabindex="0" />
+<!--                  onclick change class to mdl-slider mdl-js-slider -->
                 </div>
     </div>
 </li>

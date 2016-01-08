@@ -48,3 +48,11 @@ def getGeoThumbs(request):
     # val_dict['thumb_path'] = path.format(id=map.id, thumb_name_ext_stripped=thumb_file_name)
     # return render(request, 'layouts/layer_item.html', val_dict)
 
+def get_map_info(request, map_id):
+    val_dict = {}
+    val_dict['map_name'] = 'mappy'
+    val_dict['map_info'] = 'this map is very mapppy indeed , we love mappy map map.\
+        it has been a long time since we have seen info about a map.\
+        and what concrete and amazing info it is!'
+    return render(request, 'partials/map_info.html', val_dict)
+
