@@ -23,10 +23,10 @@ $(function (){
      *  Set the image-map on the map and add it to chosen layers.
      */
     $('#thumb').on('click', '.thumbnail-click', function(){
-
-        var map_img = $(this).find('img')
-        var map_id = map_img.data('id');
-        var thumbPng = map_img.attr('src');
+        var map_thumpnail = $(this);
+        var map_image = map_thumpnail.find('img');
+        var map_id = map_image.data('id');
+        var thumbPng = map_image.attr('src');
 
 
         if ($.inArray(map_id, chosenMaps) !== -1){
@@ -43,11 +43,12 @@ $(function (){
 
         // Add support for right side drawer
         $('.mdl-layout__drawer-right').addClass('active');
-        $(this).hide();
+        map_thumpnail.detach();
 
         $.get("/get_map_by_id/" + map_id, function (maps) {
+            console.log(maps[0]);
             $.each(maps, function (i, map) {
-                addNewLayer(map_id,map);
+                addNewLayer(map_thumpnail, map_id, map);
             });
         });
     });
@@ -105,36 +106,33 @@ $(function (){
      * @param newMap
      * @param pngUrl - the id of the map we want to fetch
      */
-    function addNewLayer(map_id, newMap) {
+    function addNewLayer(map_thumbnail, map_id, newMap) {
         var newLayer = L.tileLayer(newMap.url);
+        $("#sortable").append(map_thumbnail);
+        map_thumbnail.data("layer",newLayer);
 
-        $.get("getLayer/" + String(map_id), function(data) {
-            var elem =$(data);
-            $($("#layers_slider").find("#sortable")).append(elem);
-            elem.data("layer",newLayer);
-            componentHandler.upgradeDom();
+        componentHandler.upgradeDom();
 
-            elem.find(".delete").on('click',function(e) {
-                window.NLIMaps.map.removeLayer(newLayer);
-                elem.remove();
-                var idToRemove = $(this).parents(".demo-card-image").data("id");
-                chosenMaps.splice(chosenMaps.indexOf(idToRemove));
+        map_thumbnail.find(".delete").on('click',function(e) {
+            window.NLIMaps.map.removeLayer(newLayer);
+            map_thumbnail.remove();
+            var idToRemove = $(this).parents(".demo-card-image").data("id");
+            chosenMaps.splice(chosenMaps.indexOf(idToRemove));
 
-                if(!$('#sortable').children().length){
-                    $('.mdl-layout__drawer-right').removeClass('active');
-                }
-            });
-
-            elem.find("#info").on("click", function(){
-                $("#modal").toggle();
-            });
-
-            elem.find(".mdl-slider").on('change', function (e) {
-                newLayer.setOpacity(this.value / 100.0);
-            });
-            newLayer.addTo(window.NLIMaps.map);
-            layer_counter++;
+            if(!$('#sortable').children().length){
+                $('.mdl-layout__drawer-right').removeClass('active');
+            }
         });
+
+        map_thumbnail.find("#info").on("click", function(){
+            $("#modal").toggle();
+        });
+
+        map_thumbnail.find(".mdl-slider").on('change', function (e) {
+            newLayer.setOpacity(this.value / 100.0);
+        });
+        newLayer.addTo(window.NLIMaps.map);
+        layer_counter++;
 
 
     }
