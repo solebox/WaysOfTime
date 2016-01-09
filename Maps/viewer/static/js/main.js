@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    fetch_thumbnails("null");
+    fetch_thumbnails("null"); /* lol */
 
     $('#layers_slider').on('click', 'button.show-info', function (e) {
         var map_id = $(this).attr('id');
@@ -17,7 +17,7 @@ $(document).ready(function(){
 $(function (){
     "use strict"
 
-    var ctr = 0;
+    var layer_counter = 0; /* what does layer_counter mean? why are you counting the amount of successful getLayer requests */
     var chosenMaps = [];
 
     /**
@@ -25,13 +25,20 @@ $(function (){
      *  Set the image-map on the map and add it to chosen layers.
      */
     $('#thumb').on('click', '.thumbnail-click', function(){
-        var map_id = $(this).find('img').data('id');
-        var thumbPng = $(this).find('img').attr('src');
+
+        var map_img = $(this).find('img')
+        var map_id = map_img.data('id');
+        var thumbPng = map_img.attr('src');
+
 
         if ($.inArray(map_id, chosenMaps) !== -1){
-            var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;padding: 5px;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 250px;min-height: 100px;z-index: 10;'><p>Can't load the some image twice.</p><button id='popup-button'>OK</button></div>");
+            //var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;" +
+            //    "padding: 5px;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 250px;min-height: 100px;" +
+            //    "z-index: 10;'><p>Can't load the some image twice.</p><button id='popup-button'>OK</button></div>");
 
-            $('#map').append(modal);
+            //$('#map').append(modal);
+            /* isn't this nicer?  */
+            showDialog({title: 'Error', text : "Please refrain from selecting the same map again and again"});
             return;
         }
         chosenMaps.push(map_id);
@@ -98,9 +105,9 @@ $(function (){
     /**
      *
      * @param newMap
-     * @param pngUrl
+     * @param pngUrl - the id of the map we want to fetch
      */
-    function addNewLayer(map_id,newMap) {
+    function addNewLayer(map_id, newMap) {
         var newLayer = L.tileLayer(newMap.url);
 
         $.get("getLayer/" + String(map_id), function(data) {
@@ -109,7 +116,7 @@ $(function (){
             elem.data("layer",newLayer);
             componentHandler.upgradeDom();
 
-            elem.find("#delete").on('click',function(e) {
+            elem.find(".delete").on('click',function(e) {
                 window.NLIMaps.map.removeLayer(newLayer);
                 elem.remove();
                 var idToRemove = $(this).parents(".demo-card-image").data("id");
@@ -128,7 +135,7 @@ $(function (){
                 newLayer.setOpacity(this.value / 100.0);
             });
             newLayer.addTo(window.NLIMaps.map);
-            ctr++;
+            layer_counter++;
         });
 
 
@@ -189,6 +196,7 @@ $('.mdl-layout__drawer-button').click(function(){
 function showLoading() {
     // remove existing loaders
     $('.loading-container').remove();
+    /* you sick sick person :) */
     $('<div id="orrsLoader" class="loading-container"><div><div class="mdl-spinner mdl-js-spinner is-active"></div></div></div>').appendTo("body");
 
     componentHandler.upgradeElements($('.mdl-spinner').get());
