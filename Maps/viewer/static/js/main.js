@@ -7,7 +7,7 @@ $(function (){
     fetch_thumbnails("null"); /* lol */
 
     $('#layers_slider').on('click', 'button.show-info', function (e) {
-        var map_id = $(this).attr('id');
+        var map_id = $(this).data("id");
          $.get("/get_map_info/" + map_id, function (info) {
             showDialog({
                 text: info
@@ -98,7 +98,7 @@ $(function (){
     });
 
 
-    $( "ul, li" ).disableSelection();
+    //$( "ul, li" ).disableSelection();
 
 
     /**
@@ -108,8 +108,12 @@ $(function (){
      */
     function addNewLayer(map_thumbnail, map_id, newMap) {
         var newLayer = L.tileLayer(newMap.url);
+        /* id use a less ambiguose id for the selected_thumbnail_list */
         $("#sortable").append(map_thumbnail);
         map_thumbnail.data("layer",newLayer);
+
+        map_thumbnail.find(".mdl-card__menu").removeClass("invisible");
+        map_thumbnail.find(".thumb-slider").removeClass("invisible").addClass("mdl-slider mdl-js-slider");
 
         componentHandler.upgradeDom();
 

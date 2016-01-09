@@ -35,7 +35,6 @@ urlpatterns = [
     url(r'get_map_info/(?P<map_id>\d+)/$', views.get_map_info),
     url(r'^getGeoThumbs/$', views.getGeoThumbs),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    url(r'^getLayer/(?P<img_id>[-\w]+)/$',views.getLayer),
     url(r'^api/v1/', include(router.urls)),
 
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
