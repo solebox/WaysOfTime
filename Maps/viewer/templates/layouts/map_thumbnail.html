@@ -5,11 +5,11 @@
 <!-- remove invisible class on click and move
           card to right slider menu -->
         <img src="{{ map.url }}" data-id="{{ map.id }}" />
-                <div class='mdl-card__actions' >
-                    <span class='demo-card-image__filename'>{{ map.title }}</span>
-                    <input class="invisible" type="range" min="0" max="100" value="100" tabindex="0" />
+        <div class='mdl-card__actions' >
+            <span class='demo-card-image__filename'>{{ map.title }}</span>
+            <input class="invisible" type="range" min="0" max="100" value="100" tabindex="0" />
 <!--                  onclick change class to mdl-slider mdl-js-slider -->
-                </div>
+        </div>
     </div>
 </li>
 {% endfor %}

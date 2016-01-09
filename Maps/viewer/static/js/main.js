@@ -1,4 +1,9 @@
-$(document).ready(function(){
+$(function (){
+    "use strict"
+
+    var layer_counter = 0; /* what does layer_counter mean? why are you counting the amount of successful getLayer requests */
+    var chosenMaps = [];
+
     fetch_thumbnails("null"); /* lol */
 
     $('#layers_slider').on('click', 'button.show-info', function (e) {
@@ -12,13 +17,6 @@ $(document).ready(function(){
 
 
     });
-});
-
-$(function (){
-    "use strict"
-
-    var layer_counter = 0; /* what does layer_counter mean? why are you counting the amount of successful getLayer requests */
-    var chosenMaps = [];
 
     /**
      *  Handle thumbnail click.

@@ -19,7 +19,7 @@ def get_thumbs(request, stringToSearch):
         maps = Maps.objects.all()
     maps_with_urls = [generate_url_for_map(map) for map in maps]
     val_dict = {'maps_with': maps_with_urls}
-    return render(request, 'layouts/layer_item_2.html',val_dict)
+    return render(request, 'layouts/map_thumbnail.html', val_dict)
 
 
 def generate_url_for_map(map):
