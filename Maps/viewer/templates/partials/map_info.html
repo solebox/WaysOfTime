@@ -1,6 +1,9 @@
 <div class="map_info">
-    <h2>{{ map_name }}</h2>
+    <h2>{{ data.map_title }}</h2>
+
+    {% for key, value in data.items%}
     <p>
-        {{ map_info }}
+        {{key}}:{{value}}
     </p>
+    {% endfor %}
 </div>

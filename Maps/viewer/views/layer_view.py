@@ -28,10 +28,13 @@ def getGeoThumbs(request):
 
 def get_map_info(request, map_id):
     map = Maps.objects.filter(id__contains=map_id)[0]
+
     val_dict = {}
-    val_dict['map_name'] = map.title
-    val_dict['map_info'] = 'this map is very mapppy indeed , we love mappy map map.\
-        it has been a long time since we have seen info about a map.\
-        and what concrete and amazing info it is!'
-    return render(request, 'partials/map_info.html', val_dict)
+    for att in map.__dict__:
+        val_dict["map_{0}".format(att)]=map.__dict__[att]
+
+    data = {}
+    data['data'] = val_dict
+
+    return render(request, 'partials/map_info.html', data)
 
