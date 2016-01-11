@@ -1,36 +1,54 @@
-$(document).ready(function(){
-    fetch_thumbnails("null");
-});
-
 $(function (){
     "use strict"
 
-    var ctr = 0;
+    var layer_counter = 0; /* what does layer_counter mean? why are you counting the amount of successful getLayer requests */
     var chosenMaps = [];
+
+    fetch_thumbnails("null"); /* lol */
+
+    $('#layers_slider').on('click', 'button.show-info', function (e) {
+        var map_id = $(this).data("id");
+         $.get("/get_map_info/" + map_id, function (info) {
+            showDialog({
+                text: info
+            })
+
+        });
+
+
+    });
 
     /**
      *  Handle thumbnail click.
      *  Set the image-map on the map and add it to chosen layers.
      */
     $('#thumb').on('click', '.thumbnail-click', function(){
-        var imgId = $(this).find('img').data('id');
-        var thumbPng = $(this).find('img').attr('src');
+        var map_thumpnail = $(this);
+        var map_image = map_thumpnail.find('img');
+        var map_id = map_image.data('id');
+        var thumbPng = map_image.attr('src');
 
-        if ($.inArray(imgId, chosenMaps) !== -1){
-            var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;padding: 5px;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 250px;min-height: 100px;z-index: 10;'><p>Can't load the some image twice.</p><button id='popup-button'>OK</button></div>");
 
-            $('#map').append(modal);
+        if ($.inArray(map_id, chosenMaps) !== -1){
+            //var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;" +
+            //    "padding: 5px;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 250px;min-height: 100px;" +
+            //    "z-index: 10;'><p>Can't load the some image twice.</p><button id='popup-button'>OK</button></div>");
+
+            //$('#map').append(modal);
+            /* isn't this nicer?  */
+            showDialog({title: 'Error', text : "Please refrain from selecting the same map again and again"});
             return;
         }
-        chosenMaps.push(imgId);
+        chosenMaps.push(map_id);
 
         // Add support for right side drawer
         $('.mdl-layout__drawer-right').addClass('active');
-        $(this).hide();
+        map_thumpnail.detach();
 
-        $.get("/getMapById/" + imgId, function (maps) {
+        $.get("/get_map_by_id/" + map_id, function (maps) {
+            console.log(maps[0]);
             $.each(maps, function (i, map) {
-                addNewLayer(imgId,map);
+                addNewLayer(map_thumpnail, map_id, map);
             });
         });
     });
@@ -80,44 +98,45 @@ $(function (){
     });
 
 
-    $( "ul, li" ).disableSelection();
+    //$( "ul, li" ).disableSelection();
 
 
     /**
      *
      * @param newMap
-     * @param pngUrl
+     * @param pngUrl - the id of the map we want to fetch
      */
-    function addNewLayer(imgId,newMap) {
+    function addNewLayer(map_thumbnail, map_id, newMap) {
         var newLayer = L.tileLayer(newMap.url);
+        /* id use a less ambiguose id for the selected_thumbnail_list */
+        $("#sortable").append(map_thumbnail);
+        map_thumbnail.data("layer",newLayer);
 
-        $.get("getLayer/" + String(imgId), function(data) {
-            var elem =$(data);
-            $($("#layers_slider").find("#sortable")).append(elem);
-            elem.data("layer",newLayer);
-            componentHandler.upgradeDom();
+        map_thumbnail.find(".mdl-card__menu").removeClass("invisible");
+        map_thumbnail.find(".thumb-slider").removeClass("invisible").addClass("mdl-slider mdl-js-slider");
 
-            elem.find("#delete").on('click',function(e) {
-                window.NLIMaps.map.removeLayer(newLayer);
-                elem.remove();
-                var idToRemove = $(this).parents(".demo-card-image").data("id");
-                chosenMaps.splice(chosenMaps.indexOf(idToRemove));
+        componentHandler.upgradeDom();
 
-                if(!$('#sortable').children().length){
-                    $('.mdl-layout__drawer-right').removeClass('active');
-                }
-            });
+        map_thumbnail.find(".delete").on('click',function(e) {
+            window.NLIMaps.map.removeLayer(newLayer);
+            map_thumbnail.remove();
+            var idToRemove = $(this).parents(".demo-card-image").data("id");
+            chosenMaps.splice(chosenMaps.indexOf(idToRemove));
 
-            elem.find("#info").on("click", function(){
-                $("#modal").toggle();
-            });
-
-            elem.find(".mdl-slider").on('change', function (e) {
-                newLayer.setOpacity(this.value / 100.0);
-            });
-            newLayer.addTo(window.NLIMaps.map);
-            ctr++;
+            if(!$('#sortable').children().length){
+                $('.mdl-layout__drawer-right').removeClass('active');
+            }
         });
+
+        map_thumbnail.find("#info").on("click", function(){
+            $("#modal").toggle();
+        });
+
+        map_thumbnail.find(".mdl-slider").on('change', function (e) {
+            newLayer.setOpacity(this.value / 100.0);
+        });
+        newLayer.addTo(window.NLIMaps.map);
+        layer_counter++;
 
 
     }
@@ -145,32 +164,23 @@ $(function (){
  * @param string - the string to search in db, "null" if there isn't any.
  */
 function fetch_thumbnails(string){
-    $.getJSON("getThumbs/" + string, function(data){
-        var thumbs =[];
-        var thumbs_container = $("#thumb");
-        $.each(data, function(key, thumb){
-            thumbs.push(
-                "<li class='thumbnail-click'><div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
-                "<img src='"+thumb.url+"' data-id='"+thumb.id+"' style='visibility:hidden;'/>" +
-                "<div class='mdl-card__actions'>" +
-                "<span class='demo-card-image__filename'>" + thumb.title + "</span>" +
-                "</div></div></li>");
-        });
+    $.get("getThumbs/" + string, function(data){
 
-        $.each(thumbs, function(key, marked_up_thumb){
-            thumbs_container.append(marked_up_thumb);
-        });
+        var thumbs_container = $("#thumb");
+
+        thumbs_container.append(data);
+
 
         if ($().lazyload) {
-            $("img.lazy").lazyload({
-                container: $("#slider"),
-                effect : "fadeIn"
-            });
+            //$("img.lazy").lazyload({
+            //    container: $("#slider"),
+            //    effect : "fadeIn"
+            //});
         } else {
             console.log("lazyload plugin was too lazy to load");
         }
     });
-};
+}
 
 
 /**
@@ -186,6 +196,7 @@ $('.mdl-layout__drawer-button').click(function(){
 function showLoading() {
     // remove existing loaders
     $('.loading-container').remove();
+    /* you sick sick person :) */
     $('<div id="orrsLoader" class="loading-container"><div><div class="mdl-spinner mdl-js-spinner is-active"></div></div></div>').appendTo("body");
 
     componentHandler.upgradeElements($('.mdl-spinner').get());
@@ -290,3 +301,7 @@ function hideDialog(dialog) {
         dialog.remove();
     }, 400);
 }
+
+
+
+
