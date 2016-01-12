@@ -32,7 +32,7 @@ urlpatterns = [
     url(r'^$', views.index, name='home'),
     url(r'^get_map_by_id/(?P<map_id>\d+)/$', views.get_map_by_id),
     url(r'^getThumbs/(?P<stringToSearch>[-\w.]+)/$', views.get_thumbs),
-    url(r'get_map_info/(?P<map_id>\d+)/$', views.get_map_info),
+    url(r'get_map_info/(?P<pk>\d+)/$', views.MapInfoView.as_view()),
     url(r'^getGeoThumbs/$', views.getGeoThumbs),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^api/v1/', include(router.urls)),

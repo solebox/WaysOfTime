@@ -1,7 +1,6 @@
-from django.shortcuts import render
-from django.http import JsonResponse
+from django.views.generic import DetailView
 from viewer.models import Maps
-import os
+
 
 def getGeoThumbs(request):
     '''
@@ -26,9 +25,7 @@ def getGeoThumbs(request):
     # val_dict['thumb_path'] = path.format(id=map.id, thumb_name_ext_stripped=thumb_file_name)
     # return render(request, 'layouts/layer_item.html', val_dict)
 
-def get_map_info(request, map_id):
-    map = Maps.objects.get(id=map_id)
-    return render(request, 'partials/map_info.html', {
-        'map': map,
-    })
 
+class MapInfoView(DetailView):
+    model = Maps
+    template_name = 'partials/map_info.html'
