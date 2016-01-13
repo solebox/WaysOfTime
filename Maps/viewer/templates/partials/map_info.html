@@ -1,9 +1,7 @@
 <div class="map_info">
-    <h2>{{ data.map_title }}</h2>
-
-    {% for key, value in data.items%}
+    <h2>{{ object.title }}</h2>
     <p>
-        {{key}}:{{value}}
+        {{ object.description|linebreaks }}
     </p>
     {% endfor %}
 </div>
