@@ -26,11 +26,11 @@ function createMap() {
 
     // Initialise the draw control and pass it the FeatureGroup of editable layers
     var drawControl = new L.Control.Draw({
-        position: 'topright',
+        position: 'topleft',
         draw: {
-            polyline: {
-                metric: true
-            },
+            //polyline: {
+            //    metric: true
+            //},
             polygon: {
                 allowIntersection: false,
                 showArea: true,
@@ -42,11 +42,11 @@ function createMap() {
                     color: '#bada55'
                 }
             },
-            circle: {
-                shapeOptions: {
-                    color: '#662d91'
-                }
-            },
+            //circle: {
+            //    shapeOptions: {
+            //        color: '#662d91'
+            //    }
+            //},
             marker: false
         },
         edit: {
@@ -73,6 +73,7 @@ function createMap() {
         }
 
         drawnItems.addLayer(layer);
+        debugger;
         geoSearch(layer._latlngs);
     });
 
@@ -83,6 +84,10 @@ function createMap() {
             countOfEditedLayers++;
         });
         console.log("Edited " + countOfEditedLayers + " layers");
+        for (var layerObject in layers._layers) {
+            debugger;
+            geoSearch(layers._layers[layerObject]._latlngs);
+        }
     });
     return baseMap;
 }
@@ -122,5 +127,9 @@ function geoSearch(array) {
             type: 'POST',
             url: '/getGeoThumbs/',
             data: {'lenlat[]': array},
+    }).done(function(data) {
+        $('#thumb').empty()
+        var thumbs_container = $("#thumb");
+        thumbs_container.append(data);
     });
 }
