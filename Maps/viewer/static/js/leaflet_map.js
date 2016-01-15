@@ -73,7 +73,6 @@ function createMap() {
         }
 
         drawnItems.addLayer(layer);
-        debugger;
         geoSearch(layer._latlngs);
     });
 
@@ -85,7 +84,6 @@ function createMap() {
         });
         console.log("Edited " + countOfEditedLayers + " layers");
         for (var layerObject in layers._layers) {
-            debugger;
             geoSearch(layers._layers[layerObject]._latlngs);
         }
     });
@@ -131,5 +129,6 @@ function geoSearch(array) {
         $('#thumb').empty()
         var thumbs_container = $("#thumb");
         thumbs_container.append(data);
+        $('.mdl-layout__drawer-button').trigger('click')
     });
 }
