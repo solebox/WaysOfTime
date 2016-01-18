@@ -18,4 +18,4 @@ screen -S servers -X -p mapwarper stuff 'rails s -b 0.0.0.0 -p 3000'$(echo -ne '
 screen -S servers -X -p viewer stuff './manage.py runserver 0.0.0.0:8000'$(echo -ne '\015')
 
 #now attach to the screen (remember that a screen is created with one additional tab , use it for general commands , the other 2 are named and are running the servers as mentioned above) 
-#screen -r servers
+screen -r servers

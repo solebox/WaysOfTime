@@ -86,9 +86,14 @@ textarea {
 
 .mdl-layout__header, .mdl-layout__drawer-button,
 .mdl-layout__header-row .mdl-navigation__link {
- /* This background is dark, so we set text to white. Use 87% black instead if
-    your background is light. */
  color: black;
+}
+
+.mdl-layout > .mdl-layout__drawer-button > i {
+  background-color: #fff;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 3px;
 }
 
 .mdl-mini-footer__left-section {
@@ -106,8 +111,9 @@ textarea {
 
 .mdl-layout__drawer >.mdl-layout__title, .mdl-layout__drawer .mdl-layout-title {
   text-align: center;
-  padding-left: 0;
-  padding-top: 5px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 5px;
 }
 
 .mdl-grid > .mdl-textfield {
@@ -116,6 +122,7 @@ textarea {
 
 #search {
     width: 100%;
+    margin-top: -10px;
 }
 
 #search > .mdl-button {
@@ -162,6 +169,10 @@ textarea {
 li.thumbnail-click{
   display:block;
   padding: 0 10px 10px 10px;
+}
+
+#map > .leaflet-map-pane > .leaflet-top > .leaflet-draw {
+    z-index: 10;
 }
 
 /* ==========================================================================

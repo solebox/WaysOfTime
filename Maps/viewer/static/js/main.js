@@ -370,11 +370,8 @@ $(function (){
  */
 function fetch_thumbnails(string){
     $.get("getThumbs/" + string, function(data){
-
         var thumbs_container = $("#thumb");
-
         thumbs_container.append(data);
-
 
         if ($().lazyload) {
             //$("img.lazy").lazyload({

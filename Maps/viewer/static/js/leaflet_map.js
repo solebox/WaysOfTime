@@ -26,11 +26,11 @@ function createMap() {
 
     // Initialise the draw control and pass it the FeatureGroup of editable layers
     var drawControl = new L.Control.Draw({
-        position: 'topright',
+        position: 'topleft',
         draw: {
-            polyline: {
-                metric: true
-            },
+            //polyline: {
+            //    metric: true
+            //},
             polygon: {
                 allowIntersection: false,
                 showArea: true,
@@ -42,11 +42,11 @@ function createMap() {
                     color: '#bada55'
                 }
             },
-            circle: {
-                shapeOptions: {
-                    color: '#662d91'
-                }
-            },
+            //circle: {
+            //    shapeOptions: {
+            //        color: '#662d91'
+            //    }
+            //},
             marker: false
         },
         edit: {
@@ -83,25 +83,52 @@ function createMap() {
             countOfEditedLayers++;
         });
         console.log("Edited " + countOfEditedLayers + " layers");
+        for (var layerObject in layers._layers) {
+            geoSearch(layers._layers[layerObject]._latlngs);
+        }
     });
     return baseMap;
 }
 
+// using jQuery
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie != '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
 
 function geoSearch(array) {
-    debugger;
-    $.get("getThumbs/" + { "left-down": array[0], "left-up": array[1], "right-up": array[2], "right-down": array[3] })
-    .done(function(data){
-        var thumbs =[];
+    $.ajaxSetup({
+        beforeSend: function(xhr, settings) {
+            if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                xhr.setRequestHeader("X-CSRFToken", csrftoken);
+            }
+        }
+    });
+    var csrftoken = getCookie('csrftoken');
+    $.ajax({
+            type: 'POST',
+            url: '/getGeoThumbs/',
+            data: {'lenlat[]': array},
+    }).done(function(data) {
+        $('#thumb').empty()
         var thumbs_container = $("#thumb");
-        $.each(data, function(key, thumb){
-            debugger;
-            thumbs.push(
-                "<li class='thumbnail-click'><div class='demo-card-image mdl-card mdl-shadow--2dp' style='background: url("+ thumb.url +") center / cover;'>" +
-                "<img src='"+thumb.url+"' data-id='"+thumb.id+"' style='visibility:hidden;'/>" +
-                "<div class='mdl-card__actions'>" +
-                "<span class='demo-card-image__filename'>" + thumb.title + "</span>" +
-                "</div></div></li>");
-        });
+        thumbs_container.append(data);
+        $('.mdl-layout__drawer-button').trigger('click')
     });
 }
