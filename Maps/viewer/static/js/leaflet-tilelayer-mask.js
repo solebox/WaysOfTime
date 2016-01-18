@@ -1,4 +1,4 @@
-(function() {
+(function(window) {
 
 	// Utility
 
@@ -154,4 +154,4 @@
 	L.tileLayer.mask = function(url, options) {
 		return new L.TileLayer.Mask(url, options);
 	};
-})();
+})(window);
