@@ -24,7 +24,8 @@ def get_map_by_id(request, map_id):
         'title': my_map[0].title,
         'url': url.format(id=my_map[0].id, xyz='{z}/{x}/{y}'),
         'year': my_map[0].date_depicted,
-        'author': my_map[0].authors
+        'author': my_map[0].authors,
+        'bbox' : my_map[0].bbox
     }], safe=False)
 
     return response

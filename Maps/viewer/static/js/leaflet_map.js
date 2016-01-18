@@ -57,12 +57,26 @@ function createMap() {
     baseMap.addControl(drawControl);
 
     // create a base map layer
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    var boxmap = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
                     maxZoom: 18,
                     id: 'nirgn975.cigmtjxyw000rc3knz02njkhn',
                     accessToken: 'pk.eyJ1IjoibmlyZ245NzUiLCJhIjoiY2lnbXRqeTcxMDAwdmx6a3RueGViemV0eCJ9.3wBhw04dxzXHfd56yUfufQ'
-    }).addTo(baseMap);
+    }),
+        ovi_mpas = L.tileLayer("http://maptile.maps.svc.ovi.com/maptiler/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8"),
+        osm_map = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"),
+        hike_map = L.tileLayer("http://osm.org.il/IsraelHiking/Tiles/{z}/{x}/{y}.png");
+
+    boxmap.addTo(baseMap);
+    var baseMaps = {
+    "Base Map": boxmap,
+    "OVI Map": ovi_mpas,
+    "OSM Map": osm_map,
+    "Hike Map":hike_map
+    };
+
+
+    L.control.layers(baseMaps).addTo(baseMap);
 
     baseMap.on('draw:created', function (e) {
         var type = e.layerType,

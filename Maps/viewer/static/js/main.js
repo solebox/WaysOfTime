@@ -100,7 +100,13 @@ $(function (){
 
     //$( "ul, li" ).disableSelection();
 
+    function  zoomLayer(bbox){
+        var t =bbox.split(",");
+        var b1 = t.slice(0,2);
+        var b2 = t.slice(2,4);
 
+        window.NLIMaps.map.fitBounds([b1.reverse(),b2.reverse()],{padding:[100,100]});
+    }
     /**
      *
      * @param newMap
@@ -108,8 +114,13 @@ $(function (){
      */
     function addNewLayer(map_thumbnail, map_id, newMap) {
         var newLayer = L.tileLayer(newMap.url);
+
+        zoomLayer(newMap.bbox)
+
         /* id use a less ambiguose id for the selected_thumbnail_list */
         $("#sortable").prepend(map_thumbnail);
+
+
         map_thumbnail.data("layer",newLayer);
 
         map_thumbnail.find(".mdl-card__menu").removeClass("invisible");
@@ -132,6 +143,9 @@ $(function (){
             $("#modal").toggle();
         });
 
+        map_thumbnail.find(".zoom-map").on("click", function(){
+            zoomLayer(newMap.bbox);
+        });
 
         var layers_list = [];
         var fg;
