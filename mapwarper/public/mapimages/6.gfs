@@ -1,0 +1,14 @@
+<GMLFeatureClassList>
+  <GMLFeatureClass>
+    <Name>features</Name>
+    <ElementPath>features</ElementPath>
+    <GeometryType>3</GeometryType>
+    <DatasetSpecificInfo>
+      <FeatureCount>1</FeatureCount>
+      <ExtentXMin>6.13436</ExtentXMin>
+      <ExtentXMax>207.17679</ExtentXMax>
+      <ExtentYMin>13.49792</ExtentYMin>
+      <ExtentYMax>101.10815</ExtentYMax>
+    </DatasetSpecificInfo>
+  </GMLFeatureClass>
+</GMLFeatureClassList>

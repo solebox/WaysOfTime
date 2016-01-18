@@ -1,0 +1,209 @@
+<sear:SEGMENTS xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search"><sear:JAGROOT><sear:RESULT><sear:QUERYTRANSFORMS/><sear:FACETLIST ACCURATE_COUNTERS="true"><sear:FACET NAME="creator" COUNT="1"><sear:FACET_VALUES KEY="Wilson Charles William" VALUE="1"/></sear:FACET><sear:FACET NAME="lang" COUNT="1"><sear:FACET_VALUES KEY="eng" VALUE="1"/></sear:FACET><sear:FACET NAME="rtype" COUNT="1"><sear:FACET_VALUES KEY="Maps" VALUE="1"/></sear:FACET><sear:FACET NAME="topic" COUNT="1"><sear:FACET_VALUES KEY="Jerusalem (Israel)" VALUE="1"/></sear:FACET><sear:FACET NAME="tlevel" COUNT="2"><sear:FACET_VALUES KEY="online_resources" VALUE="1"/><sear:FACET_VALUES KEY="available_in_RR" VALUE="1"/></sear:FACET><sear:FACET NAME="pfilter" COUNT="1"><sear:FACET_VALUES KEY="Maps" VALUE="1"/></sear:FACET><sear:FACET NAME="creationdate" COUNT="1"><sear:FACET_VALUES KEY="1900" VALUE="1"/></sear:FACET><sear:FACET NAME="genre" COUNT="2"><sear:FACET_VALUES KEY="מפות" VALUE="1"/><sear:FACET_VALUES KEY="Maps" VALUE="1"/></sear:FACET><sear:FACET NAME="local6" COUNT="1"><sear:FACET_VALUES KEY="ראליסטית" VALUE="1"/></sear:FACET><sear:FACET NAME="local8" COUNT="2"><sear:FACET_VALUES KEY="1:3,670" VALUE="1"/><sear:FACET_VALUES KEY="1:3,670 feet=1/2 mile" VALUE="1"/></sear:FACET></sear:FACETLIST><sear:DOCSET HIT_TIME="154" TOTALHITS="1" FIRSTHIT="1" LASTHIT="1" TOTAL_TIME="177" IS_LOCAL="true"><sear:DOC ID="5258404" RANK="8.2884066E-10" NO="1" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine"><PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib">
+<record>
+<control>
+<sourcerecordid>002366990</sourcerecordid> 
+<sourceid>NNL_MAPS</sourceid> 
+<recordid>NNL_MAPS002366990</recordid> 
+<originalsourceid>NNL01</originalsourceid> 
+<ilsapiid>NNL01002366990</ilsapiid> 
+<sourceformat>MARC21</sourceformat> 
+<sourcesystem>Aleph</sourcesystem> 
+</control>
+<display>
+<type>map</type> 
+<title>Plan of Jerusalem :;&amp;nbsp;Reduced by permission from the Ordnance plan 1:2,500 scale made by ... Charles W. Wilson... to illustrate recent discoveries</title> 
+<creator>Wilson Charles William, Sir, 1836-1905</creator> 
+<publisher>Palestine Exploration Fund</publisher> 
+<creationdate>1900, October</creationdate> 
+<format>1 sheet ; 78 X 56 cm..</format> 
+<subject>Jerusalem (Israel) -- Maps</subject> 
+<language>eng</language> 
+<source>The National Library of Israel</source> 
+<availlibrary>$$INNL$$LMAP$$2(Jer 318 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP</availlibrary> 
+<lds01>Scale 1:3,670</lds01> 
+<lds01>Scale 1:3,670 feet=1/2 mile</lds01> 
+<lds05>Index of sites.</lds05> 
+<lds08>002366990</lds08> 
+<lds11>No restrictions; Permissions officer; Israel Copyright Act</lds11> 
+<lds13>Jer318</lds13> 
+<lds17>Jer 318</lds17> 
+<lds21>http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&amp;docId=NNL_MAPS002366990</lds21> 
+<lds40>IE6879826</lds40> 
+<lds41>http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&amp;dps_pid=IE6879826</lds41> 
+<lds42>http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879826</lds42> 
+<lds46>IIPIMAGE_COMPLEX</lds46> 
+<availinstitution>$$INNL$$Savailable</availinstitution><availpnx>available</availpnx></display>
+<links>
+<backlink>$$Taleph_backlink$$Ebacklink</backlink> 
+<linktorsrc>$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879826</linktorsrc> 
+<thumbnail>$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&amp;dps_pid=IE6879826</thumbnail> 
+<openurlfulltext>$$Topenurlfull_journal</openurlfulltext> 
+<linktoholdings>$$Taleph_holdings</linktoholdings> 
+<lln01>$$Ujnul.huji.ac.il/dl/maps/jer/html/jer318.htm</lln01> 
+<openurl>$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879826</openurl> 
+</links>
+<search>
+<creatorcontrib>Charles William,  Wilson  Sir, 1836-1905</creatorcontrib> 
+<creatorcontrib>וילסון, צ’רלס ויליאם,  1836-1905</creatorcontrib> 
+<creatorcontrib>Wilson,  Capt., 1836-1905</creatorcontrib> 
+<creatorcontrib>Colonel,  Wilson  1836-1905</creatorcontrib> 
+<creatorcontrib>וילסון, צ’רלס וילים,  1836-1905</creatorcontrib> 
+<creatorcontrib>Wilson, C</creatorcontrib> 
+<creatorcontrib>וילסון</creatorcontrib> 
+<creatorcontrib>Wilson</creatorcontrib> 
+<creatorcontrib>Wilson Charles William Sir 1836 1905</creatorcontrib> 
+<title>Plan of Jerusalem : Reduced by permission from the Ordnance plan 1:2,500 scale made by ... Charles W. Wilson... to illustrate recent discoveries</title> 
+<subject>Jerusalem (Israel) Maps Y M</subject> 
+<subject>ירושלים (ישראל) מפות Y</subject> 
+<general>Palestine Exploration Fund, 1900, October.</general> 
+<general>Plan of Jerusalem : Reduced by permission from the Ordnance plan 1:2,500 scale made by ... Charles W. Wilson... to illustrate recent discoveries [cartographic material]</general> 
+<general>eng</general> 
+<general>Index of sites.</general> 
+<general>MAP</general> 
+<general>EMAP</general> 
+<general>MAPS</general> 
+<general>LAORCITY</general> 
+<sourceid>NNL_MAPS</sourceid> 
+<recordid>NNL_MAPS002366990</recordid> 
+<rsrctype>map</rsrctype> 
+<rsrctype>MAP</rsrctype> 
+<rsrctype>EMAP</rsrctype> 
+<creationdate>1900</creationdate> 
+<startdate>19000101</startdate> 
+<enddate>19001231</enddate> 
+<searchscope>NNL_MAPS</searchscope> 
+<searchscope>MAP</searchscope> 
+<searchscope>DIG</searchscope> 
+<scope>NNL_MAPS</scope> 
+<scope>MAP</scope> 
+<scope>DIG</scope> 
+<lsr01>Palestine Exploration Fund,</lsr01> 
+<lsr03>002366990</lsr03> 
+<lsr03>02366990</lsr03> 
+<lsr03>2366990</lsr03> 
+<lsr04>Jer 318</lsr04> 
+<lsr04>Jer318</lsr04> 
+<lsr06>Plan</lsr06> 
+<lsr06>of</lsr06> 
+<lsr06>Jerusalem</lsr06> 
+<lsr06>ampnbspReduced</lsr06> 
+<lsr06>by</lsr06> 
+<lsr06>permission</lsr06> 
+<lsr06>from</lsr06> 
+<lsr06>the</lsr06> 
+<lsr06>Ordnance</lsr06> 
+<lsr06>plan</lsr06> 
+<lsr06>12500</lsr06> 
+<lsr06>scale</lsr06> 
+<lsr06>made</lsr06> 
+<lsr06>Charles</lsr06> 
+<lsr06>W</lsr06> 
+<lsr06>Wilson</lsr06> 
+<lsr06>to</lsr06> 
+<lsr06>illustrate</lsr06> 
+<lsr06>recent</lsr06> 
+<lsr06>discoveries</lsr06> 
+<lsr07>Plan</lsr07> 
+<lsr07>of</lsr07> 
+<lsr07>Jerusalem</lsr07> 
+<lsr07>ampnbspReduced</lsr07> 
+<lsr07>by</lsr07> 
+<lsr07>permission</lsr07> 
+<lsr07>from</lsr07> 
+<lsr07>the</lsr07> 
+<lsr07>Ordnance</lsr07> 
+<lsr07>plan</lsr07> 
+<lsr07>12500</lsr07> 
+<lsr07>scale</lsr07> 
+<lsr07>made</lsr07> 
+<lsr07>Charles</lsr07> 
+<lsr07>W</lsr07> 
+<lsr07>Wilson</lsr07> 
+<lsr07>to</lsr07> 
+<lsr07>illustrate</lsr07> 
+<lsr07>recent</lsr07> 
+<lsr07>discoveries</lsr07> 
+<lsr08>Plan of Jerusalem Reduced by permission from the Ordnance plan 1 2 500 scale made by Charles W Wilson to illustrate recent discoveries</lsr08> 
+<lsr08>Plan of Jerusalem amp nbsp Reduced by permission from the Ordnance plan 1 2 500 scale made by Charles W Wilson to illustrate recent discoveries</lsr08> 
+<lsr08>1900 October</lsr08> 
+<lsr08>Jerusalem Israel Maps Y M</lsr08> 
+<lsr08>ירושלים ישראל מפות Y</lsr08> 
+<lsr08>Palestine Exploration Fund</lsr08> 
+<lsr08>Palestine Exploration Fund 1900 October</lsr08> 
+<lsr08>Plan of Jerusalem Reduced by permission from the Ordnance plan 1 2 500 scale made by Charles W Wilson to illustrate recent discoveries cartographic material</lsr08> 
+<lsr08>eng</lsr08> 
+<lsr08>Index of sites</lsr08> 
+<lsr08>MAP</lsr08> 
+<lsr08>EMAP</lsr08> 
+<lsr08>MAPS</lsr08> 
+<lsr08>LAORCITY</lsr08> 
+<lsr30>NNL_MAPS002366990</lsr30> 
+</search>
+<sort>
+<title>Plan of Jerusalem : Reduced by permission from the Ordnance plan 1:2,500 scale made by ... Charles W. Wilson... to illustrate recent discoveries</title> 
+<creationdate>19000000</creationdate> 
+<author>Wilson, Charles William, Sir, 1836-1905</author> 
+<lso01>19000000</lso01> 
+</sort>
+<facets>
+<language>eng</language> 
+<creationdate>1900</creationdate> 
+<topic>Jerusalem (Israel)–Maps</topic> 
+<toplevel>available_in_RR</toplevel> 
+<toplevel>online_resources</toplevel> 
+<prefilter>maps</prefilter> 
+<rsrctype>maps</rsrctype> 
+<creatorcontrib>Wilson Charles William</creatorcontrib> 
+<genre>Maps</genre> 
+<genre>מפות</genre> 
+<lfc06>ראליסטית</lfc06> 
+<lfc08>1:3,670</lfc08> 
+<lfc08>1:3,670 feet=1/2 mile</lfc08> 
+<frbrgroupid>160680391</frbrgroupid><frbrtype>6</frbrtype></facets>
+<dedup>
+<t>99</t> 
+<c3>mngplanofjerusalemreiscoveries</c3> 
+<c4>1900</c4> 
+<f5>planofjerusalemreduciscoveries</f5> 
+<f6>1900</f6> 
+<f7>plan of jerusalem reduced by permission from the ordnance plan 1 2 500 scale made by charles w wilson to illustrate recent discoveries</f7> 
+<f9>1 sheet ;</f9> 
+<f10>palestine exploration fund</f10> 
+<f11>wilson charles william sir 1836 1905</f11> 
+</dedup>
+<frbr>
+<t>99</t> 
+<k1>$$Kwilson charles william sir 1836 1905$$AA</k1> 
+<k3>$$Kplan of jerusalem reduced by permission from the ordnance plan 1 2 500 scale made by charles w wilson to illustrate recent discoveries$$AT</k3> 
+</frbr>
+<delivery>
+<institution>NNL_MAPS</institution> 
+<delcategory>Online Resource</delcategory> 
+</delivery>
+<ranking>
+<booster1>1</booster1> 
+<booster2>1</booster2> 
+</ranking>
+<addata>
+<aulast>Wilson</aulast> 
+<aufirst>Charles William,</aufirst> 
+<au>Wilson, Charles William, Sir, 1836-1905</au> 
+<btitle>Plan of Jerusalem :;&amp;nbsp;Reduced by permission from the Ordnance plan 1:2,500 scale made by ... Charles W. Wilson... to illustrate recent discoveries</btitle> 
+<date>1900</date> 
+<risdate>1900, October.</risdate> 
+<format>book</format> 
+<pub>Palestine Exploration Fund</pub> 
+<oclcid>234161994</oclcid> 
+</addata>
+<browse>
+<author>$$DWilson, Charles William, Sir, 1836-1905$$EWilson, Charles William, Sir, 1836-1905$$INNL10000142180$$PY M</author> 
+<author>$$Dוילסון, צ’רלס ויליאם, 1836-1905$$Eוילסון, צ’רלס ויליאם, 1836-1905$$INNL10000142180$$PY</author> 
+<author>$$DWilson, Capt., 1836-1905$$EWilson, Capt., 1836-1905$$INNL10000142180$$PN</author> 
+<author>$$DWilson, Colonel, 1836-1905$$EWilson, Colonel, 1836-1905$$INNL10000142180$$PN</author> 
+<author>$$Dוילסון, צ’רלס וילים, 1836-1905$$Eוילסון, צ’רלס וילים, 1836-1905$$INNL10000142180$$PN</author> 
+<title>$$DPlan of Jerusalem : Reduced by permission from the Ordnance plan 1:2,500 scale made by ... Charles W. Wilson... to illustrate recent discoveries$$EPlan of Jerusalem : Reduced by permission from the Ordnance plan 1:2,500 scale made by ... Charles W. Wilson... to illustrate recent discoveries</title> 
+<subject>$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M</subject> 
+<subject>$$Dירושלים (ישראל) -- מפות$$Eירושלים (ישראל) מפות$$INNL10000936483$$PY</subject> 
+<institution>NNL_MAPS</institution> 
+</browse>
+</record></PrimoNMBib><sear:GETIT deliveryCategory="Online Resource" GetIt1="http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879826" GetIt2=""/><sear:GETIT deliveryCategory="Physical Item" GetIt1="OVP" GetIt2=""/><sear:LIBRARIES><sear:LIBRARY><sear:institution>NNL</sear:institution><sear:library>MAP</sear:library><sear:status>available</sear:status><sear:collection/><sear:callNumber>(Jer 318 )</sear:callNumber><sear:url>OVP</sear:url></sear:LIBRARY></sear:LIBRARIES><sear:LINKS><sear:openurl>http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879826</sear:openurl><sear:backlink>http://aleph.nli.org.il/F?func=direct&amp;local_base=NNL01&amp;doc_number=002366990</sear:backlink><sear:linktorsrc>http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879826</sear:linktorsrc><sear:thumbnail>http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&amp;dps_pid=IE6879826</sear:thumbnail><sear:openurlfulltext><![CDATA[http://sfxhostedeu.exlibrisgroup.com/nnl?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2016-01-12T10%3A30%3A51IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-NNL_MAPS&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=Plan+of+Jerusalem+%3A%3B%26nbsp%3BReduced+by+permission+from+the+Ordnance+plan+1%3A2%2C500+scale+made+by+...+Charles+W.+Wilson...+to+illustrate+recent+discoveries&rft.aulast=Wilson&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=Wilson%2C+Charles+William%2C+Sir%2C+1836-1905&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&svc.fulltext=yes&rft_dat=<NNL_MAPS>002366990</NNL_MAPS><grp_id>160680391</grp_id><oa></oa>&rft.eisbn=&rft_id=info:oai/&req.language=]]></sear:openurlfulltext><sear:linktoholdings>OVP</sear:linktoholdings><sear:lln01>jnul.huji.ac.il/dl/maps/jer/html/jer318.htm</sear:lln01></sear:LINKS></sear:DOC></sear:DOCSET></sear:RESULT><sear:searchToken>0</sear:searchToken></sear:JAGROOT></sear:SEGMENTS>
