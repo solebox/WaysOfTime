@@ -109,7 +109,7 @@ $(function (){
     function addNewLayer(map_thumbnail, map_id, newMap) {
         var newLayer = L.tileLayer(newMap.url);
         /* id use a less ambiguose id for the selected_thumbnail_list */
-        $("#sortable").append(map_thumbnail);
+        $("#sortable").prepend(map_thumbnail);
         map_thumbnail.data("layer",newLayer);
 
         map_thumbnail.find(".mdl-card__menu").removeClass("invisible");
