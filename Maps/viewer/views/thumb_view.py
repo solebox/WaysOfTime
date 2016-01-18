@@ -34,5 +34,3 @@ def generate_url_for_map(map):
     map_with_url['url'] = url.format(id=map.id, thumb_name_ext_stripped=thumb_file_name)
     map_with_url['upload_file_name'] = map.upload_file_name
     return map_with_url
-
-

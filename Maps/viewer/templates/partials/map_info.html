@@ -1,6 +1,22 @@
-<div class="map_info">
-    <h5>{{ object.title }}</h5>
-    <p>
-        {{ object.description|linebreaks }}
-    </p>
-</div>
+
+	<div class="mdl-card__title">
+		<h2 class="mdl-card__title-text">{{ object.title }}</h2>
+	</div>
+    
+    <div class="mdl-card__supporting-text">
+    	<hr />
+    	<img style="float:right; margin-left: 22px;" src="http://localhost:3000/uploads/{{object.id}}/thumb/{{object.upload_file_name}}" alt="{{ object.description }}" />
+    	<p>{{ object.description }}</p>
+
+    	<p><strong>Area:</strong> {{ object.subject_area}}</p>
+    	<p><strong>Scale:</strong>{{ object.scale }}</p>
+		
+		<hr/>	
+	    <small><strong>Publisher:</strong> {{ object.publisher }}</small><br/>
+	    <small><strong>Author:</strong> {{ object.authors }}</small><br/>
+	    
+	    <small><strong>Date of Publication:</strong> {{ object.published_date }}</small>
+	    
+    </div>
+
+

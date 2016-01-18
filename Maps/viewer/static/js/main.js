@@ -2,10 +2,10 @@
 $(function (){
     "use strict"
 
-    var layer_counter = 0; /* what does layer_counter mean? why are you counting the amount of successful getLayer requests */
+    var layer_counter = 0;
     var chosenMaps = [];
 
-    fetch_thumbnails("null"); /* lol */
+    fetch_thumbnails("null");
 
     $('#layers_slider').on('click', 'button.show-info', function (e) {
         var map_id = $(this).data("id");
@@ -13,10 +13,7 @@ $(function (){
             showDialog({
                 text: info
             })
-
         });
-
-
     });
 
     /**
@@ -28,7 +25,6 @@ $(function (){
         var map_image = map_thumpnail.find('img');
         var map_id = map_image.data('id');
         var thumbPng = map_image.attr('src');
-
 
         if ($.inArray(map_id, chosenMaps) !== -1){
             //var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;" +
@@ -84,10 +80,8 @@ $(function (){
             ($('#sortable').sortable('toArray')).map(function(item){
                 $('#'+item).data("layer").setZIndex(len-$('#'+item).index()-1);
             });
-
         }
     });
-
 
     /**
      * Remove the popup modal when his
@@ -107,6 +101,7 @@ $(function (){
 
         window.NLIMaps.map.fitBounds([b1.reverse(),b2.reverse()],{padding:[100,100]});
     }
+
     /**
      *
      * @param newMap
@@ -203,10 +198,7 @@ $(function (){
 
         newLayer.addTo(window.NLIMaps.map);
         layer_counter++;
-
-
     }
-
 
     /**
      *
@@ -219,9 +211,7 @@ $(function (){
             };
         });
     }
-
 });
-
 
 /**
  *  Fetch thumbnails from the db, and place them in thumb div (in the slider)
@@ -245,15 +235,12 @@ function fetch_thumbnails(string){
     });
 }
 
-
 /**
  * Hide the left slider when clicked
  */
 $('.mdl-layout__drawer-button').click(function(){
     $('#').toggle();
 });
-
-
 
 /******* *******/
 function showLoading() {
@@ -364,7 +351,3 @@ function hideDialog(dialog) {
         dialog.remove();
     }, 400);
 }
-
-
-
-

@@ -19,3 +19,7 @@ mapwarper/public/mapimages/src/*
 
 ## Directory-based project format:
 .idea/
+
+
+./mapwarper/db/schema.rb
+./mapwarper/log/development.log
