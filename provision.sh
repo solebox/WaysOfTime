@@ -5,6 +5,9 @@ chmod +x ./lib/vagrant/provision.sh
 ./lib/vagrant/provision.sh
 popd
 pushd /srv/viewer
+sudo apt-get install -y software-properties-common python-software-properties
+sudo add-apt-repository ppa:fkrull/deadsnakes-python2.7
+sudo apt-get update
 sudo apt-get install -y python python-pip python-dev build-essential libpq-dev
 sudo pip install -r requirements.txt
 popd
