@@ -21,6 +21,7 @@
 .leaflet-container {
 	overflow: hidden;
 	-ms-touch-action: none;
+	touch-action: none;
 	}
 .leaflet-tile,
 .leaflet-marker-icon,
@@ -58,12 +59,12 @@
 	-moz-user-select: none;
 	}
 
-.leaflet-tile-pane    { z-index: 10; }
-.leaflet-objects-pane { z-index: 11; }
-.leaflet-overlay-pane { z-index: 12; }
-.leaflet-shadow-pane  { z-index: 13; }
-.leaflet-marker-pane  { z-index: 14; }
-.leaflet-popup-pane   { z-index: 15; }
+.leaflet-tile-pane    { z-index: 2; }
+.leaflet-objects-pane { z-index: 3; }
+.leaflet-overlay-pane { z-index: 4; }
+.leaflet-shadow-pane  { z-index: 5; }
+.leaflet-marker-pane  { z-index: 6; }
+.leaflet-popup-pane   { z-index: 7; }
 
 .leaflet-vml-shape {
 	width: 1px;
@@ -80,7 +81,7 @@
 
 .leaflet-control {
 	position: relative;
-	z-index: 10;
+	z-index: 7;
 	pointer-events: auto;
 	}
 .leaflet-top,
@@ -109,13 +110,13 @@
 	float: right;
 	}
 .leaflet-top .leaflet-control {
-	margin-top: 60px;
+	margin-top: 10px;
 	}
 .leaflet-bottom .leaflet-control {
 	margin-bottom: 10px;
 	}
 .leaflet-left .leaflet-control {
-	margin-left: 20px;
+	margin-left: 10px;
 	}
 .leaflet-right .leaflet-control {
 	margin-right: 10px;
@@ -278,12 +279,12 @@
 	border-radius: 5px;
 	}
 .leaflet-control-layers-toggle {
-	background-image: url(../../img/orientation59.png);
+	background-image: url(images/layers.png);
 	width: 36px;
 	height: 36px;
 	}
 .leaflet-retina .leaflet-control-layers-toggle {
-	background-image: url(../../img/orientation59.png);
+	background-image: url(images/layers-2x.png);
 	background-size: 26px 26px;
 	}
 .leaflet-touch .leaflet-control-layers-toggle {
