@@ -1,0 +1,3628 @@
+{
+    "NNL01002367981.tif": {
+        "addata": {
+            "addau": [
+                "Symonds, John Frederick Anthony, fl. ca. 1840",
+                "Williams, G",
+                "Wyld, James, 1812-1887",
+                "Lowry, Joseph Wilson"
+            ],
+            "au": "Aldrich, Edward",
+            "aufirst": "Edward",
+            "aulast": "Aldrich",
+            "btitle": "Plan of the town and environs of Jerusalem;&nbsp;From the original drawing of the survey made in the month of March 1841 /;&nbsp;By Lieutts. Aldrich and Symonds... The writings added by the Revd. G. Williams... and the Revd. Robert Willis. Engraved by J.W. Lowry.",
+            "cop": "London]",
+            "date": "1846",
+            "format": "book",
+            "oclcid": "714292207",
+            "pub": "James Wyld",
+            "risdate": "[1846]."
+        },
+        "browse": {
+            "author": [
+                "$$DAldrich, Edward$$EAldrich, Edward$$INNL10000008360$$PY M",
+                "$$DSymonds, John Frederick Anthony, fl. ca. 1840$$ESymonds, John Frederick Anthony, fl. ca. 1840$$INNL10000128788$$PY M",
+                "$$DWilliams, G$$EWilliams, G$$INNL10000516328$$PY M",
+                "$$DWyld, James, 1812-1887$$EWyld, James, 1812-1887$$INNL10000268025$$PY M",
+                "$$DLowry, Joseph Wilson$$ELowry, Joseph Wilson$$PM"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DPlan of the town and environs of Jerusalem From the original drawing of the survey made in the month of March 1841$$EPlan of the town and environs of Jerusalem From the original drawing of the survey made in the month of March 1841"
+        },
+        "control": {
+            "ilsapiid": "NNL01002367981",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002367981",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002367981",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngplanofthetownandefmarch1841",
+            "c4": "1846",
+            "f10": "james wyld",
+            "f11": "aldrich edward",
+            "f5": "planofthetownandenvironsofjerusalemfromtheoriginaldrawingofthesurveymadeinthemonthofmarch1841",
+            "f6": "1846",
+            "f7": "plan of the town and environs of jerusalem from the original drawing of the survey made in the month of march 1841",
+            "f8": "enk",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 97 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "John Frederick Anthony Symonds fl. ca. 1840; G Williams; James Wyld 1812-1887; Joseph Wilson Lowry",
+            "creationdate": "1846",
+            "creator": "Aldrich Edward",
+            "format": "632x740 mm..",
+            "language": "eng",
+            "lds01": "Scale not given.",
+            "lds05": [
+                "Insets: \"Detailed plan of the Temple area\"; \"El-Kalah - Castle of David\"",
+                "\"James Wyld, Geographer to the Queen\"",
+                "Plan drawn 1841, published 1846."
+            ],
+            "lds08": "002367981",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer097",
+            "lds17": "Jer 97 ; Laor 939",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002367981",
+            "lds40": "IE6881067",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6881067",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6881067",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "[London] :James Wyld",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Plan of the town and environs of Jerusalem;&nbsp;From the original drawing of the survey made in the month of March 1841 /;&nbsp;By Lieutts. Aldrich and Symonds... The writings added by the Revd. G. Williams... and the Revd. Robert Willis. Engraved by J.W. Lowry.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1846",
+            "creatorcontrib": [
+                "Aldrich Edward",
+                "Symonds John Frederick Anthony",
+                "Williams G",
+                "Wyld James",
+                "Lowry Joseph Wilson"
+            ],
+            "frbrgroupid": "160674212",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "eng",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "London",
+            "lfc08": "not given",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kaldrich edward$$AA",
+            "k3": "$$Kplan of the town and environs of jerusalem from the original drawing of the survey made in the month of march 1841$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6881067",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer097.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6881067",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6881067"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1846",
+            "creatorcontrib": [
+                "Edward  Aldrich",
+                "Aldrich, E",
+                "By Lieutts. Aldrich and Symonds... The writings added by the Revd. G. Williams... and the Revd. Robert Willis. Engraved by J.W. Lowry.",
+                "John Frederick Anthony,  Symonds  fl. ca. 1840",
+                "G.  Williams",
+                "James,  Wyld  1812-1887",
+                "Joseph Wilson  Lowry",
+                "Symonds, J",
+                "Williams, G",
+                "Wyld, J",
+                "Lowry, J",
+                "Aldrich Edward",
+                "John Frederick Anthony Symonds fl ca 1840 G Williams James Wyld 1812 1887 Joseph Wilson Lowry"
+            ],
+            "enddate": "18461231",
+            "general": [
+                "[London] : James Wyld, [1846].",
+                "Plan of the town and environs of Jerusalem [cartographic material] : From the original drawing of the survey made in the month of March 1841 / By Lieutts. Aldrich and Symonds... The writings added by the Revd. G. Williams... and the Revd. Robert Willis. Engraved by J.W. Lowry.",
+                "eng",
+                "Insets: \"Detailed plan of the Temple area\"; \"El-Kalah - Castle of David\"",
+                "\"James Wyld, Geographer to the Queen\"",
+                "Plan drawn 1841, published 1846.",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "[London] : James Wyld,",
+            "lsr03": [
+                "002367981",
+                "02367981",
+                "2367981"
+            ],
+            "lsr04": [
+                "Jer 97 ; Laor 939",
+                "Jer97;Laor939",
+                "Jer 97",
+                "Jer97",
+                "Laor 939",
+                "Laor939"
+            ],
+            "lsr06": [
+                "Plan",
+                "of",
+                "the",
+                "town",
+                "and",
+                "environs",
+                "JerusalemampnbspFrom",
+                "original",
+                "drawing",
+                "survey",
+                "made",
+                "in",
+                "month",
+                "March",
+                "1841",
+                "ampnbspBy",
+                "Lieutts",
+                "Aldrich",
+                "Symonds",
+                "The",
+                "writings",
+                "added",
+                "by",
+                "Revd",
+                "G",
+                "Williams",
+                "Robert",
+                "Willis",
+                "Engraved",
+                "JW",
+                "Lowry"
+            ],
+            "lsr07": [
+                "Plan",
+                "of",
+                "the",
+                "town",
+                "and",
+                "environs",
+                "JerusalemampnbspFrom",
+                "original",
+                "drawing",
+                "survey",
+                "made",
+                "in",
+                "month",
+                "March",
+                "1841",
+                "ampnbspBy",
+                "Lieutts",
+                "Aldrich",
+                "Symonds",
+                "The",
+                "writings",
+                "added",
+                "by",
+                "Revd",
+                "G",
+                "Williams",
+                "Robert",
+                "Willis",
+                "Engraved",
+                "JW",
+                "Lowry"
+            ],
+            "lsr08": [
+                "Plan of the town and environs of Jerusalem From the original drawing of the survey made in the month of March 1841",
+                "Plan of the town and environs of Jerusalem amp nbsp From the original drawing of the survey made in the month of March 1841 amp nbsp By Lieutts Aldrich and Symonds The writings added by the Revd G Williams and the Revd Robert Willis Engraved by J W Lowry",
+                "1846",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "London James Wyld",
+                "London James Wyld 1846",
+                "Plan of the town and environs of Jerusalem cartographic material From the original drawing of the survey made in the month of March 1841 By Lieutts Aldrich and Symonds The writings added by the Revd G Williams and the Revd Robert Willis Engraved by J W Lowry",
+                "eng",
+                "Insets quot Detailed plan of the Temple area quot quot El Kalah Castle of David quot",
+                "quot James Wyld Geographer to the Queen quot",
+                "Plan drawn 1841 published 1846",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002367981",
+            "recordid": "NNL_MAPS002367981",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18460101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Plan of the town and environs of Jerusalem From the original drawing of the survey made in the month of March 1841 /"
+        },
+        "sort": {
+            "author": "Aldrich, Edward",
+            "creationdate": "18460000",
+            "lso01": "18460000",
+            "title": "Plan of the town and environs of Jerusalem From the original drawing of the survey made in the month of March 1841 /"
+        }
+    },
+    "NNL01002368127.tif": {
+        "addata": {
+            "addau": [
+                "Velde, Charles William Meredith van de, 1818-1898",
+                "Bovet, F\u00e9lix, 1824-1903",
+                "Gendre, F",
+                "\u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea \u05d5\u05d0\u05df \u05d3\u05e8, 1818-1898",
+                "Van de Velde, Carel Willem Meredith, 1818-1898",
+                "Velde, Carel Willem Meredith van de, 1818-1898",
+                "Van der Velde, Charles William Meredith, 1818-1898",
+                "Velde, Charles William Meredith van der, 1818-1898",
+                "Bovet, Felix",
+                "Bovet, Eug\u00e8ne Victor F\u00e9lix, 1824-1903",
+                "\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea, 1818-1898"
+            ],
+            "au": "Mandrot, Louis Alphonse de, 1814-1882",
+            "aufirst": "Louis Alphonse de,",
+            "aulast": "Mandrot",
+            "btitle": "Plan de J\u00e9rusalem d'apres M. Van de Velde;&nbsp;dessin\u00e9 par A. de Mandrot Lt. Colonel d'Etat Major. Lith. F. Gendre.",
+            "cop": "Neuch\u00e2tel",
+            "date": "1860",
+            "format": "book",
+            "oclcid": "234166367",
+            "pub": "Lith. F. Gendre",
+            "risdate": "[186-]."
+        },
+        "browse": {
+            "author": [
+                "$$DMandrot, Louis Alphonse de, 1814-1882$$EMandrot, Louis Alphonse de, 1814-1882$$INNL10000283278$$PY M",
+                "$$DMandrot, Louis Alphonse de$$EMandrot, Louis Alphonse de$$INNL10000283278$$PN",
+                "$$DVelde, Charles William Meredith van de, 1818-1898$$EVelde, Charles William Meredith van de, 1818-1898$$INNL10000137257$$PY M",
+                "$$DBovet, F\u00e9lix, 1824-1903$$EBovet, F\u00e9lix, 1824-1903$$INNL10000023634$$PY M",
+                "$$DGendre, F$$EGendre, F$$PM",
+                "$$D\u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea \u05d5\u05d0\u05df \u05d3\u05e8, 1818-1898$$E\u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea \u05d5\u05d0\u05df \u05d3\u05e8, 1818-1898$$INNL10000137257$$PY",
+                "$$DVan de Velde, Carel Willem Meredith, 1818-1898$$EVan de Velde, Carel Willem Meredith, 1818-1898$$INNL10000137257$$PN",
+                "$$DVelde, Carel Willem Meredith van de, 1818-1898$$EVelde, Carel Willem Meredith van de, 1818-1898$$INNL10000137257$$PN",
+                "$$DVan der Velde, Charles William Meredith, 1818-1898$$EVan der Velde, Charles William Meredith, 1818-1898$$INNL10000137257$$PN",
+                "$$DVelde, Charles William Meredith van der, 1818-1898$$EVelde, Charles William Meredith van der, 1818-1898$$INNL10000137257$$PN",
+                "$$DBovet, Felix$$EBovet, Felix$$INNL10000023634$$PN",
+                "$$DBovet, Eug\u00e8ne Victor F\u00e9lix, 1824-1903$$EBovet, Eug\u00e8ne Victor F\u00e9lix, 1824-1903$$INNL10000023634$$PN",
+                "$$D\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea, 1818-1898$$E\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea, 1818-1898$$INNL10000137257$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DPlan de J\u00e9rusalem d'apres M. Van de Velde$$EPlan de J\u00e9rusalem d'apres M. Van de Velde"
+        },
+        "control": {
+            "ilsapiid": "NNL01002368127",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002368127",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002368127",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngplandejerusalemdavandevelde",
+            "c4": "1860",
+            "f10": "lith f gendre",
+            "f11": "mandrot louis alphonse de 1814 1882",
+            "f5": "plandejerusalemdaprevandevelde",
+            "f6": "1860",
+            "f7": "plan de jerusalem dapres m van de velde",
+            "f8": "sz",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 281 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "Charles William Meredith van de Velde 1818-1898; F\u00e9lix Bovet 1824-1903; F Gendre",
+            "creationdate": "186-",
+            "creator": "Mandrot Louis Alphonse de, 1814-1882",
+            "format": "194x219 mm..",
+            "language": "fre",
+            "lds01": "Scale",
+            "lds05": [
+                "Lithography",
+                "Plan drawn after Van de Velde",
+                "In: Bovet, F\u00e9lix. Voyage en Terre Sainte, Neuch\u00e2tel, Meyer et cie. 1861, also in the edition: Paris, Calman-Levy, 1876, inserted at end of volume. The map appears in other editions of the book, including translated editions."
+            ],
+            "lds08": "002368127",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer281",
+            "lds17": "Jer 281 ; Laor 1078",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002368127",
+            "lds40": "IE6878507",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878507",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878507",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "Neuch\u00e2tel :Lith. F. Gendre",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Plan de J\u00e9rusalem d'apres M. Van de Velde;&nbsp;dessin\u00e9 par A. de Mandrot Lt. Colonel d'Etat Major. Lith. F. Gendre.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1860",
+            "creatorcontrib": [
+                "Mandrot Louis Alphonse de",
+                "Velde Charles William Meredith van de",
+                "Bovet F\u00e9lix",
+                "Gendre F"
+            ],
+            "frbrgroupid": "160674637",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "fre",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Neuch\u00e2tel",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kmandrot louis alphonse de 1814 1882$$AA",
+            "k3": "$$Kplan de jerusalem d'apres m van de velde$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878507",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer281.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878507",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878507"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1860",
+            "creatorcontrib": [
+                "Louis Alphonse de,  Mandrot  1814-1882",
+                "Louis Alphonse de  Mandrot",
+                "Mandrot, L",
+                "dessin\u00e9 par A. de Mandrot Lt. Colonel d'Etat Major. Lith. F. Gendre.",
+                "Charles William Meredith van de,  Velde  1818-1898",
+                "F\u00e9lix,  Bovet  1824-1903",
+                "F.  Gendre",
+                "\u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea \u05d5\u05d0\u05df \u05d3\u05e8,  1818-1898",
+                "Carel Willem Meredith,  Van de Velde  1818-1898",
+                "Carel Willem Meredith van de,  Velde  1818-1898",
+                "Charles William Meredith,  Van der Velde  1818-1898",
+                "Charles William Meredith van der,  Velde  1818-1898",
+                "Felix  Bovet",
+                "Eug\u00e8ne Victor F\u00e9lix,  Bovet  1824-1903",
+                "\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea,  1818-1898",
+                "Velde, C",
+                "Bovet, F",
+                "Gendre, F",
+                "\u05d5\u05d5\u05dc\u05d3",
+                "Van de Velde, C",
+                "Van der Velde, C",
+                "Bovet, E",
+                "\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3",
+                "Mandrot Louis Alphonse de 1814 1882",
+                "Charles William Meredith van de Velde 1818 1898 F\u00e9lix Bovet 1824 1903 F Gendre"
+            ],
+            "enddate": "18601231",
+            "general": [
+                "Neuch\u00e2tel : Lith. F. Gendre, [186-].",
+                "Plan de J\u00e9rusalem d'apres M. Van de Velde [cartographic material] / dessin\u00e9 par A. de Mandrot Lt. Colonel d'Etat Major. Lith. F. Gendre.",
+                "fre",
+                "Lithography",
+                "Plan drawn after Van de Velde",
+                "In: Bovet, F\u00e9lix. Voyage en Terre Sainte, Neuch\u00e2tel, Meyer et cie. 1861, also in the edition: Paris, Calman-Levy, 1876, inserted at end of volume. The map appears in other editions of the book, including translated editions.",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "Neuch\u00e2tel : Lith. F. Gendre,",
+            "lsr03": [
+                "002368127",
+                "02368127",
+                "2368127"
+            ],
+            "lsr04": [
+                "Jer 281 ; Laor 1078",
+                "Jer281;Laor1078",
+                "Jer 281",
+                "Jer281",
+                "Laor 1078",
+                "Laor1078"
+            ],
+            "lsr06": [
+                "Plan",
+                "de",
+                "J\u00e9rusalem",
+                "daposapres",
+                "M",
+                "Van",
+                "Veldeampnbspdessin\u00e9",
+                "par",
+                "A",
+                "Mandrot",
+                "Lt",
+                "Colonel",
+                "daposEtat",
+                "Major",
+                "Lith",
+                "F",
+                "Gendre"
+            ],
+            "lsr07": [
+                "Plan",
+                "de",
+                "J\u00e9rusalem",
+                "daposapres",
+                "M",
+                "Van",
+                "Veldeampnbspdessin\u00e9",
+                "par",
+                "A",
+                "Mandrot",
+                "Lt",
+                "Colonel",
+                "daposEtat",
+                "Major",
+                "Lith",
+                "F",
+                "Gendre"
+            ],
+            "lsr08": [
+                "Plan de J\u00e9rusalem d apos apres M Van de Velde",
+                "Plan de J\u00e9rusalem d apos apres M Van de Velde amp nbsp dessin\u00e9 par A de Mandrot Lt Colonel d apos Etat Major Lith F Gendre",
+                "186",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Neuch\u00e2tel Lith F Gendre",
+                "Neuch\u00e2tel Lith F Gendre 186",
+                "Plan de J\u00e9rusalem d apos apres M Van de Velde cartographic material dessin\u00e9 par A de Mandrot Lt Colonel d apos Etat Major Lith F Gendre",
+                "fre",
+                "Lithography",
+                "Plan drawn after Van de Velde",
+                "In Bovet F\u00e9lix Voyage en Terre Sainte Neuch\u00e2tel Meyer et cie 1861 also in the edition Paris Calman Levy 1876 inserted at end of volume The map appears in other editions of the book including translated editions",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002368127",
+            "recordid": "NNL_MAPS002368127",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18600101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Plan de J\u00e9rusalem d'apres M. Van de Velde"
+        },
+        "sort": {
+            "author": "Mandrot, Louis Alphonse de, 1814-1882",
+            "creationdate": "18600000",
+            "lso01": "18600000",
+            "title": "Plan de J\u00e9rusalem d'apres M. Van de Velde"
+        }
+    },
+    "NNL01002368151.tif": {
+        "addata": {
+            "au": "Pierotti, Ermete",
+            "aufirst": "Ermete",
+            "aulast": "Pierotti",
+            "btitle": "Plan de Jerusalem ancienne et moderne (1888);&nbsp;par le Chevalier Docteur Ermete Pierotti, architecte-ingenieur...",
+            "cop": "Place of publication not identified]",
+            "date": "1888",
+            "format": "book",
+            "oclcid": "234166571",
+            "risdate": "1888."
+        },
+        "browse": {
+            "author": "$$DPierotti, Ermete$$EPierotti, Ermete$$INNL10000105681$$PY M",
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DPlan de Jerusalem ancienne et moderne (1888)$$EPlan de Jerusalem ancienne et moderne (1888)"
+        },
+        "control": {
+            "ilsapiid": "NNL01002368151",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002368151",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002368151",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngplandejerusalemanoderne1888",
+            "c4": "1888",
+            "f11": "pierotti ermete",
+            "f5": "plandejerusalemancienneetmoderne1888",
+            "f6": "1888",
+            "f7": "plan de jerusalem ancienne et moderne 1888",
+            "f8": "xx",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 96/3 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "creationdate": "1888",
+            "creator": "Pierotti Ermete",
+            "format": "420x340 mm..",
+            "language": "fre",
+            "lds01": "Scale",
+            "lds05": [
+                "Manuscript",
+                "From: Pierotti, Ermete. Atlas de la Palestine. S.l. 1888. A manuscript atlas containing 6 plates."
+            ],
+            "lds08": "002368151",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer096-3",
+            "lds17": "Jer 96/3 ; Laor 1099",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002368151",
+            "lds40": "IE6880777",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6880777",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880777",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "[Place of publication not identified],",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Plan de Jerusalem ancienne et moderne (1888);&nbsp;par le Chevalier Docteur Ermete Pierotti, architecte-ingenieur...",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1888",
+            "creatorcontrib": "Pierotti Ermete",
+            "frbrgroupid": "160674735",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "fre",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Place of publication not identified",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kpierotti ermete$$AA",
+            "k3": "$$Kplan de jerusalem ancienne et moderne 1888$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880777",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer096-3.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880777",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6880777"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1888",
+            "creatorcontrib": [
+                "Ermete  Pierotti",
+                "Pierotti, E",
+                "par le Chevalier Docteur Ermete Pierotti, architecte-ingenieur...",
+                "Pierotti Ermete"
+            ],
+            "enddate": "18881231",
+            "general": [
+                "[Place of publication not identified], 1888.",
+                "Plan de Jerusalem ancienne et moderne (1888) [cartographic material] / par le Chevalier Docteur Ermete Pierotti, architecte-ingenieur...",
+                "fre",
+                "Manuscript",
+                "From: Pierotti, Ermete. Atlas de la Palestine. S.l. 1888. A manuscript atlas containing 6 plates.",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "[Place of publication not identified],",
+            "lsr03": [
+                "002368151",
+                "02368151",
+                "2368151"
+            ],
+            "lsr04": [
+                "Jer 96/3 ; Laor 1099",
+                "Jer96/3;Laor1099",
+                "Jer 96/3",
+                "Jer96/3",
+                "Laor 1099",
+                "Laor1099"
+            ],
+            "lsr06": [
+                "Plan",
+                "de",
+                "Jerusalem",
+                "ancienne",
+                "et",
+                "moderne",
+                "1888ampnbsppar",
+                "le",
+                "Chevalier",
+                "Docteur",
+                "Ermete",
+                "Pierotti",
+                "architecte-ingenieur"
+            ],
+            "lsr07": [
+                "Plan",
+                "de",
+                "Jerusalem",
+                "ancienne",
+                "et",
+                "moderne",
+                "1888ampnbsppar",
+                "le",
+                "Chevalier",
+                "Docteur",
+                "Ermete",
+                "Pierotti",
+                "architecte-ingenieur"
+            ],
+            "lsr08": [
+                "Plan de Jerusalem ancienne et moderne 1888",
+                "Plan de Jerusalem ancienne et moderne 1888 amp nbsp par le Chevalier Docteur Ermete Pierotti architecte ingenieur",
+                "1888",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Place of publication not identified",
+                "Place of publication not identified 1888",
+                "Plan de Jerusalem ancienne et moderne 1888 cartographic material par le Chevalier Docteur Ermete Pierotti architecte ingenieur",
+                "fre",
+                "Manuscript",
+                "From Pierotti Ermete Atlas de la Palestine S l 1888 A manuscript atlas containing 6 plates",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002368151",
+            "recordid": "NNL_MAPS002368151",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18880101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Plan de Jerusalem ancienne et moderne (1888)"
+        },
+        "sort": {
+            "author": "Pierotti, Ermete",
+            "creationdate": "18880000",
+            "lso01": "18880000",
+            "title": "Plan de Jerusalem ancienne et moderne (1888)"
+        }
+    },
+    "NNL01002368185.tif": {
+        "addata": {
+            "au": "Sieber, F. W",
+            "aufirst": "F. W.",
+            "aulast": "Sieber",
+            "btitle": "Karte von Jerusalem und seiner naechsten Umgebungen;&nbsp;geometrisch aufgenommen von F.W. Sieber im Jahre 1818. ins reine gezeichnet von J. Wach. gestochen von J. Stoelzel.",
+            "cop": "Prag and Leipzig",
+            "date": "1823",
+            "format": "book",
+            "oclcid": "234166778",
+            "pub": "Martin Neureuter Buchhaendler with Friedrich Fleischer",
+            "risdate": "[1823]."
+        },
+        "browse": {
+            "author": [
+                "$$DSieber, F. W$$ESieber, F. W$$INNL10000283280$$PY M",
+                "$$DSieber, Franz Wilhelm$$ESieber, Franz Wilhelm$$INNL10000283280$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DKarte von Jerusalem und seiner naechsten Umgebungen$$EKarte von Jerusalem und seiner naechsten Umgebungen"
+        },
+        "control": {
+            "ilsapiid": "NNL01002368185",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002368185",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002368185",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngkartevonjerusalemumgebungen",
+            "c4": "1823",
+            "f10": "martin neureuter buchhaendler with friedrich fleischer",
+            "f11": "sieber f w",
+            "f5": "kartevonjerusalemundumgebungen",
+            "f6": "1823",
+            "f7": "karte von jerusalem und seiner naechsten umgebungen",
+            "f8": "xr",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 88 )$$Savailable$$32$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "creationdate": "1823",
+            "creator": "Sieber F. W.",
+            "format": "438x584 mm..",
+            "language": "ger",
+            "lds01": "Scale not given.",
+            "lds05": [
+                "Copperplate",
+                "From: Sieber, Franz Wilhelm. Reise von Cairo nach Jerusalem. Prag und Leipzig, 1823, first edition",
+                "C.2 probably from the 1826 edition."
+            ],
+            "lds08": "002368185",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer088",
+            "lds15": "P 24 -2 Wahrman, Jacob",
+            "lds17": "Jer 88 - D1 ; Laor 1133",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002368185",
+            "lds40": "IE6878709",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878709",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878709",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "Prag and Leipzig :Martin Neureuter Buchhaendler with Friedrich Fleischer",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Karte von Jerusalem und seiner naechsten Umgebungen;&nbsp;geometrisch aufgenommen von F.W. Sieber im Jahre 1818. ins reine gezeichnet von J. Wach. gestochen von J. Stoelzel.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1823",
+            "creatorcontrib": "Sieber F W",
+            "frbrgroupid": "160674076",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "ger",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Prag and Leipzig",
+            "lfc08": "not given",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Ksieber f w$$AA",
+            "k3": "$$Kkarte von jerusalem und seiner naechsten umgebungen$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878709",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer088.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878709",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878709"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1823",
+            "creatorcontrib": [
+                "F. W.  Sieber",
+                "Franz Wilhelm  Sieber",
+                "Sieber, F",
+                "geometrisch aufgenommen von F.W. Sieber im Jahre 1818. ins reine gezeichnet von J. Wach. gestochen von J. Stoelzel.",
+                "Sieber F W"
+            ],
+            "enddate": "18231231",
+            "general": [
+                "Prag and Leipzig : Martin Neureuter Buchhaendler with Friedrich Fleischer, [1823].",
+                "Karte von Jerusalem und seiner naechsten Umgebungen [cartographic material] / geometrisch aufgenommen von F.W. Sieber im Jahre 1818. ins reine gezeichnet von J. Wach. gestochen von J. Stoelzel.",
+                "ger",
+                "Copperplate",
+                "From: Sieber, Franz Wilhelm. Reise von Cairo nach Jerusalem. Prag und Leipzig, 1823, first edition",
+                "C.2 probably from the 1826 edition.",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "Prag and Leipzig : Martin Neureuter Buchhaendler with Friedrich Fleischer,",
+            "lsr03": [
+                "002368185",
+                "02368185",
+                "2368185"
+            ],
+            "lsr04": [
+                "Jer 88 - D1 ; Laor 1133",
+                "Jer88-D1;Laor1133",
+                "Jer 88 - D1",
+                "Jer88-D1",
+                "Laor 1133",
+                "Laor1133"
+            ],
+            "lsr06": [
+                "Karte",
+                "von",
+                "Jerusalem",
+                "und",
+                "seiner",
+                "naechsten",
+                "Umgebungenampnbspgeometrisch",
+                "aufgenommen",
+                "FW",
+                "Sieber",
+                "im",
+                "Jahre",
+                "1818",
+                "ins",
+                "reine",
+                "gezeichnet",
+                "J",
+                "Wach",
+                "gestochen",
+                "Stoelzel"
+            ],
+            "lsr07": [
+                "Karte",
+                "von",
+                "Jerusalem",
+                "und",
+                "seiner",
+                "naechsten",
+                "Umgebungenampnbspgeometrisch",
+                "aufgenommen",
+                "FW",
+                "Sieber",
+                "im",
+                "Jahre",
+                "1818",
+                "ins",
+                "reine",
+                "gezeichnet",
+                "J",
+                "Wach",
+                "gestochen",
+                "Stoelzel"
+            ],
+            "lsr08": [
+                "Karte von Jerusalem und seiner naechsten Umgebungen",
+                "Karte von Jerusalem und seiner naechsten Umgebungen amp nbsp geometrisch aufgenommen von F W Sieber im Jahre 1818 ins reine gezeichnet von J Wach gestochen von J Stoelzel",
+                "1823",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Prag and Leipzig Martin Neureuter Buchhaendler with Friedrich Fleischer",
+                "Prag and Leipzig Martin Neureuter Buchhaendler with Friedrich Fleischer 1823",
+                "Karte von Jerusalem und seiner naechsten Umgebungen cartographic material geometrisch aufgenommen von F W Sieber im Jahre 1818 ins reine gezeichnet von J Wach gestochen von J Stoelzel",
+                "ger",
+                "Copperplate",
+                "From Sieber Franz Wilhelm Reise von Cairo nach Jerusalem Prag und Leipzig 1823 first edition",
+                "C 2 probably from the 1826 edition",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002368185",
+            "recordid": "NNL_MAPS002368185",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18230101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Karte von Jerusalem und seiner naechsten Umgebungen"
+        },
+        "sort": {
+            "author": "Sieber, F. W.",
+            "creationdate": "18230000",
+            "lso01": "18230000",
+            "title": "Karte von Jerusalem und seiner naechsten Umgebungen"
+        }
+    },
+    "NNL01002368215.tif": {
+        "addata": {
+            "addau": [
+                "James, H., 1803-1877",
+                "Cameron, John",
+                "\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877",
+                "James, Henry, Sir, 1803-1877",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877"
+            ],
+            "au": "Wilson, Charles William, Sir, 1836-1905",
+            "aufirst": "Charles William,",
+            "aulast": "Wilson",
+            "btitle": "Ordnance Survey of Jerusalem;&nbsp;By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+            "cop": "London]",
+            "date": "1865",
+            "format": "book",
+            "oclcid": "234167155",
+            "pub": "[George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office]",
+            "risdate": "[1865]."
+        },
+        "browse": {
+            "author": [
+                "$$DWilson, Charles William, Sir, 1836-1905$$EWilson, Charles William, Sir, 1836-1905$$INNL10000142180$$PY M",
+                "$$D\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd, 1836-1905$$E\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd, 1836-1905$$INNL10000142180$$PY",
+                "$$DWilson, Capt., 1836-1905$$EWilson, Capt., 1836-1905$$INNL10000142180$$PN",
+                "$$DWilson, Colonel, 1836-1905$$EWilson, Colonel, 1836-1905$$INNL10000142180$$PN",
+                "$$D\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd, 1836-1905$$E\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd, 1836-1905$$INNL10000142180$$PN",
+                "$$DJames, H., 1803-1877$$EJames, H., 1803-1877$$INNL10000070422$$PY M",
+                "$$DCameron, John$$ECameron, John$$INNL10000426758$$PY M",
+                "$$D\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$E\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$INNL10000070422$$PY",
+                "$$DJames, Henry, Sir, 1803-1877$$EJames, Henry, Sir, 1803-1877$$INNL10000070422$$PN",
+                "$$D\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$E\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$INNL10000070422$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Surveys$$EJerusalem (Israel) Surveys$$INNL10001194446$$PY M",
+                "$$DJerusalem (Israel) -- Maps, Topographic$$EJerusalem (Israel) Maps, Topographic$$INNL10001169837$$PY M",
+                "$$DJerusalem (Israel)$$EJerusalem (Israel)$$INNL10000988457$$PY M",
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05e1\u05e7\u05e8\u05d9\u05dd$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05e1\u05e7\u05e8\u05d9\u05dd$$INNL10001194446$$PY",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea$$INNL10001169837$$PY",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc)$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc)$$INNL10000988457$$PY",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY",
+                "$$DIerousal\u0113m$$EIerousal\u0113m$$INNL10000988457$$PN",
+                "$$DJeruzs\u00e1lem$$EJeruzs\u00e1lem$$INNL10000988457$$PN",
+                "$$DQuds$$EQuds$$INNL10000988457$$PN",
+                "$$DQods$$EQods$$INNL10000988457$$PN",
+                "$$DKouds$$EKouds$$INNL10000988457$$PN",
+                "$$DKuds$$EKuds$$INNL10000988457$$PN",
+                "$$DJerusalem (Palestine)$$EJerusalem (Palestine)$$INNL10000988457$$PN",
+                "$$DJerusalem Arab Municipality$$EJerusalem Arab Municipality$$INNL10000988457$$PN",
+                "$$DYerushalayim$$EYerushalayim$$INNL10000988457$$PN",
+                "$$DJerusalem$$EJerusalem$$INNL10000988457$$PN",
+                "$$DJeruzalem$$EJeruzalem$$INNL10000988457$$PN",
+                "$$DErusagh\u0113m$$EErusagh\u0113m$$INNL10000988457$$PN",
+                "$$DIerusalim$$EIerusalim$$INNL10000988457$$PN",
+                "$$D\u016arushal\u012bm$$E\u016arushal\u012bm$$INNL10000988457$$PN",
+                "$$DBayt al-Maqdis$$EBayt al-Maqdis$$INNL10000988457$$PN",
+                "$$DBalad\u012byat al-Quds al-\u02bbArab\u012byah$$EBalad\u012byat al-Quds al-\u02bbArab\u012byah$$INNL10000988457$$PN",
+                "$$D\u02bbIriyat Yerushalayim$$E\u02bbIriyat Yerushalayim$$INNL10000988457$$PN",
+                "$$DBalad\u012byat al-Quds$$EBalad\u012byat al-Quds$$INNL10000988457$$PN",
+                "$$DGerusalemme$$EGerusalemme$$INNL10000988457$$PN",
+                "$$D\u05d0\u05e8\u05e5 \u05d4\u05de\u05d5\u05e8\u05d9\u05d4 (\u05d9\u05e9\u05e8\u05d0\u05dc)$$E\u05d0\u05e8\u05e5 \u05d4\u05de\u05d5\u05e8\u05d9\u05d4 (\u05d9\u05e9\u05e8\u05d0\u05dc)$$INNL10000988457$$PN",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc)$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc)$$INNL10000988457$$PN",
+                "$$D\u05d0\u05d5\u05e8\u05e9\u05dc\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc)$$E\u05d0\u05d5\u05e8\u05e9\u05dc\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc)$$INNL10000988457$$PN"
+            ],
+            "title": "$$DOrdnance Survey of Jerusalem$$EOrdnance Survey of Jerusalem"
+        },
+        "control": {
+            "ilsapiid": "NNL01002368215",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002368215",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002368215",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngordnancesurveyofjerusalem",
+            "c4": "1865",
+            "f10": "george e eyre and william sopttiswoode for her majestys stationery office",
+            "f11": "wilson charles william sir 1836 1905",
+            "f5": "ordnancesurveyofjerusalem",
+            "f6": "1865",
+            "f7": "ordnance survey of jerusalem",
+            "f8": "enk",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": [
+                "$$INNL$$LMAP$$2(Atl. A10 - 2= 36 B 1379 )$$Savailable$$35$$40$$5Y$$60$$XNNL50$$YMAP",
+                "$$INNL$$LNL3$$1SR$$2(36 B 1379=2 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YNL3$$ZSR"
+            ],
+            "availpnx": "available",
+            "contributor": "H James 1803-1877; John Cameron",
+            "creationdate": "1865",
+            "creator": "Wilson Charles William, Sir, 1836-1905",
+            "format": "1005x710 mm..",
+            "language": "eng",
+            "lds01": "Scale",
+            "lds05": [
+                "An exact plan",
+                "From: Wilson, Charles William. Ordnance Survey of Jerusalem. London, George E.Eyre and William Spottiswoode for Her Majesty's Stationery Office, 1865. Notes, Photographs and Maps (in portfolio) - in Atl. A10 - 2=36B1379.",
+                "topographic.",
+                "Copy 3(S) with Prof. Jacob Wahrman's handwritten notes."
+            ],
+            "lds08": "002368215",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer200",
+            "lds15": [
+                "P 24 -3 Wahrman, Jacob",
+                "P 24 -4 Wahrman, Jacob",
+                "P 24 -3(S) Wahrman, Jacob"
+            ],
+            "lds17": "Jer 200 -- Atl. A10 ; Laor 1162",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002368215",
+            "lds31": "DNNNL_MAPS002368215",
+            "lds40": "IE6880095",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6880095",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880095",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "[London] :George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Surveys; Jerusalem (Israel) -- Maps, Topographic; Jerusalem (Israel); Jerusalem (Israel) -- Maps",
+            "title": "Ordnance Survey of Jerusalem;&nbsp;By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+            "type": "map"
+        },
+        "enrichment": {
+            "classificationlcc": "DS109"
+        },
+        "facets": {
+            "classificationlcc": "D - History (general) and history of europe.\u2013History of Asia\u2013Israel (Palestine). The Jews\u2013Jerusalem",
+            "creationdate": "1865",
+            "creatorcontrib": [
+                "Wilson Charles William",
+                "James H",
+                "Cameron John"
+            ],
+            "frbrgroupid": "160674170",
+            "frbrtype": "6",
+            "genre": [
+                "Surveys",
+                "Maps, Topographic",
+                "Maps",
+                "\u05e1\u05e7\u05e8\u05d9\u05dd",
+                "\u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "eng",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "London",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": [
+                "Jerusalem (Israel)\u2013Surveys",
+                "Jerusalem (Israel)\u2013Maps, Topographic",
+                "Jerusalem (Israel)",
+                "Jerusalem (Israel)\u2013Maps"
+            ],
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kwilson charles william sir 1836 1905$$AA",
+            "k3": "$$Kordnance survey of jerusalem$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880095",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer200.htm",
+            "lln02": "$$TPNX_LKR$$D\u05e8\u05e9\u05d5\u05de\u05ea \u05d0\u05d1:Ordnance survey of Jerusalem /$$1DNNNL01002368215",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880095",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6880095"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1865",
+            "creatorcontrib": [
+                "Charles William,  Wilson  Sir, 1836-1905",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd,  1836-1905",
+                "Wilson,  Capt., 1836-1905",
+                "Colonel,  Wilson  1836-1905",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd,  1836-1905",
+                "Wilson, C",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df",
+                "Wilson",
+                "By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+                "H.  James  1803-1877",
+                "John  Cameron",
+                "\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9,  \u05e1\u05e8, 1803-1877",
+                "Henry,  James  Sir, 1803-1877",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9,  \u05e1\u05e8, 1803-1877",
+                "James, H",
+                "Cameron, J",
+                "\u05d2'\u05d9\u05de\u05e1",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1",
+                "Wilson Charles William Sir 1836 1905",
+                "H James 1803 1877 John Cameron"
+            ],
+            "enddate": "18651231",
+            "general": [
+                "[London] : [George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office], [1865].",
+                "Ordnance Survey of Jerusalem [cartographic material] / By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+                "eng",
+                "An exact plan",
+                "From: Wilson, Charles William. Ordnance Survey of Jerusalem. London, George E.Eyre and William Spottiswoode for Her Majesty's Stationery Office, 1865. Notes, Photographs and Maps (in portfolio) - in Atl. A10 - 2=36B1379.",
+                "topographic.",
+                "Copy 3(S) with Prof. Jacob Wahrman's handwritten notes.",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "[London] : [George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office],",
+            "lsr03": [
+                "002368215",
+                "02368215",
+                "2368215"
+            ],
+            "lsr04": [
+                "Jer 200 -- Atl. A10 ; Laor 1162",
+                "Jer200--Atl.A10;Laor1162",
+                "Jer 200 -- Atl. A10",
+                "Jer200--Atl.A10",
+                "Laor 1162",
+                "Laor1162"
+            ],
+            "lsr06": [
+                "Ordnance",
+                "Survey",
+                "of",
+                "JerusalemampnbspBy",
+                "Captain",
+                "W",
+                "Wilson",
+                "RE",
+                "under",
+                "the",
+                "direction",
+                "Colonel",
+                "Sir",
+                "Henry",
+                "James1864-5",
+                "Engraved",
+                "at",
+                "Office",
+                "Southampton",
+                "J",
+                "Cameron"
+            ],
+            "lsr07": [
+                "Ordnance",
+                "Survey",
+                "of",
+                "JerusalemampnbspBy",
+                "Captain",
+                "W",
+                "Wilson",
+                "RE",
+                "under",
+                "the",
+                "direction",
+                "Colonel",
+                "Sir",
+                "Henry",
+                "James1864-5",
+                "Engraved",
+                "at",
+                "Office",
+                "Southampton",
+                "J",
+                "Cameron"
+            ],
+            "lsr08": [
+                "Ordnance Survey of Jerusalem",
+                "Ordnance Survey of Jerusalem amp nbsp By Captain W Wilson R E under the direction of Colonel Sir Henry James 1864 5 Engraved at the Ordnance Survey Office Southampton under the direction of Colonel J Cameron R E",
+                "1865",
+                "Jerusalem Israel Surveys Y M",
+                "Jerusalem Israel Maps Topographic Y M",
+                "Jerusalem Israel Y M",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05e1\u05e7\u05e8\u05d9\u05dd Y",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea Y",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc Y",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Ierousal\u0113m N",
+                "Jeruzs\u00e1lem N",
+                "Quds N",
+                "Qods N",
+                "Kouds N",
+                "Kuds N",
+                "Jerusalem Palestine N",
+                "Jerusalem Arab Municipality N",
+                "Yerushalayim N",
+                "Jerusalem N",
+                "Jeruzalem N",
+                "Erusagh\u0113m N",
+                "Ierusalim N",
+                "\u016arushal\u012bm N",
+                "Bayt al Maqdis N",
+                "Balad\u012byat al Quds al \u02bbArab\u012byah N",
+                "\u02bbIriyat Yerushalayim N",
+                "Balad\u012byat al Quds N",
+                "Gerusalemme N",
+                "\u05d0\u05e8\u05e5 \u05d4\u05de\u05d5\u05e8\u05d9\u05d4 \u05d9\u05e9\u05e8\u05d0\u05dc N",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc N",
+                "\u05d0\u05d5\u05e8\u05e9\u05dc\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc N",
+                "London George E Eyre and William Sopttiswoode for her Majesty apos s Stationery Office",
+                "London George E Eyre and William Sopttiswoode for her Majesty apos s Stationery Office 1865",
+                "Ordnance Survey of Jerusalem cartographic material By Captain W Wilson R E under the direction of Colonel Sir Henry James 1864 5 Engraved at the Ordnance Survey Office Southampton under the direction of Colonel J Cameron R E",
+                "eng",
+                "An exact plan",
+                "From Wilson Charles William Ordnance Survey of Jerusalem London George E Eyre and William Spottiswoode for Her Majesty apos s Stationery Office 1865 Notes Photographs and Maps in portfolio in Atl A10 2 36B1379",
+                "topographic",
+                "Copy 3 S with Prof Jacob Wahrman apos s handwritten notes",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002368215",
+            "lsr31": "UPNNL01001995295",
+            "lsr32": "UP 001995295",
+            "recordid": "NNL_MAPS002368215",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18650101",
+            "subject": [
+                "Jerusalem (Israel) Surveys Y M",
+                "Jerusalem (Israel) Maps, Topographic Y M",
+                "Jerusalem (Israel) Y M",
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05e1\u05e7\u05e8\u05d9\u05dd Y",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea Y",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) Y",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y",
+                "Ierousal\u0113m N",
+                "Jeruzs\u00e1lem N",
+                "Quds N",
+                "Qods N",
+                "Kouds N",
+                "Kuds N",
+                "Jerusalem (Palestine) N",
+                "Jerusalem Arab Municipality N",
+                "Yerushalayim N",
+                "Jerusalem N",
+                "Jeruzalem N",
+                "Erusagh\u0113m N",
+                "Ierusalim N",
+                "\u016arushal\u012bm N",
+                "Bayt al-Maqdis N",
+                "Balad\u012byat al-Quds al-\u02bbArab\u012byah N",
+                "\u02bbIriyat Yerushalayim N",
+                "Balad\u012byat al-Quds N",
+                "Gerusalemme N",
+                "\u05d0\u05e8\u05e5 \u05d4\u05de\u05d5\u05e8\u05d9\u05d4 (\u05d9\u05e9\u05e8\u05d0\u05dc) N",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) N",
+                "\u05d0\u05d5\u05e8\u05e9\u05dc\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) N"
+            ],
+            "title": "Ordnance Survey of Jerusalem"
+        },
+        "sort": {
+            "author": "Wilson, Charles William, Sir, 1836-1905",
+            "creationdate": "18650000",
+            "lso01": "18650000",
+            "title": "Ordnance Survey of Jerusalem"
+        }
+    },
+    "NNL01002368216.tif": {
+        "addata": {
+            "addau": [
+                "James, H., 1803-1877",
+                "Cameron, John",
+                "\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877",
+                "James, Henry, Sir, 1803-1877",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877"
+            ],
+            "au": "Wilson, Charles William, Sir, 1836-1905",
+            "aufirst": "Charles William,",
+            "aulast": "Wilson",
+            "btitle": "Ordnance Survey of Jerusalem;&nbsp;By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+            "cop": "Southampton",
+            "date": "1876",
+            "format": "book",
+            "oclcid": "234167167",
+            "pub": "Ordanance Survey",
+            "risdate": "1876."
+        },
+        "browse": {
+            "author": [
+                "$$DWilson, Charles William, Sir, 1836-1905$$EWilson, Charles William, Sir, 1836-1905$$INNL10000142180$$PY M",
+                "$$D\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd, 1836-1905$$E\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd, 1836-1905$$INNL10000142180$$PY",
+                "$$DWilson, Capt., 1836-1905$$EWilson, Capt., 1836-1905$$INNL10000142180$$PN",
+                "$$DWilson, Colonel, 1836-1905$$EWilson, Colonel, 1836-1905$$INNL10000142180$$PN",
+                "$$D\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd, 1836-1905$$E\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd, 1836-1905$$INNL10000142180$$PN",
+                "$$DJames, H., 1803-1877$$EJames, H., 1803-1877$$INNL10000070422$$PY M",
+                "$$DCameron, John$$ECameron, John$$INNL10000426758$$PY M",
+                "$$D\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$E\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$INNL10000070422$$PY",
+                "$$DJames, Henry, Sir, 1803-1877$$EJames, Henry, Sir, 1803-1877$$INNL10000070422$$PN",
+                "$$D\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$E\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$INNL10000070422$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps, Topographic$$EJerusalem (Israel) Maps, Topographic$$INNL10001169837$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea$$INNL10001169837$$PY"
+            ],
+            "title": "$$DOrdnance Survey of Jerusalem$$EOrdnance Survey of Jerusalem"
+        },
+        "control": {
+            "ilsapiid": "NNL01002368216",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002368216",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002368216",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngordnancesurveyofjerusalem",
+            "c4": "1876",
+            "f10": "ordanance survey",
+            "f11": "wilson charles william sir 1836 1905",
+            "f5": "ordnancesurveyofjerusalem",
+            "f6": "1876",
+            "f7": "ordnance survey of jerusalem",
+            "f8": "enk",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 202 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "H James 1803-1877; John Cameron",
+            "creationdate": "1876",
+            "creator": "Wilson Charles William, Sir, 1836-1905",
+            "format": "1005x710 mm..",
+            "language": "eng",
+            "lds01": "Scale",
+            "lds05": [
+                "An exact plan",
+                "From: Wilson, Charles William. Ordnance Survey of Jerusalem. London, George E.Eyre and William Spottiswoode for Her Majesty's Stationery Office, 1876. Notes, Photographs and Maps (in portfolio)",
+                "Revised 1876",
+                "Topogrpahic."
+            ],
+            "lds08": "002368216",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer202",
+            "lds17": "Jer 202 - Atl. A10 ; Laor 1162A",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002368216",
+            "lds40": "IE6879537",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6879537",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879537",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "Southampton :Ordanance Survey",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps, Topographic",
+            "title": "Ordnance Survey of Jerusalem;&nbsp;By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1876",
+            "creatorcontrib": [
+                "Wilson Charles William",
+                "James H",
+                "Cameron John"
+            ],
+            "frbrgroupid": "160674175",
+            "frbrtype": "6",
+            "genre": [
+                "Maps, Topographic",
+                "\u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea"
+            ],
+            "language": "eng",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Southampton",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps, Topographic",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kwilson charles william sir 1836 1905$$AA",
+            "k3": "$$Kordnance survey of jerusalem$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879537",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer202.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879537",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6879537"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1876",
+            "creatorcontrib": [
+                "Charles William,  Wilson  Sir, 1836-1905",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd,  1836-1905",
+                "Wilson,  Capt., 1836-1905",
+                "Colonel,  Wilson  1836-1905",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd,  1836-1905",
+                "Wilson, C",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df",
+                "Wilson",
+                "By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+                "H.  James  1803-1877",
+                "John  Cameron",
+                "\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9,  \u05e1\u05e8, 1803-1877",
+                "Henry,  James  Sir, 1803-1877",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9,  \u05e1\u05e8, 1803-1877",
+                "James, H",
+                "Cameron, J",
+                "\u05d2'\u05d9\u05de\u05e1",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1",
+                "Wilson Charles William Sir 1836 1905",
+                "H James 1803 1877 John Cameron"
+            ],
+            "enddate": "18761231",
+            "general": [
+                "Southampton : Ordanance Survey , 1876.",
+                "Ordnance Survey of Jerusalem [cartographic material] / By Captain W. Wilson, R.E. under the direction of Colonel Sir Henry James...1864-5. Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+                "eng",
+                "An exact plan",
+                "From: Wilson, Charles William. Ordnance Survey of Jerusalem. London, George E.Eyre and William Spottiswoode for Her Majesty's Stationery Office, 1876. Notes, Photographs and Maps (in portfolio)",
+                "Revised 1876",
+                "Topogrpahic.",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "Southampton : Ordanance Survey ,",
+            "lsr03": [
+                "002368216",
+                "02368216",
+                "2368216"
+            ],
+            "lsr04": [
+                "Jer 202 - Atl. A10 ; Laor 1162A",
+                "Jer202-Atl.A10;Laor1162A",
+                "Jer 202 - Atl. A10",
+                "Jer202-Atl.A10",
+                "Laor 1162A",
+                "Laor1162A"
+            ],
+            "lsr06": [
+                "Ordnance",
+                "Survey",
+                "of",
+                "JerusalemampnbspBy",
+                "Captain",
+                "W",
+                "Wilson",
+                "RE",
+                "under",
+                "the",
+                "direction",
+                "Colonel",
+                "Sir",
+                "Henry",
+                "James1864-5",
+                "Engraved",
+                "at",
+                "Office",
+                "Southampton",
+                "J",
+                "Cameron"
+            ],
+            "lsr07": [
+                "Ordnance",
+                "Survey",
+                "of",
+                "JerusalemampnbspBy",
+                "Captain",
+                "W",
+                "Wilson",
+                "RE",
+                "under",
+                "the",
+                "direction",
+                "Colonel",
+                "Sir",
+                "Henry",
+                "James1864-5",
+                "Engraved",
+                "at",
+                "Office",
+                "Southampton",
+                "J",
+                "Cameron"
+            ],
+            "lsr08": [
+                "Ordnance Survey of Jerusalem",
+                "Ordnance Survey of Jerusalem amp nbsp By Captain W Wilson R E under the direction of Colonel Sir Henry James 1864 5 Engraved at the Ordnance Survey Office Southampton under the direction of Colonel J Cameron R E",
+                "1876",
+                "Jerusalem Israel Maps Topographic Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea Y",
+                "Southampton Ordanance Survey",
+                "Southampton Ordanance Survey 1876",
+                "Ordnance Survey of Jerusalem cartographic material By Captain W Wilson R E under the direction of Colonel Sir Henry James 1864 5 Engraved at the Ordnance Survey Office Southampton under the direction of Colonel J Cameron R E",
+                "eng",
+                "An exact plan",
+                "From Wilson Charles William Ordnance Survey of Jerusalem London George E Eyre and William Spottiswoode for Her Majesty apos s Stationery Office 1876 Notes Photographs and Maps in portfolio",
+                "Revised 1876",
+                "Topogrpahic",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002368216",
+            "recordid": "NNL_MAPS002368216",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18760101",
+            "subject": [
+                "Jerusalem (Israel) Maps, Topographic Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea \u05d8\u05d5\u05e4\u05d5\u05d2\u05e8\u05e4\u05d9\u05d5\u05ea Y"
+            ],
+            "title": "Ordnance Survey of Jerusalem"
+        },
+        "sort": {
+            "author": "Wilson, Charles William, Sir, 1836-1905",
+            "creationdate": "18760000",
+            "lso01": "18760000",
+            "title": "Ordnance Survey of Jerusalem"
+        }
+    },
+    "NNL01002368217.tif": {
+        "addata": {
+            "addau": [
+                "James, H., 1803-1877",
+                "Cameron, John",
+                "\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877",
+                "James, Henry, Sir, 1803-1877",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877"
+            ],
+            "au": "Wilson, Charles William, Sir, 1836-1905",
+            "aufirst": "Charles William,",
+            "aulast": "Wilson",
+            "btitle": "Ordnance Survey of Jerusalem;&nbsp;The Survey was made in the Years 1864-5 by Captain Charles W. Wilson, R.E. and a party of Royal Engieers from the Ordnance Survey under the direction of Colonel Sir Henry James.",
+            "cop": "London]",
+            "date": "1865",
+            "format": "book",
+            "oclcid": "234167177",
+            "pub": "[George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office]",
+            "risdate": "[1865]."
+        },
+        "browse": {
+            "author": [
+                "$$DWilson, Charles William, Sir, 1836-1905$$EWilson, Charles William, Sir, 1836-1905$$INNL10000142180$$PY M",
+                "$$D\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd, 1836-1905$$E\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd, 1836-1905$$INNL10000142180$$PY",
+                "$$DWilson, Capt., 1836-1905$$EWilson, Capt., 1836-1905$$INNL10000142180$$PN",
+                "$$DWilson, Colonel, 1836-1905$$EWilson, Colonel, 1836-1905$$INNL10000142180$$PN",
+                "$$D\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd, 1836-1905$$E\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd, 1836-1905$$INNL10000142180$$PN",
+                "$$DJames, H., 1803-1877$$EJames, H., 1803-1877$$INNL10000070422$$PY M",
+                "$$DCameron, John$$ECameron, John$$INNL10000426758$$PY M",
+                "$$D\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$E\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$INNL10000070422$$PY",
+                "$$DJames, Henry, Sir, 1803-1877$$EJames, Henry, Sir, 1803-1877$$INNL10000070422$$PN",
+                "$$D\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$E\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9, \u05e1\u05e8, 1803-1877$$INNL10000070422$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DOrdnance Survey of Jerusalem$$EOrdnance Survey of Jerusalem"
+        },
+        "control": {
+            "ilsapiid": "NNL01002368217",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002368217",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002368217",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngordnancesurveyofjerusalem",
+            "c4": "1865",
+            "f10": "george e eyre and william sopttiswoode for her majestys stationery office",
+            "f11": "wilson charles william sir 1836 1905",
+            "f5": "ordnancesurveyofjerusalem",
+            "f6": "1865",
+            "f7": "ordnance survey of jerusalem",
+            "f8": "enk",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 201 - in book )$$Savailable$$32$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "H James 1803-1877; John Cameron",
+            "creationdate": "1865",
+            "creator": "Wilson Charles William, Sir, 1836-1905",
+            "format": "479x480 mm..",
+            "language": "eng",
+            "lds01": "Scale",
+            "lds05": [
+                "Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+                "Plan",
+                "From: Wilson, Charles William. Ordnance Survey of Jerusalem. London, George E.Eyre and William Spottiswoode for Her Majesty's Stationery Office, 1865. Notes, Photographs and Maps (in portfolio)",
+                "C.2 found in book: S 70 B 1621. James, Henry. Jerusalem. 1865. Containing two articles, in French and in English, and photographs.",
+                "C.2 formerly jer 188, Laor 1164",
+                "C.2 the lower part with the imprint cut"
+            ],
+            "lds08": "002368217",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer201",
+            "lds17": "Jer 201 -- Atl. A10 ; Laor 1163 ; Laor 1164",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002368217",
+            "lds40": "IE6879894",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6879894",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879894",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "[London] :George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Ordnance Survey of Jerusalem;&nbsp;The Survey was made in the Years 1864-5 by Captain Charles W. Wilson, R.E. and a party of Royal Engieers from the Ordnance Survey under the direction of Colonel Sir Henry James.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1865",
+            "creatorcontrib": [
+                "Wilson Charles William",
+                "James H",
+                "Cameron John"
+            ],
+            "frbrgroupid": "160674181",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "eng",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "London",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kwilson charles william sir 1836 1905$$AA",
+            "k3": "$$Kordnance survey of jerusalem$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879894",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer201.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879894",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6879894"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1865",
+            "creatorcontrib": [
+                "Charles William,  Wilson  Sir, 1836-1905",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd,  1836-1905",
+                "Wilson,  Capt., 1836-1905",
+                "Colonel,  Wilson  1836-1905",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df, \u05e6\u2019\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05dd,  1836-1905",
+                "Wilson, C",
+                "\u05d5\u05d9\u05dc\u05e1\u05d5\u05df",
+                "Wilson",
+                "The Survey was made in the Years 1864-5 by Captain Charles W. Wilson, R.E. and a party of Royal Engieers from the Ordnance Survey under the direction of Colonel Sir Henry James.",
+                "H.  James  1803-1877",
+                "John  Cameron",
+                "\u05d2'\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9,  \u05e1\u05e8, 1803-1877",
+                "Henry,  James  Sir, 1803-1877",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1, \u05d4\u05e0\u05e8\u05d9,  \u05e1\u05e8, 1803-1877",
+                "James, H",
+                "Cameron, J",
+                "\u05d2'\u05d9\u05de\u05e1",
+                "\u05d2'\u05d9\u05d9\u05de\u05e1",
+                "Wilson Charles William Sir 1836 1905",
+                "H James 1803 1877 John Cameron"
+            ],
+            "enddate": "18651231",
+            "general": [
+                "[London] : [George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office], [1865].",
+                "Ordnance Survey of Jerusalem [cartographic material] / The Survey was made in the Years 1864-5 by Captain Charles W. Wilson, R.E. and a party of Royal Engieers from the Ordnance Survey under the direction of Colonel Sir Henry James.",
+                "eng",
+                "Engraved at the Ordnance Survey Office, Southampton under the direction of Colonel J. Cameron, R.E.",
+                "Plan",
+                "From: Wilson, Charles William. Ordnance Survey of Jerusalem. London, George E.Eyre and William Spottiswoode for Her Majesty's Stationery Office, 1865. Notes, Photographs and Maps (in portfolio)",
+                "C.2 found in book: S 70 B 1621. James, Henry. Jerusalem. 1865. Containing two articles, in French and in English, and photographs.",
+                "C.2 formerly jer 188, Laor 1164",
+                "C.2 the lower part with the imprint cut",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "[London] : [George E.Eyre and William Sopttiswoode for her Majesty's Stationery Office],",
+            "lsr03": [
+                "002368217",
+                "02368217",
+                "2368217"
+            ],
+            "lsr04": [
+                "Jer 201 -- Atl. A10 ; Laor 1163 ; Laor 1164",
+                "Jer201--Atl.A10;Laor1163;Laor1164",
+                "Jer 201 -- Atl. A10",
+                "Jer201--Atl.A10",
+                "Laor 1163",
+                "Laor1163",
+                "Laor 1164",
+                "Laor1164"
+            ],
+            "lsr06": [
+                "Ordnance",
+                "Survey",
+                "of",
+                "JerusalemampnbspThe",
+                "was",
+                "made",
+                "in",
+                "the",
+                "Years",
+                "1864-5",
+                "by",
+                "Captain",
+                "Charles",
+                "W",
+                "Wilson",
+                "RE",
+                "and",
+                "a",
+                "party",
+                "Royal",
+                "Engieers",
+                "from",
+                "under",
+                "direction",
+                "Colonel",
+                "Sir",
+                "Henry",
+                "James"
+            ],
+            "lsr07": [
+                "Ordnance",
+                "Survey",
+                "of",
+                "JerusalemampnbspThe",
+                "was",
+                "made",
+                "in",
+                "the",
+                "Years",
+                "1864-5",
+                "by",
+                "Captain",
+                "Charles",
+                "W",
+                "Wilson",
+                "RE",
+                "and",
+                "a",
+                "party",
+                "Royal",
+                "Engieers",
+                "from",
+                "under",
+                "direction",
+                "Colonel",
+                "Sir",
+                "Henry",
+                "James"
+            ],
+            "lsr08": [
+                "Ordnance Survey of Jerusalem",
+                "Ordnance Survey of Jerusalem amp nbsp The Survey was made in the Years 1864 5 by Captain Charles W Wilson R E and a party of Royal Engieers from the Ordnance Survey under the direction of Colonel Sir Henry James",
+                "1865",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "London George E Eyre and William Sopttiswoode for her Majesty apos s Stationery Office",
+                "London George E Eyre and William Sopttiswoode for her Majesty apos s Stationery Office 1865",
+                "Ordnance Survey of Jerusalem cartographic material The Survey was made in the Years 1864 5 by Captain Charles W Wilson R E and a party of Royal Engieers from the Ordnance Survey under the direction of Colonel Sir Henry James",
+                "eng",
+                "Engraved at the Ordnance Survey Office Southampton under the direction of Colonel J Cameron R E",
+                "Plan",
+                "From Wilson Charles William Ordnance Survey of Jerusalem London George E Eyre and William Spottiswoode for Her Majesty apos s Stationery Office 1865 Notes Photographs and Maps in portfolio",
+                "C 2 found in book S 70 B 1621 James Henry Jerusalem 1865 Containing two articles in French and in English and photographs",
+                "C 2 formerly jer 188 Laor 1164",
+                "C 2 the lower part with the imprint cut",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002368217",
+            "recordid": "NNL_MAPS002368217",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18650101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Ordnance Survey of Jerusalem"
+        },
+        "sort": {
+            "author": "Wilson, Charles William, Sir, 1836-1905",
+            "creationdate": "18650000",
+            "lso01": "18650000",
+            "title": "Ordnance Survey of Jerusalem"
+        }
+    },
+    "NNL01002369556.tif": {
+        "addata": {
+            "btitle": "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne;&nbsp;D'apres les Etudes les plus r\u00e9centes.",
+            "date": "1856",
+            "format": "book",
+            "oclcid": "234170649",
+            "risdate": "1856."
+        },
+        "browse": {
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DPlan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne D'apres les Etudes les plus r\u00e9centes$$EPlan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne D'apres les Etudes les plus r\u00e9centes"
+        },
+        "control": {
+            "ilsapiid": "NNL01002369556",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002369556",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002369556",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngplandelajerusalemusrecentes",
+            "c4": "1856",
+            "f5": "plandelajerusalemhebusrecentes",
+            "f6": "1856",
+            "f7": "plan de la jerusalem hebraique et chretienne dapres les etudes les plus recentes",
+            "f9": "1 map ;",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 373 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "creationdate": "1856",
+            "format": "1 map ; 63 X 47 cm..",
+            "language": "fre",
+            "lds01": "Scale",
+            "lds05": "Inset plan: La Jerusalem du temps de Jesus-Christ",
+            "lds08": "002369556",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer373",
+            "lds17": "Jer 373",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002369556",
+            "lds40": "IE6882348",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6882348",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882348",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne;&nbsp;D'apres les Etudes les plus r\u00e9centes.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1856",
+            "frbrgroupid": "160675474",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "fre",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k3": "$$Kplan de la jerusalem hebraique et chretienne d'apres les etudes les plus recentes$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882348",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer373.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882348",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6882348"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1856",
+            "enddate": "18561231",
+            "general": [
+                "1856.",
+                "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne [cartographic material] : D'apres les Etudes les plus r\u00e9centes.",
+                "fre",
+                "Inset plan: La Jerusalem du temps de Jesus-Christ",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr03": [
+                "002369556",
+                "02369556",
+                "2369556"
+            ],
+            "lsr04": [
+                "Jer 373",
+                "Jer373"
+            ],
+            "lsr06": [
+                "Plan",
+                "de",
+                "la",
+                "J\u00e9rusalem",
+                "H\u00e9braique",
+                "et",
+                "Chr\u00e9tienneampnbspDaposapres",
+                "les",
+                "Etudes",
+                "plus",
+                "r\u00e9centes"
+            ],
+            "lsr07": [
+                "Plan",
+                "de",
+                "la",
+                "J\u00e9rusalem",
+                "H\u00e9braique",
+                "et",
+                "Chr\u00e9tienneampnbspDaposapres",
+                "les",
+                "Etudes",
+                "plus",
+                "r\u00e9centes"
+            ],
+            "lsr08": [
+                "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne D apos apres les Etudes les plus r\u00e9centes",
+                "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne amp nbsp D apos apres les Etudes les plus r\u00e9centes",
+                "1856",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne cartographic material D apos apres les Etudes les plus r\u00e9centes",
+                "fre",
+                "Inset plan La Jerusalem du temps de Jesus Christ",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002369556",
+            "recordid": "NNL_MAPS002369556",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18560101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne D'apres les Etudes les plus r\u00e9centes."
+        },
+        "sort": {
+            "creationdate": "18560000",
+            "lso01": "18560000",
+            "title": "Plan de la J\u00e9rusalem H\u00e9braique et Chr\u00e9tienne D'apres les Etudes les plus r\u00e9centes."
+        }
+    },
+    "NNL01002369595.tif": {
+        "addata": {
+            "au": "Pierotti, Ermete",
+            "aufirst": "Ermete",
+            "aulast": "Pierotti",
+            "btitle": "Plan de Jerusalem ancienne et moderne;&nbsp;par le Docteur Ermete Pierotti.",
+            "cop": "Gen\u00e9ve",
+            "date": "1869",
+            "format": "book",
+            "oclcid": "714296365",
+            "risdate": "[1869?]."
+        },
+        "browse": {
+            "author": "$$DPierotti, Ermete$$EPierotti, Ermete$$INNL10000105681$$PY M",
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DPlan de Jerusalem ancienne et moderne$$EPlan de Jerusalem ancienne et moderne"
+        },
+        "control": {
+            "ilsapiid": "NNL01002369595",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002369595",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002369595",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngplandejerusalemaneetmoderne",
+            "c4": "1869",
+            "f11": "pierotti ermete",
+            "f5": "plandejerusalemancienneetmoderne",
+            "f6": "1869",
+            "f7": "plan de jerusalem ancienne et moderne",
+            "f8": "sz",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 126 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "creationdate": "1869?",
+            "creator": "Pierotti Ermete",
+            "format": "426x343 mm..",
+            "language": "fre",
+            "lds01": "Scale",
+            "lds05": [
+                "Plan",
+                "Incluedes key of places"
+            ],
+            "lds08": "002369595",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer126",
+            "lds17": "Jer 126",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002369595",
+            "lds40": "IE6882044",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6882044",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882044",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "Gen\u00e9ve,",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Plan de Jerusalem ancienne et moderne;&nbsp;par le Docteur Ermete Pierotti.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1869",
+            "creatorcontrib": "Pierotti Ermete",
+            "frbrgroupid": "160675488",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "fre",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Gen\u00e9ve",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kpierotti ermete$$AA",
+            "k3": "$$Kplan de jerusalem ancienne et moderne$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882044",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer126.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882044",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6882044"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1869",
+            "creatorcontrib": [
+                "Ermete  Pierotti",
+                "Pierotti, E",
+                "par le Docteur Ermete Pierotti.",
+                "Pierotti Ermete"
+            ],
+            "enddate": "18691231",
+            "general": [
+                "Gen\u00e9ve, [1869?].",
+                "Plan de Jerusalem ancienne et moderne [cartographic material] / par le Docteur Ermete Pierotti.",
+                "fre",
+                "Plan",
+                "Incluedes key of places",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "Gen\u00e9ve,",
+            "lsr03": [
+                "002369595",
+                "02369595",
+                "2369595"
+            ],
+            "lsr04": [
+                "Jer 126",
+                "Jer126"
+            ],
+            "lsr06": [
+                "Plan",
+                "de",
+                "Jerusalem",
+                "ancienne",
+                "et",
+                "moderneampnbsppar",
+                "le",
+                "Docteur",
+                "Ermete",
+                "Pierotti"
+            ],
+            "lsr07": [
+                "Plan",
+                "de",
+                "Jerusalem",
+                "ancienne",
+                "et",
+                "moderneampnbsppar",
+                "le",
+                "Docteur",
+                "Ermete",
+                "Pierotti"
+            ],
+            "lsr08": [
+                "Plan de Jerusalem ancienne et moderne",
+                "Plan de Jerusalem ancienne et moderne amp nbsp par le Docteur Ermete Pierotti",
+                "1869",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Gen\u00e9ve",
+                "Gen\u00e9ve 1869",
+                "Plan de Jerusalem ancienne et moderne cartographic material par le Docteur Ermete Pierotti",
+                "fre",
+                "Plan",
+                "Incluedes key of places",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002369595",
+            "recordid": "NNL_MAPS002369595",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18690101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Plan de Jerusalem ancienne et moderne"
+        },
+        "sort": {
+            "author": "Pierotti, Ermete",
+            "creationdate": "18690000",
+            "lso01": "18690000",
+            "title": "Plan de Jerusalem ancienne et moderne"
+        }
+    },
+    "NNL01002369613.tif": {
+        "addata": {
+            "addau": [
+                "Tobler, Titus",
+                "Weller, Edward",
+                "\u05d8\u05d5\u05d1\u05dc\u05e8, \u05d8\u05d9\u05d8\u05d5\u05e1",
+                "Tobler, Titus, 1806-1877"
+            ],
+            "aufirst": "Titus",
+            "aulast": "Tobler",
+            "btitle": "Map of Jerusalem;&nbsp;grounded on Tobler's map.",
+            "cop": "London",
+            "date": "1861",
+            "format": "book",
+            "oclcid": "234170679",
+            "pub": "Longman & Co.",
+            "risdate": "[1861]."
+        },
+        "browse": {
+            "author": [
+                "$$DTobler, Titus$$ETobler, Titus$$INNL10000131706$$PY M",
+                "$$DWeller, Edward$$EWeller, Edward$$PM",
+                "$$D\u05d8\u05d5\u05d1\u05dc\u05e8, \u05d8\u05d9\u05d8\u05d5\u05e1$$E\u05d8\u05d5\u05d1\u05dc\u05e8, \u05d8\u05d9\u05d8\u05d5\u05e1$$INNL10000131706$$PY",
+                "$$DTobler, Titus, 1806-1877$$ETobler, Titus, 1806-1877$$INNL10000131706$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DMap of Jerusalem grounded on Tobler's map$$EMap of Jerusalem grounded on Tobler's map"
+        },
+        "control": {
+            "ilsapiid": "NNL01002369613",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002369613",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002369613",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngmapofjerusalemgrotoblersmap",
+            "c4": "1861",
+            "f10": "longman co",
+            "f5": "mapofjerusalemgroundedontoblersmap",
+            "f6": "1861",
+            "f7": "map of jerusalem grounded on toblers map",
+            "f8": "enk",
+            "f9": "1 map ;",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 146 )$$Savailable$$32$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "Titus Tobler; Edward Weller",
+            "creationdate": "1861",
+            "format": "1 map ; 55x49 cm..",
+            "language": "eng",
+            "lds01": "Scale",
+            "lds05": [
+                "The map was in the book by Lewin, T. Jerusalem... London, 1861",
+                "C.2 colored"
+            ],
+            "lds08": "002369613",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer146",
+            "lds17": "Jer 146",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002369613",
+            "lds40": "IE6880187",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6880187",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880187",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "London :Longman & Co.",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Map of Jerusalem;&nbsp;grounded on Tobler's map.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1861",
+            "creatorcontrib": [
+                "Tobler Titus",
+                "Weller Edward"
+            ],
+            "frbrgroupid": "160676127",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "eng",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "London",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": [
+                "$$Ktobler titus$$AA",
+                "$$Kweller edward$$AA",
+                "$$K\u05d8\u05d5\u05d1\u05dc\u05e8 \u05d8\u05d9\u05d8\u05d5\u05e1$$AA",
+                "$$Ktobler titus 1806 1877$$AA"
+            ],
+            "k3": "$$Kmap of jerusalem grounded on tobler's map$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880187",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer146.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6880187",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6880187"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1861",
+            "creatorcontrib": [
+                "Titus  Tobler",
+                "Edward  Weller",
+                "\u05d8\u05d5\u05d1\u05dc\u05e8, \u05d8\u05d9\u05d8\u05d5\u05e1",
+                "Titus,  Tobler  1806-1877",
+                "Tobler, T",
+                "Weller, E",
+                "\u05d8\u05d5\u05d1\u05dc\u05e8",
+                "Titus Tobler Edward Weller"
+            ],
+            "enddate": "18611231",
+            "general": [
+                "London : Longman & Co., [1861].",
+                "Map of Jerusalem [cartographic material] : grounded on Tobler's map.",
+                "eng",
+                "The map was in the book by Lewin, T. Jerusalem... London, 1861",
+                "C.2 colored",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "London : Longman & Co.,",
+            "lsr03": [
+                "002369613",
+                "02369613",
+                "2369613"
+            ],
+            "lsr04": [
+                "Jer 146",
+                "Jer146"
+            ],
+            "lsr06": [
+                "Map",
+                "of",
+                "Jerusalemampnbspgrounded",
+                "on",
+                "Tobleraposs",
+                "map"
+            ],
+            "lsr07": [
+                "Map",
+                "of",
+                "Jerusalemampnbspgrounded",
+                "on",
+                "Tobleraposs",
+                "map"
+            ],
+            "lsr08": [
+                "Map of Jerusalem grounded on Tobler apos s map",
+                "Map of Jerusalem amp nbsp grounded on Tobler apos s map",
+                "1861",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "London Longman amp Co",
+                "London Longman amp Co 1861",
+                "Map of Jerusalem cartographic material grounded on Tobler apos s map",
+                "eng",
+                "The map was in the book by Lewin T Jerusalem London 1861",
+                "C 2 colored",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002369613",
+            "recordid": "NNL_MAPS002369613",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18610101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Map of Jerusalem grounded on Tobler's map."
+        },
+        "sort": {
+            "author": "Tobler, Titus",
+            "creationdate": "18610000",
+            "lso01": "18610000",
+            "title": "Map of Jerusalem grounded on Tobler's map."
+        }
+    },
+    "NNL01002369805.tif": {
+        "addata": {
+            "addau": [
+                "Ritter, Carl, 1779-1859",
+                "Ritter, Carl",
+                "Ritter, Carl (Geograph)",
+                "Ritter, Karl, 1779-1859"
+            ],
+            "au": "Lange, Henry, 1821-1893",
+            "aufirst": "Henry,",
+            "aulast": "Lange",
+            "btitle": "Skizze eines Grundrisses von Jerusalem;&nbsp;Gezeichnet von H.Lange ; Lith. Anst.v.L.Kraatz in Berlin.",
+            "cop": "Berlin",
+            "date": "1852",
+            "format": "book",
+            "oclcid": "234170785",
+            "pub": "Verlag von Georg Reimer in Berlin",
+            "risdate": "[1852]."
+        },
+        "browse": {
+            "author": [
+                "$$DLange, Henry, 1821-1893$$ELange, Henry, 1821-1893$$INNL10000301572$$PY M",
+                "$$DLange, Henry$$ELange, Henry$$INNL10000301572$$PN",
+                "$$DLang, Henry$$ELang, Henry$$INNL10000301572$$PN",
+                "$$DLange, Karl Julius Heinrich$$ELange, Karl Julius Heinrich$$INNL10000301572$$PN",
+                "$$DLange, H$$ELange, H$$INNL10000301572$$PN",
+                "$$DRitter, Carl, 1779-1859$$ERitter, Carl, 1779-1859$$INNL10000199440$$PY M",
+                "$$DRitter, Carl$$ERitter, Carl$$INNL10000199440$$PN",
+                "$$DRitter, Carl (Geograph)$$ERitter, Carl (Geograph)$$INNL10000199440$$PN",
+                "$$DRitter, Karl, 1779-1859$$ERitter, Karl, 1779-1859$$INNL10000199440$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DSkizze eines Grundrisses von Jerusalem$$ESkizze eines Grundrisses von Jerusalem"
+        },
+        "control": {
+            "ilsapiid": "NNL01002369805",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002369805",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002369805",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngskizzeeinesgrundrnjerusalem",
+            "c4": "1852",
+            "f10": "verlag von georg reimer in berlin",
+            "f11": "lange henry 1821 1893",
+            "f5": "skizzeeinesgrundrissnjerusalem",
+            "f6": "1852",
+            "f7": "skizze eines grundrisses von jerusalem",
+            "f8": "gw",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 403 )$$Savailable$$32$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "Carl Ritter 1779-1859",
+            "creationdate": "1852",
+            "creator": "Lange Henry, 1821-1893",
+            "format": "276 x 263 mm..",
+            "language": "ger",
+            "lds01": "Scale 1:9,600",
+            "lds05": "From: Ritter, Carl. Die Erdkunde im Verh\u00e4ltniss zur Natur und zur Geschichte...Berlin (89 C 3377, vol.16)",
+            "lds08": "002369805",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer403",
+            "lds15": "P 24 -2 Wahrman, Jacob",
+            "lds17": "Jer 403",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002369805",
+            "lds40": "IE6879552",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6879552",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879552",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "Berlin :Verlag von Georg Reimer in Berlin",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Skizze eines Grundrisses von Jerusalem;&nbsp;Gezeichnet von H.Lange ; Lith. Anst.v.L.Kraatz in Berlin.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1852",
+            "creatorcontrib": [
+                "Lange Henry",
+                "Ritter Carl"
+            ],
+            "frbrgroupid": "160675695",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "ger",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Berlin",
+            "lfc08": "1:9,600",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Klange henry 1821 1893$$AA",
+            "k3": "$$Kskizze eines grundrisses von jerusalem$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879552",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer403.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6879552",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6879552"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1852",
+            "creatorcontrib": [
+                "Henry,  Lange  1821-1893",
+                "Henry  Lange",
+                "Henry  Lang",
+                "Karl Julius Heinrich  Lange",
+                "H.  Lange",
+                "Lange, H",
+                "Lang, H",
+                "Lange, K",
+                "Gezeichnet von H.Lange ; Lith. Anst.v.L.Kraatz in Berlin.",
+                "Carl,  Ritter  1779-1859",
+                "Carl  Ritter",
+                "Carl (Geograph)  Ritter",
+                "Karl,  Ritter  1779-1859",
+                "Ritter, C",
+                "Ritter, K",
+                "Lange Henry 1821 1893",
+                "Carl Ritter 1779 1859"
+            ],
+            "enddate": "18521231",
+            "general": [
+                "Berlin : Verlag von Georg Reimer in Berlin, [1852].",
+                "Skizze eines Grundrisses von Jerusalem [cartographic material] / Gezeichnet von H.Lange ; Lith. Anst.v.L.Kraatz in Berlin.",
+                "ger",
+                "From: Ritter, Carl. Die Erdkunde im Verh\u00e4ltniss zur Natur und zur Geschichte...Berlin (89 C 3377, vol.16)",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "Berlin : Verlag von Georg Reimer in Berlin,",
+            "lsr03": [
+                "002369805",
+                "02369805",
+                "2369805"
+            ],
+            "lsr04": [
+                "Jer 403",
+                "Jer403"
+            ],
+            "lsr06": [
+                "Skizze",
+                "eines",
+                "Grundrisses",
+                "von",
+                "JerusalemampnbspGezeichnet",
+                "HLange",
+                "Lith",
+                "AnstvLKraatz",
+                "in",
+                "Berlin"
+            ],
+            "lsr07": [
+                "Skizze",
+                "eines",
+                "Grundrisses",
+                "von",
+                "JerusalemampnbspGezeichnet",
+                "HLange",
+                "Lith",
+                "AnstvLKraatz",
+                "in",
+                "Berlin"
+            ],
+            "lsr08": [
+                "Skizze eines Grundrisses von Jerusalem",
+                "Skizze eines Grundrisses von Jerusalem amp nbsp Gezeichnet von H Lange Lith Anst v L Kraatz in Berlin",
+                "1852",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Berlin Verlag von Georg Reimer in Berlin",
+                "Berlin Verlag von Georg Reimer in Berlin 1852",
+                "Skizze eines Grundrisses von Jerusalem cartographic material Gezeichnet von H Lange Lith Anst v L Kraatz in Berlin",
+                "ger",
+                "From Ritter Carl Die Erdkunde im Verh\u00e4ltniss zur Natur und zur Geschichte Berlin 89 C 3377 vol 16",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002369805",
+            "recordid": "NNL_MAPS002369805",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18520101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Skizze eines Grundrisses von Jerusalem"
+        },
+        "sort": {
+            "author": "Lange, Henry, 1821-1893",
+            "creationdate": "18520000",
+            "lso01": "18520000",
+            "title": "Skizze eines Grundrisses von Jerusalem"
+        }
+    },
+    "NNL01002369877.tif": {
+        "addata": {
+            "addau": "Kraatz, Leopold",
+            "au": "Lionnet, Albert, 1808-1858",
+            "aufirst": "Albert,",
+            "aulast": "Lionnet",
+            "btitle": "Jerusalem;&nbsp;Entworfen und gezeichnet von Dr. Lionnet.",
+            "cop": "Berlin",
+            "date": "1861",
+            "format": "book",
+            "oclcid": "234170833",
+            "pub": "Lith. Anst. von Leopold Kraatz",
+            "risdate": "[1861]."
+        },
+        "browse": {
+            "author": [
+                "$$DLionnet, Albert, 1808-1858$$ELionnet, Albert, 1808-1858$$INNL10000293593$$PY M",
+                "$$DKraatz, Leopold$$EKraatz, Leopold$$PM"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DJerusalem$$EJerusalem"
+        },
+        "control": {
+            "ilsapiid": "NNL01002369877",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002369877",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002369877",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngjerusalem",
+            "c4": "1861",
+            "f10": "lith anst von leopold kraatz",
+            "f11": "lionnet albert 1808 1858",
+            "f5": "jerusalem",
+            "f6": "1861",
+            "f7": "jerusalem",
+            "f8": "gw",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 410 - in: 2=34 V 3560 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "Leopold Kraatz",
+            "creationdate": "1861",
+            "creator": "Lionnet Albert, 1808-1858",
+            "format": "232x152 mm..",
+            "language": "ger",
+            "lds01": "Scale",
+            "lds05": [
+                "Lithography",
+                "From: Strauss, Friedrich Adolph & Strauss, Otto. Die L\u00e4nder und St\u00e4tten der Heiligen Schrift. Stuttgart und M\u00fcnchen, 1861, before page 25"
+            ],
+            "lds08": "002369877",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "jer410",
+            "lds17": "Jer 410 - in: 2=34 V 3560",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002369877",
+            "lds40": "IE6878484",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878484",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878484",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "Berlin :Lith. Anst. von Leopold Kraatz",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Jerusalem;&nbsp;Entworfen und gezeichnet von Dr. Lionnet.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1861",
+            "creatorcontrib": [
+                "Lionnet Albert",
+                "Kraatz Leopold"
+            ],
+            "frbrgroupid": "160675882",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "ger",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Berlin",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Klionnet albert 1808 1858$$AA",
+            "k3": "$$Kjerusalem$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878484",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer410.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878484",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878484"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1861",
+            "creatorcontrib": [
+                "Albert,  Lionnet  1808-1858",
+                "Lionnet, A",
+                "Entworfen und gezeichnet von Dr. Lionnet.",
+                "Leopold  Kraatz",
+                "Kraatz, L",
+                "Lionnet Albert 1808 1858",
+                "Leopold Kraatz"
+            ],
+            "enddate": "18611231",
+            "general": [
+                "Berlin : Lith. Anst. von Leopold Kraatz, [1861].",
+                "Jerusalem [cartographic material] / Entworfen und gezeichnet von Dr. Lionnet.",
+                "ger",
+                "Lithography",
+                "From: Strauss, Friedrich Adolph & Strauss, Otto. Die L\u00e4nder und St\u00e4tten der Heiligen Schrift. Stuttgart und M\u00fcnchen, 1861, before page 25",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "Berlin : Lith. Anst. von Leopold Kraatz,",
+            "lsr03": [
+                "002369877",
+                "02369877",
+                "2369877"
+            ],
+            "lsr04": [
+                "Jer 410 - in: 2=34 V 3560",
+                "Jer410-in:2=34V3560"
+            ],
+            "lsr06": [
+                "JerusalemampnbspEntworfen",
+                "und",
+                "gezeichnet",
+                "von",
+                "Dr",
+                "Lionnet"
+            ],
+            "lsr07": [
+                "JerusalemampnbspEntworfen",
+                "und",
+                "gezeichnet",
+                "von",
+                "Dr",
+                "Lionnet"
+            ],
+            "lsr08": [
+                "Jerusalem",
+                "Jerusalem amp nbsp Entworfen und gezeichnet von Dr Lionnet",
+                "1861",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Berlin Lith Anst von Leopold Kraatz",
+                "Berlin Lith Anst von Leopold Kraatz 1861",
+                "Jerusalem cartographic material Entworfen und gezeichnet von Dr Lionnet",
+                "ger",
+                "Lithography",
+                "From Strauss Friedrich Adolph amp Strauss Otto Die L\u00e4nder und St\u00e4tten der Heiligen Schrift Stuttgart und M\u00fcnchen 1861 before page 25",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002369877",
+            "recordid": "NNL_MAPS002369877",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18610101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Jerusalem"
+        },
+        "sort": {
+            "author": "Lionnet, Albert, 1808-1858",
+            "creationdate": "18610000",
+            "lso01": "18610000",
+            "title": "Jerusalem"
+        }
+    },
+    "NNL01002370098.tif": {
+        "addata": {
+            "au": "Sandreczki, Carl, 1809-1892",
+            "aufirst": "Carl,",
+            "aulast": "Sandreczki",
+            "btitle": "Plan der Strassen & Pl\u00e4tze des jetzigen Jerusalem;&nbsp;von Dr. C.Sandreczki.",
+            "cop": "Leipzig",
+            "date": "1883",
+            "format": "book",
+            "oclcid": "234171043",
+            "pub": "Geograph. Anst. v. Wagner & Debes",
+            "risdate": "[1883]."
+        },
+        "browse": {
+            "author": "$$DSandreczki, Carl, 1809-1892$$ESandreczki, Carl, 1809-1892$$PM",
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DPlan der Strassen & Pl\u00e4tze des jetzigen Jerusalem$$EPlan der Strassen & Pl\u00e4tze des jetzigen Jerusalem"
+        },
+        "control": {
+            "ilsapiid": "NNL01002370098",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002370098",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002370098",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngplanderstrassenplnjerusalem",
+            "c4": "1883",
+            "f10": "geograph anst v wagner debes",
+            "f11": "sandreczki carl 1809 1892",
+            "f5": "planderstrassenplaetnjerusalem",
+            "f6": "1883",
+            "f7": "plan der strassen plaetze des jetzigen jerusalem",
+            "f8": "gw",
+            "f9": "1 map ;",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 174 )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "creationdate": "1883",
+            "creator": "Sandreczki Carl, 1809-1892",
+            "format": "1 map ; 46 x 46 cm..",
+            "language": "ger",
+            "lds01": "Scale: 1:2,500",
+            "lds05": [
+                "From: Zeitschrift des Deutschen Paelestina Vereins, Vol. VI [1883]. Related text: pp. 43-77.",
+                "\"Tafel I\""
+            ],
+            "lds08": "002370098",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer174",
+            "lds17": "Jer 174",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002370098",
+            "lds40": "IE6878663",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878663",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878663",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "Leipzig :Geograph. Anst. v. Wagner & Debes",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Plan der Strassen & Pl\u00e4tze des jetzigen Jerusalem;&nbsp;von Dr. C.Sandreczki.",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1883",
+            "creatorcontrib": "Sandreczki Carl",
+            "frbrgroupid": "160680677",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "ger",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Leipzig",
+            "lfc08": ": 1:2,500",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Ksandreczki carl 1809 1892$$AA",
+            "k3": "$$Kplan der strassen & plaetze des jetzigen jerusalem$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878663",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer174.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6878663",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6878663"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1883",
+            "creatorcontrib": [
+                "Carl,  Sandreczki  1809-1892",
+                "Sandreczki, C",
+                "von Dr. C.Sandreczki.",
+                "Sandreczki Carl 1809 1892"
+            ],
+            "enddate": "18831231",
+            "general": [
+                "Leipzig : Geograph. Anst. v. Wagner & Debes, [1883].",
+                "Plan der Strassen & Pl\u00e4tze des jetzigen Jerusalem [cartographic material] / von Dr. C.Sandreczki.",
+                "ger",
+                "From: Zeitschrift des Deutschen Paelestina Vereins, Vol. VI [1883]. Related text: pp. 43-77.",
+                "\"Tafel I\"",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "Leipzig : Geograph. Anst. v. Wagner & Debes,",
+            "lsr03": [
+                "002370098",
+                "02370098",
+                "2370098"
+            ],
+            "lsr04": [
+                "Jer 174",
+                "Jer174"
+            ],
+            "lsr06": [
+                "Plan",
+                "der",
+                "Strassen",
+                "amp",
+                "Pl\u00e4tze",
+                "des",
+                "jetzigen",
+                "Jerusalemampnbspvon",
+                "Dr",
+                "CSandreczki"
+            ],
+            "lsr07": [
+                "Plan",
+                "der",
+                "Strassen",
+                "amp",
+                "Pl\u00e4tze",
+                "des",
+                "jetzigen",
+                "Jerusalemampnbspvon",
+                "Dr",
+                "CSandreczki"
+            ],
+            "lsr08": [
+                "Plan der Strassen amp Pl\u00e4tze des jetzigen Jerusalem",
+                "Plan der Strassen amp Pl\u00e4tze des jetzigen Jerusalem amp nbsp von Dr C Sandreczki",
+                "1883",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Leipzig Geograph Anst v Wagner amp Debes",
+                "Leipzig Geograph Anst v Wagner amp Debes 1883",
+                "Plan der Strassen amp Pl\u00e4tze des jetzigen Jerusalem cartographic material von Dr C Sandreczki",
+                "ger",
+                "From Zeitschrift des Deutschen Paelestina Vereins Vol VI 1883 Related text pp 43 77",
+                "quot Tafel I quot",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002370098",
+            "recordid": "NNL_MAPS002370098",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18830101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Plan der Strassen & Pl\u00e4tze des jetzigen Jerusalem"
+        },
+        "sort": {
+            "author": "Sandreczki, Carl, 1809-1892",
+            "creationdate": "18830000",
+            "lso01": "18830000",
+            "title": "Plan der Strassen & Pl\u00e4tze des jetzigen Jerusalem"
+        }
+    },
+    "NNL01002370465.tif": {
+        "addata": {
+            "addau": [
+                "Justus Perthes (Firm)",
+                "Perthes, Justus (Firm)"
+            ],
+            "au": "Velde, Charles William Meredith van de, 1818-1898",
+            "aufirst": "Charles William Meredith van de,",
+            "aulast": "Velde",
+            "btitle": "Plan of Jerusalem;&nbsp;constructed from the survey made by Lieut. Symonds... in March 1841, and from measurements by...Tobler in 1845&1846 by C.W.M. van de Velde, late Lieut...",
+            "cop": "Gotha]",
+            "date": "1858",
+            "format": "book",
+            "notes": "Related book: 93 B 5673",
+            "oclcid": "234171309",
+            "pub": "[Justus Perthes]",
+            "risdate": "[1858]."
+        },
+        "browse": {
+            "author": [
+                "$$DVelde, Charles William Meredith van de, 1818-1898$$EVelde, Charles William Meredith van de, 1818-1898$$INNL10000137257$$PY M",
+                "$$D\u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea \u05d5\u05d0\u05df \u05d3\u05e8, 1818-1898$$E\u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea \u05d5\u05d0\u05df \u05d3\u05e8, 1818-1898$$INNL10000137257$$PY",
+                "$$DVan de Velde, Carel Willem Meredith, 1818-1898$$EVan de Velde, Carel Willem Meredith, 1818-1898$$INNL10000137257$$PN",
+                "$$DVelde, Carel Willem Meredith van de, 1818-1898$$EVelde, Carel Willem Meredith van de, 1818-1898$$INNL10000137257$$PN",
+                "$$DVan der Velde, Charles William Meredith, 1818-1898$$EVan der Velde, Charles William Meredith, 1818-1898$$INNL10000137257$$PN",
+                "$$DVelde, Charles William Meredith van der, 1818-1898$$EVelde, Charles William Meredith van der, 1818-1898$$INNL10000137257$$PN",
+                "$$D\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea, 1818-1898$$E\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea, 1818-1898$$INNL10000137257$$PN",
+                "$$DJustus Perthes (Firm)$$EJustus Perthes (Firm)$$INNL10000072681$$PY M",
+                "$$DPerthes, Justus (Firm)$$EPerthes, Justus (Firm)$$INNL10000072681$$PN"
+            ],
+            "institution": "NNL_MAPS",
+            "subject": [
+                "$$DJerusalem (Israel) -- Maps$$EJerusalem (Israel) Maps$$INNL10000936483$$PY M",
+                "$$D\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) -- \u05de\u05e4\u05d5\u05ea$$E\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea$$INNL10000936483$$PY"
+            ],
+            "title": "$$DPlan of Jerusalem$$EPlan of Jerusalem"
+        },
+        "control": {
+            "ilsapiid": "NNL01002370465",
+            "originalsourceid": "NNL01",
+            "recordid": "NNL_MAPS002370465",
+            "sourceformat": "MARC21",
+            "sourceid": "NNL_MAPS",
+            "sourcerecordid": "002370465",
+            "sourcesystem": "Aleph"
+        },
+        "dedup": {
+            "c3": "mngplanofjerusalem",
+            "c4": "1858",
+            "f10": "justus perthes",
+            "f11": "velde charles william meredith van de 1818 1898",
+            "f5": "planofjerusalem",
+            "f6": "1858",
+            "f7": "plan of jerusalem",
+            "f8": "gw",
+            "t": "99"
+        },
+        "delivery": {
+            "delcategory": "Online Resource",
+            "institution": "NNL_MAPS"
+        },
+        "display": {
+            "availinstitution": "$$INNL$$Savailable",
+            "availlibrary": "$$INNL$$LMAP$$2(Jer 425 -in Pal 645 (A8) )$$Savailable$$31$$40$$5N$$60$$XNNL50$$YMAP",
+            "availpnx": "available",
+            "contributor": "Justus Perthes (Firm)",
+            "creationdate": "1858",
+            "creator": "Velde Charles William Meredith van de, 1818-1898",
+            "format": "315 X 220 mm..",
+            "language": "eng",
+            "lds01": "Scale",
+            "lds05": [
+                "Inset in the author's Map of the Holy Land, section 8.",
+                "Includes index",
+                "Related book: 93 B 5673"
+            ],
+            "lds08": "002370465",
+            "lds11": "No restrictions; Permissions officer; Israel Copyright Act",
+            "lds13": "Jer425",
+            "lds17": "Jer 425 - in Pal 645 (A8)",
+            "lds21": "http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_MAPS002370465",
+            "lds40": "IE6882264",
+            "lds41": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6882264",
+            "lds42": "http://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882264",
+            "lds46": "IIPIMAGE_COMPLEX",
+            "publisher": "[Gotha] :Justus Perthes",
+            "source": "The National Library of Israel",
+            "subject": "Jerusalem (Israel) -- Maps",
+            "title": "Plan of Jerusalem;&nbsp;constructed from the survey made by Lieut. Symonds... in March 1841, and from measurements by...Tobler in 1845&1846 by C.W.M. van de Velde, late Lieut...",
+            "type": "map"
+        },
+        "facets": {
+            "creationdate": "1858",
+            "creatorcontrib": [
+                "Velde Charles William Meredith van de",
+                "Justus Perthes (Firm)"
+            ],
+            "frbrgroupid": "160675520",
+            "frbrtype": "6",
+            "genre": [
+                "Maps",
+                "\u05de\u05e4\u05d5\u05ea"
+            ],
+            "language": "eng",
+            "lfc06": "\u05e8\u05d0\u05dc\u05d9\u05e1\u05d8\u05d9\u05ea",
+            "lfc07": "Gotha",
+            "prefilter": "maps",
+            "rsrctype": "maps",
+            "topic": "Jerusalem (Israel)\u2013Maps",
+            "toplevel": [
+                "available_in_RR",
+                "online_resources"
+            ]
+        },
+        "frbr": {
+            "k1": "$$Kvelde charles william meredith van de 1818 1898$$AA",
+            "k3": "$$Kplan of jerusalem$$AT",
+            "t": "99"
+        },
+        "links": {
+            "backlink": "$$Taleph_backlink$$Ebacklink",
+            "linktoholdings": "$$Taleph_holdings",
+            "linktorsrc": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882264",
+            "lln01": "$$Ujnul.huji.ac.il/dl/maps/jer/html/jer425.htm",
+            "openurl": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_pid=IE6882264",
+            "openurlfulltext": "$$Topenurlfull_journal",
+            "thumbnail": "$$Uhttp://rosetta.nli.org.il/delivery/DeliveryManagerServlet?dps_func=thumbnail&dps_pid=IE6882264"
+        },
+        "ranking": {
+            "booster1": "1",
+            "booster2": "1"
+        },
+        "search": {
+            "creationdate": "1858",
+            "creatorcontrib": [
+                "Charles William Meredith van de,  Velde  1818-1898",
+                "\u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea \u05d5\u05d0\u05df \u05d3\u05e8,  1818-1898",
+                "Carel Willem Meredith,  Van de Velde  1818-1898",
+                "Carel Willem Meredith van de,  Velde  1818-1898",
+                "Charles William Meredith,  Van der Velde  1818-1898",
+                "Charles William Meredith van der,  Velde  1818-1898",
+                "\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3, \u05e6'\u05e8\u05dc\u05e1 \u05d5\u05d9\u05dc\u05d9\u05d0\u05dd \u05de\u05e8\u05d3\u05d9\u05ea,  1818-1898",
+                "Velde, C",
+                "\u05d5\u05d5\u05dc\u05d3",
+                "Van de Velde, C",
+                "Van der Velde, C",
+                "\u05d5\u05d0\u05df \u05d3\u05e8 \u05d5\u05d5\u05dc\u05d3",
+                "constructed from the survey made by Lieut. Symonds... in March 1841, and from measurements by...Tobler in 1845&1846 by C.W.M. van de Velde, late Lieut...",
+                "Justus Perthes (Firm)",
+                "Perthes, Justus (Firm)",
+                "Velde Charles William Meredith van de 1818 1898",
+                "Justus Perthes Firm"
+            ],
+            "enddate": "18581231",
+            "general": [
+                "[Gotha] : [Justus Perthes], [1858].",
+                "Plan of Jerusalem [cartographic material] / constructed from the survey made by Lieut. Symonds... in March 1841, and from measurements by...Tobler in 1845&1846 by C.W.M. van de Velde, late Lieut...",
+                "eng",
+                "Inset in the author's Map of the Holy Land, section 8.",
+                "Includes index",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr01": "[Gotha] : [Justus Perthes],",
+            "lsr03": [
+                "002370465",
+                "02370465",
+                "2370465"
+            ],
+            "lsr04": [
+                "Jer 425 - in Pal 645 (A8)",
+                "Jer425-inPal645(A8)"
+            ],
+            "lsr06": [
+                "Plan",
+                "of",
+                "Jerusalemampnbspconstructed",
+                "from",
+                "the",
+                "survey",
+                "made",
+                "by",
+                "Lieut",
+                "Symonds",
+                "in",
+                "March",
+                "1841",
+                "and",
+                "measurements",
+                "byTobler",
+                "1845amp1846",
+                "CWM",
+                "van",
+                "de",
+                "Velde",
+                "late"
+            ],
+            "lsr07": [
+                "Plan",
+                "of",
+                "Jerusalemampnbspconstructed",
+                "from",
+                "the",
+                "survey",
+                "made",
+                "by",
+                "Lieut",
+                "Symonds",
+                "in",
+                "March",
+                "1841",
+                "and",
+                "measurements",
+                "byTobler",
+                "1845amp1846",
+                "CWM",
+                "van",
+                "de",
+                "Velde",
+                "late"
+            ],
+            "lsr08": [
+                "Plan of Jerusalem",
+                "Plan of Jerusalem amp nbsp constructed from the survey made by Lieut Symonds in March 1841 and from measurements by Tobler in 1845 amp 1846 by C W M van de Velde late Lieut",
+                "1858",
+                "Jerusalem Israel Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05e4\u05d5\u05ea Y",
+                "Gotha Justus Perthes",
+                "Gotha Justus Perthes 1858",
+                "Plan of Jerusalem cartographic material constructed from the survey made by Lieut Symonds in March 1841 and from measurements by Tobler in 1845 amp 1846 by C W M van de Velde late Lieut",
+                "eng",
+                "Inset in the author apos s Map of the Holy Land section 8",
+                "Includes index",
+                "MAP",
+                "EMAP",
+                "MAPS",
+                "LAORCITY"
+            ],
+            "lsr30": "NNL_MAPS002370465",
+            "recordid": "NNL_MAPS002370465",
+            "rsrctype": [
+                "map",
+                "MAP",
+                "EMAP"
+            ],
+            "scope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "searchscope": [
+                "NNL_MAPS",
+                "MAP",
+                "DIG"
+            ],
+            "sourceid": "NNL_MAPS",
+            "startdate": "18580101",
+            "subject": [
+                "Jerusalem (Israel) Maps Y M",
+                "\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd (\u05d9\u05e9\u05e8\u05d0\u05dc) \u05de\u05e4\u05d5\u05ea Y"
+            ],
+            "title": "Plan of Jerusalem"
+        },
+        "sort": {
+            "author": "Velde, Charles William Meredith van de, 1818-1898",
+            "creationdate": "18580000",
+            "lso01": "18580000",
+            "title": "Plan of Jerusalem"
+        }
+    }
+}
