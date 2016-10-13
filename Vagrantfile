@@ -14,15 +14,15 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
-  config.vm.network :forwarded_port, guest: 3000, host: 3000
-  config.vm.network :forwarded_port, guest: 8000, host: 8000
+  config.vm.network :forwarded_port, guest: 3000, host: 3002
+  config.vm.network :forwarded_port, guest: 8000, host: 8002
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   config.vm.synced_folder "mapwarper", "/srv/mapwarper"
-  config.vm.synced_folder "Maps", "/srv/viewer"
+  config.vm.synced_folder "Maps", "/srv/Maps"
 
   config.vm.provision :shell, :path => "./provision.sh"
   

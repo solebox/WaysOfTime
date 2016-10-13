@@ -5,7 +5,7 @@ chmod +x ./lib/vagrant/provision.sh
 ./lib/vagrant/provision.sh
 popd
 pushd /srv/viewer
-sudo apt-get install -y python python-pip python-dev build-essential libpq-dev
+sudo apt-get install -y python python-pip python-dev build-essential libpq-dev python3-dev
 sudo pip install -r requirements.txt
 popd
 pushd /srv/mapwarper
