@@ -1,7 +1,8 @@
 # National Library Maps Project
 
 
-
+## cloning
+    git clone --recursive git@github.com:soleboxy/WaysOfTime.git 
 ## Development
 
 There is a vagrantfile you can use.
