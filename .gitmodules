@@ -1,0 +1,3 @@
+[submodule "mapwarper"]
+	path = mapwarper
+	url = git@github.com:soleboxy/mapwarper.git
