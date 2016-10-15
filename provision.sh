@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 apt-get update
-sed -ie 's/apt-get/apt-get\ --force-yes/' mapwarper/lib/vagrant/provision.sh #patch for mapwarper provision file
+sed -ie 's/apt-get/apt-get\ --force-yes/' /srv/mapwarper/lib/vagrant/provision.sh #patch for mapwarper provision file
 pushd /srv/mapwarper
 chmod +x ./lib/vagrant/provision.sh
 ./lib/vagrant/provision.sh
