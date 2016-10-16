@@ -24,6 +24,7 @@ from viewer import sitemaps
 router = routers.DefaultRouter()
 router.register(r'maps', views.MapsViewSet)
 router.register(r'my_maps', views.MyMapsViewSet)
+from viewer.wms_config import MyWmsView
 
 sitemaps = {'map': sitemaps.MapSitemap}
 
@@ -38,5 +39,11 @@ urlpatterns = [
     url(r'^api/v1/', include(router.urls)),
 
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
-    name='django.contrib.sitemaps.views.sitemap')
+    name='django.contrib.sitemaps.views.sitemap'),
+    # This creates a WMS endpoint
+    url(r'^wms/$', MyWmsView.as_view(), name='wms'),
+
+    # This creates a TMS endpoint
+    url(r'^tile/(?P<layers>[^/]+)/(?P<z>[0-9]+)/(?P<x>[0-9]+)/(?P<y>[0-9]+)(?P<format>\.jpg|\.png)$',
+        MyWmsView.as_view(), name='tms'),
 ]
