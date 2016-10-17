@@ -28,13 +28,15 @@ user.save
 When you'll type the last command (`user.save`) there'll be a url in the console output, copy it to the browser to activate the user, and try to login to the system.
 
 
-# mapserver python3 support (will make a script for it in the future when the mapserver initial dev is done)
-
+# mapserver python3 support 
+## (will make a script for it in the future when the mapserver initial dev is done)
+```
 git clone https://github.com/edigiacomo/mapserver.git
 checkout 4560d345fb0b9980968b425794aa50ed9356707b
-run the vagrant scripts (install packages , compile and all, compile harfbuzz WITH glib support)
 
-and in the build dir use the following cmake command:
+* run the vagrant scripts (install packages , compile and all, compile harfbuzz WITH glib support)
+
+ * and in the build dir use the following cmake command:
 cmake   -G "Unix Makefiles" -DWITH_CLIENT_WMS=1 \
         -DWITH_CLIENT_WFS=1 -DWITH_KML=1 -DWITH_SOS=1 -DWITH_PHP=1 \
         -DWITH_PYTHON=1 -DWITH_JAVA=0 -DWITH_THREAD_SAFETY=1 \
@@ -45,7 +47,10 @@ cmake   -G "Unix Makefiles" -DWITH_CLIENT_WMS=1 \
         -DPYTHON_INCLUDE_PATH:PATH=/usr/include/python3.5 \
         -DPYTHON_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.5m.so \
         ..
+```
 
 # pack react stuff and move result to django static dir
+```
 cd react
 npm run pack
+```
