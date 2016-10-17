@@ -18,15 +18,16 @@ from django.contrib import admin
 from rest_framework import routers
 from viewer import views
 from django.contrib.sitemaps.views import sitemap
-
+from viewer.wms_config import MyWmsView
 from viewer import sitemaps
 
 router = routers.DefaultRouter()
 router.register(r'maps', views.MapsViewSet)
 router.register(r'my_maps', views.MyMapsViewSet)
-from viewer.wms_config import MyWmsView
+
 
 sitemaps = {'map': sitemaps.MapSitemap}
+
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -40,6 +41,7 @@ urlpatterns = [
 
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
     name='django.contrib.sitemaps.views.sitemap'),
+    url(r'^raster/', include('raster.urls')),
     # This creates a WMS endpoint
     url(r'^wms/$', MyWmsView.as_view(), name='wms'),
 
