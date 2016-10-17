@@ -1,0 +1,478 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+/* svg, */
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#slider{
+  background-color: rgba(255,255,255,0.8);
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+#chosenLayers {
+  display: none;
+}
+
+#chosenLayers > .mdl-layout__drawer {
+  left: auto;
+  right: 0;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.mdl-layout__drawer.is-visible {
+  width: 234px;
+}
+
+.mdl-layout__drawer {
+  overflow-y: hidden;
+}
+
+.mdl-layout__header, .mdl-layout__drawer-button,
+.mdl-layout__header-row .mdl-navigation__link {
+ color: black;
+}
+
+.mdl-layout > .mdl-layout__drawer-button > i {
+  background-color: #fff;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.mdl-mini-footer__left-section {
+  margin-top: -2vh;
+}
+
+.leaflet-left {
+  left: auto;
+  right: 1%;
+}
+
+#mainLogo {
+  width: 50%;
+}
+
+.mdl-layout__drawer >.mdl-layout__title, .mdl-layout__drawer .mdl-layout-title {
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+.mdl-grid > .mdl-textfield {
+  width: auto;
+}
+
+#search {
+    width: 100%;
+    margin-top: -10px;
+}
+
+#search > .mdl-button {
+    float: right;
+}
+
+#thumb {
+  height: 60vh;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.map-thumbnail {
+  list-style-type: none;
+  margin: 5px;
+  width: 100%;
+}
+
+.map-thumbnail > .mdl-card {
+  min-height: auto;
+  min-width: auto;
+}
+
+.demo-card-image.mdl-card {
+  margin: auto;
+}
+
+.demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-card-image > img {
+   height: 160px;
+}
+
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+li.thumbnail-click{
+  display:block;
+  padding: 0 10px 10px 10px;
+}
+
+#map > .leaflet-map-pane > .leaflet-top > .leaflet-draw {
+    z-index: 10;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/*
+@media only screen and (max-width: 1025px) {
+    .mdl-layout__drawer {
+        margin-right: -25%;
+    }
+}
+*/
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+/* huuuuhahahaha */
+.mdl-layout__drawer-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 240px;
+    height: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    background: #fafafa;
+    -webkit-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    transform: translateX(250px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    will-change: transform;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    color: #222222;
+    overflow: visible;
+    overflow-y: auto;
+    z-index: 5;
+}
+
+.active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.mdl-layout__obfuscator-right {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 4;
+    visibility: hidden;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.mdl-layout__drawer-right.active~.mdl-layout__obfuscator-right {
+    background-color: rgba(0,0,0,.5);
+    visibility: visible;
+}
+
+.mdl-layout__drawer-right>.mdl-layout-title {
+    line-height: 56px;
+    padding-left: 16px;
+}
+
+.mdl-layout__obfuscator.is-visible {
+  visibility: hidden;
+}
+
+.mdl-layout__container .mdl-layout__drawer-button {
+  z-index: 10;
+}
+
+#sortable > .mdl-card {
+  min-height: 0;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+#sortable img.nopadding {
+  margin: 0;
+  padding: 0;
+}
+
+#layers_slider ul{
+  padding:0;
+}
+#layers_slider ul li{
+  padding:0 10px 10px 10px;
+  display: block;
+}
+
+.demo-card-image.mdl-card {
+  width: 100%;
+  height: 200px;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+/**** http://www.jqueryscript.net/lightbox/jQuery-Modal-Dialog-Plugin-For-Material-Design-Lite.html ****/
+.dialog-container,
+.loading-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: scroll;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.dialog-container > div {
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    min-height: 25px;
+    margin: 10% auto;
+    z-index: 99999;
+    padding: 16px 16px 0;
+}
+
+.dialog-button-bar {
+    text-align: right;
+    margin-top: 8px;
+}
+
+.loading-container > div {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10% auto;
+    z-index: 99999;
+}
+
+.loading-container > div > div {
+    width: 100%;
+    height: 100%;
+}
+
+/*** some ugly css to deal with redundant mdl ***/
+.thumbnail-click img {
+    height: 100%;
+}
+
+.thumbnail-click .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+

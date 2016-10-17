@@ -46,3 +46,6 @@ cmake   -G "Unix Makefiles" -DWITH_CLIENT_WMS=1 \
         -DPYTHON_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.5m.so \
         ..
 
+# pack react stuff and move result to django static dir
+cd react
+npm run pack

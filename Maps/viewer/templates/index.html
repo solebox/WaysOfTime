@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="{% static 'css/vendor/leaflet.draw.css' %}"/>
 {% endblock %}
 
-{% block title %}
-    Home
-{% endblock %}
-
-{% block slider_content %}
-    <div id="search">
-           <ul id="thumb"></ul>
-    </div>
-{% endblock %}
-
-{% block content %}
-    <div id="map"> </div>
-    <div id="layers">{% include "layouts/layers.html" %}</div>
-{% endblock %}
+{#{% block title %}#}
+{#    Home#}
+{#{% endblock %}#}
+{##}
+{#{% block slider_content %}#}
+{#    <div id="search">#}
+{#           <ul id="thumb"></ul>#}
+{#    </div>#}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{#    <div id="map"> </div>#}
+{#    <div id="layers">{% include "layouts/layers.html" %}</div>#}
+{#{% endblock %}#}
 
 
 {% block script %}
+    <div id="app"></div>
+
     <script src="{% static 'js/leaflet-tilelayer-mask.js' %}"></script>
     <script src="{% static 'js/leaflet_map.js' %}"></script>
 
