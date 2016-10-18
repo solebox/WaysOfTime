@@ -5,7 +5,7 @@ $(function (){
     var layer_counter = 0;
     var chosenMaps = [];
 
-    fetch_thumbnails("null");
+    // fetch_thumbnails("null");
 
     $('#layers_slider').on('click', 'button.show-info', function (e) {
         var map_id = $(this).data("id");

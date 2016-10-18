@@ -1,14 +1,18 @@
 //thumbsReducer.js
-export default function reducer(state={},action){
+
+export default function reducer(state={ thumbs: [], error: null}, action){
 	switch (action.type){
-		case "bla":{}
-		case "bla2": {
+
+		case "FETCH_THUMBS_FULFILLED":{
 			return {
 				...state,
-				key1: value1,
-				key2: value2,
-				key3: action.payload,
-				key4: value4 + action.payload,
+				thumbs: [action.payload],
+			}
+		}
+		case "FETCH_THUMBS_REJECTED": {
+			return {
+				...state,
+				error: action.payload,
 			}
 		}
 	}

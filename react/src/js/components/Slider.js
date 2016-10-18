@@ -1,14 +1,23 @@
 import React from "react";
 
 import Title from "./Slider/Title";
+import { fetchThumbs } from "../actions/thumbActions";
+import { connect } from "react-redux";
 
+@connect((store) => {
+  return {
+    user: store.user,
+    thumbs: store.thumbs
+  }
+})
 export default class Slider extends React.Component {
-  handleChange(e) {
-    const title = e.target.value;
-    this.props.changeTitle(title);
+  componentDidMount() {
+    this.props.dispatch(fetchThumbs());
   }
 
   render() {
+    const { thumbs } = this.props.thumbs;
+
     return (
       <div id="slider" class="mdl-layout__drawer">
           <header> 
@@ -32,7 +41,7 @@ export default class Slider extends React.Component {
               </div>
           </header>
           <div id="search">
-              <ul id="thumb"></ul>
+              <ul id="thumb" dangerouslySetInnerHTML={{__html: thumbs[0]}}></ul>
           </div>
       </div>
     );
