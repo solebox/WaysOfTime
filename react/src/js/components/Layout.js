@@ -2,7 +2,7 @@ import React from "react";
 import Slider from './Slider';
 import DrawerRight from "./DrawerRight";
 import Content from "./Content";
-
+import _$ from "jquery";
 
 export default class Layout extends React.Component {
   constructor() {
@@ -10,6 +10,7 @@ export default class Layout extends React.Component {
   }
 
   render() {
+   
     return (
           <div class="demo-layout-transparent mdl-layout mdl-js-layout">
               <Slider />

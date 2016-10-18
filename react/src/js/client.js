@@ -1,14 +1,14 @@
-import { applyMiddleware, createStore } from "redux";
-import axios from "axios";
-import logger from "redux-logger";
-import thunk from "redux-thunk";
-import promise from "redux-promise-middleware";
+import { Provider } from "react-redux";
 import React from "react";
 import ReactDOM from "react-dom";
-
+import store from "./store";
 import Layout from "./components/Layout";
 
 
+
+
 const app = document.getElementById('app');
-ReactDOM.render(<Layout/>, app);
+ReactDOM.render(<Provider store={store}>
+		<Layout/>
+	</Provider>, app);
 
