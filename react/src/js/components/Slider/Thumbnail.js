@@ -15,7 +15,6 @@ export default class Thumbnail extends React.Component {
 
   handleClickz()  {
     console.log("clicked!!");
-    alert(1);
   }
 
   render() {
