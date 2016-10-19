@@ -20,34 +20,34 @@ $(function (){
      *  Handle thumbnail click.
      *  Set the image-map on the map and add it to chosen layers.
      */
-    $('#thumb').on('click', '.thumbnail-click', function(){
-        var map_thumpnail = $(this);
-        var map_image = map_thumpnail.find('img');
-        var map_id = map_image.data('id');
-        var thumbPng = map_image.attr('src');
+    //$('#thumb').on('click', '.thumbnail-click', function(){
+    //    var map_thumpnail = $(this);
+    //    var map_image = map_thumpnail.find('img');
+    //    var map_id = map_image.data('id');
+    //    var thumbPng = map_image.attr('src');
 
-        if ($.inArray(map_id, chosenMaps) !== -1){
-            //var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;" +
-            //    "padding: 5px;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 250px;min-height: 100px;" +
-            //    "z-index: 10;'><p>Can't load the some image twice.</p><button id='popup-button'>OK</button></div>");
+    //    if ($.inArray(map_id, chosenMaps) !== -1){
+    //        //var modal = $("<div id='modal' class='demo-card-wide mdl-card mdl-shadow--4dp'style='position: absolute;margin: 0 auto;" +
+    //        //    "padding: 5px;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 250px;min-height: 100px;" +
+    //        //    "z-index: 10;'><p>Can't load the some image twice.</p><button id='popup-button'>OK</button></div>");
 
-            //$('#map').append(modal);
-            /* isn't this nicer?  */
-            showDialog({title: 'Error', text : "Please refrain from selecting the same map again and again"});
-            return;
-        }
-        chosenMaps.push(map_id);
+    //        //$('#map').append(modal);
+    //        /* isn't this nicer?  */
+    //        showDialog({title: 'Error', text : "Please refrain from selecting the same map again and again"});
+    //        return;
+    //    }
+    //    chosenMaps.push(map_id);
 
-        // Add support for right side drawer
-        $('.mdl-layout__drawer-right').addClass('active');
-        map_thumpnail.detach();
+    //    // Add support for right side drawer
+    //    $('.mdl-layout__drawer-right').addClass('active');
+    //    map_thumpnail.detach();
 
-        $.get("/get_map_by_id/" + map_id, function (maps) {
-            $.each(maps, function (i, map) {
-                addNewLayer(map_thumpnail, map_id, map);
-            });
-        });
-    });
+    //    $.get("/get_map_by_id/" + map_id, function (maps) {
+    //        $.each(maps, function (i, map) {
+    //            addNewLayer(map_thumpnail, map_id, map);
+    //        });
+    //    });
+    //});
 
 
     /**
