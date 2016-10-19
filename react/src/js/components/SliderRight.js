@@ -4,7 +4,6 @@ import Thumbnail from "./Slider/Thumbnail";
 export default class DrawerRight extends React.Component {
   render() {
   	const { thumbs_list } = this.props.thumbs;
-  	const right_slider_classes = ["mdl-layout__drawer-right"]; 
   	var slider_active = false;
     const mapped_thumbs = thumbs_list.map((thumbnail) => {
         if (thumbnail.selected){
@@ -14,12 +13,9 @@ export default class DrawerRight extends React.Component {
         }
       }
     );
-    if (slider_active){
-    	right_slider_classes.append("active");
-    	console.log("right slider active");
-    }
+    var slider_active_class = slider_active ? "active" : "";
     return (
-      <div class={right_slider_classes.join(" ")}>
+      <div class={"mdl-layout__drawer-right " + slider_active_class}>
               <div id="layers_slider">
                   <ul id="sortable">{ mapped_thumbs }</ul> 
               </div>

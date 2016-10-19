@@ -19,7 +19,8 @@ export default function reducer(state={ thumbs_list: [], error: null}, action){
 		}
 		case "TOGGLE_THUMB_SELECTION" : {
 			const id_to_toggle = action.payload;
-			const list = _.map(thumbs.thumbs_list, (result) => {
+			const {thumbs_list}  = state;
+			const list = _.map(thumbs_list, (result) => {
 					result.selected = result.id == id_to_toggle ? !result.selected : result.selected; 
 					return result;
 				}

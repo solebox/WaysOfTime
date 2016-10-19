@@ -1,9 +1,16 @@
 //Thumbnail.js
-
+import { connect } from "react-redux";
 import React from 'react';
 import CardMenu from './CardMenu';
 import { addLayer } from "../../actions/layerActions";
+import { toggleThumbSelection } from "../../actions/thumbActions";
 
+
+@connect((store) => {
+  return {
+    thumbs: store.thumbs,
+  }
+})
 export default class Thumbnail extends React.Component {
   static propTypes = {
     name: React.PropTypes.string,
@@ -13,14 +20,16 @@ export default class Thumbnail extends React.Component {
     super(props);
   }
 
-  handleClickz()  {
+  thumbSelected(map_id)  {
+    this.props.dispatch(toggleThumbSelection(map_id));
+    console.log(map_id);
     console.log("clicked!!");
   }
 
   render() {
   	const { map_id, map_url, map_title } = this.props;
     return (
-      <li onClick={this.handleClickz.bind(this)} class='thumbnail-click' id={"map-" + map_id } >
+      <li onClick={this.thumbSelected.bind(this, map_id)} class='thumbnail-click' id={"map-" + map_id } >
 	    	<div class='demo-card-image mdl-card mdl-shadow--2dp'>
 		        <CardMenu map_id={map_id} />
 		        <img src={ map_url } data-id={ map_id } />
