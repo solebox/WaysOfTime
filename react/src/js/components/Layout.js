@@ -19,10 +19,13 @@ export default class Layout extends React.Component {
   componentWillMount() {
     this.props.dispatch(fetchThumbs());
   }
+  wtf(){
+    console.log("asd");
+  }
 
   render() {
     return (
-          <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+          <div onClick={this.wtf.bind(this)} class="demo-layout-transparent mdl-layout mdl-js-layout">
               <SliderLeft thumbs={this.props.thumbs} />
               <SliderRight thumbs={this.props.thumbs} />
               <Content />
