@@ -24,6 +24,7 @@ export default class Thumbnail extends React.Component {
   thumbSelected(map_id)  {
     this.props.dispatch(toggleThumbSelection(map_id));
     console.log("selected map: " + map_id);
+    pleaseAddLayer(map_id);
 
   }
   componentDidMount() {

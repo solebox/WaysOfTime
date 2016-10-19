@@ -102,6 +102,8 @@ $(function (){
         window.NLIMaps.map.fitBounds([b1.reverse(),b2.reverse()],{padding:[100,100]});
     }
 
+
+    
     /**
      *
      * @param newMap
@@ -113,7 +115,7 @@ $(function (){
         zoomLayer(newMap.bbox)
 
         /* id use a less ambiguose id for the selected_thumbnail_list */
-        $("#sortable").prepend(map_thumbnail);
+      
 
 
         map_thumbnail.data("layer",newLayer);
