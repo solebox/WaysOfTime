@@ -1,9 +1,10 @@
 import os
 
 from django.forms import model_to_dict
+from django.http import HttpResponse
 from django.http import JsonResponse
 from django.shortcuts import render
-
+import json
 from viewer.models import Maps, MyMaps
 from django.db.models import Q
 
@@ -13,13 +14,13 @@ def get_thumbs(request, stringToSearch):
     :return: reutrns all the available thumbnails fof the uploaded maps
     """
 
-    if stringToSearch != 'null':
+    if stringToSearch != 'list':
         maps = Maps.objects.filter(Q(title__contains=stringToSearch)|Q(description__contains=stringToSearch)|Q(subject_area__contains=stringToSearch)|Q(cached_tag_list__contains=stringToSearch))
     else:
         maps = Maps.objects.all()
     maps_with_urls = [generate_url_for_map(map) for map in maps]
     val_dict = {'maps_with': maps_with_urls}
-    return render(request, 'layouts/map_thumbnail.html', val_dict)
+    return HttpResponse(json.dumps(maps_with_urls), content_type="application/json")
 
 
 def generate_url_for_map(map):
