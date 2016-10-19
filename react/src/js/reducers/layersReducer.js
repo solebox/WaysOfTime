@@ -1,16 +1,15 @@
 //layersReducer.js
-export default function reducer(state={},action){
+export default function reducer(state={ layer_list: [], error: null}, action){
 	switch (action.type){
-		case "bla":{}
-		case "bla2": {
+
+		
+		case "ADD_LAYER": {
 			return {
 				...state,
-				key1: value1,
-				key2: value2,
-				key3: action.payload,
-				key4: value4 + action.payload,
+				layer_list: action.payload,
 			}
 		}
+		
 	}
 	return state;
 }
