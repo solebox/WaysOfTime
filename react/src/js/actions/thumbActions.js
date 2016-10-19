@@ -3,7 +3,7 @@ import axios from "axios";
 
 export function fetchThumbs(){
 	return (dispatch) => {
-		axios.get("getThumbs/list")
+		axios.get("thumbs/list")
 			.then((response)=>{
 				dispatch({type: "FETCH_THUMBS_FULFILLED", payload: response.data});
 			})
