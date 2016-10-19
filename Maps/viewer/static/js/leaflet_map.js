@@ -1,8 +1,7 @@
-window.NLIMaps = {};
 
-$(document).ready(function(){
-    NLIMaps.map = createMap();
-});
+// $(document).ready(function(){
+//     NLIMaps.map = createMap();
+// });
 
 /**
  *  get the position of the user

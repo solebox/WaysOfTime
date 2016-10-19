@@ -18,12 +18,16 @@ export default class Thumbnail extends React.Component {
 
   constructor(props) {
     super(props);
+
   }
 
   thumbSelected(map_id)  {
     this.props.dispatch(toggleThumbSelection(map_id));
-    console.log(map_id);
-    console.log("clicked!!");
+    console.log("selected map: " + map_id);
+
+  }
+  componentDidMount() {
+ 
   }
 
   render() {

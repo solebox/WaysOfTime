@@ -16,6 +16,7 @@ import { toggleSliderLeft } from "../actions/guiActions";
 export default class Layout extends React.Component {
   constructor() {
     super();
+
   }
   
   componentWillMount() {
@@ -24,6 +25,11 @@ export default class Layout extends React.Component {
 
   toggleSliderLeft(){
       this.props.dispatch(toggleSliderLeft());
+  }
+
+  componentDidMount() {
+    window.NLIMaps = {};
+    setTimeout(()=>{NLIMaps.map = createMap();}, 1); // need to figure a better way to initialize map
   }
   /* need to find an original way to move burger button into its component and fixing the mdl issues*/
   render() {
