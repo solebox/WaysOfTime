@@ -9,7 +9,7 @@ export default class DrawerRight extends React.Component {
         if (thumbnail.selected){
           slider_active = true;
           return <Thumbnail key={thumbnail.id} map_id={thumbnail.id} map_url={thumbnail.url} 
-                    map_title={thumbnail.title} />;
+                    map_title={thumbnail.title} controls_visible={true}/>;
         }
       }
     );

@@ -22,7 +22,7 @@ export default class Slider extends React.Component {
     const mapped_thumbs = thumbs_list.map((thumbnail) => {
         if (!thumbnail.selected){
           return <Thumbnail key={thumbnail.id} map_id={thumbnail.id} map_url={thumbnail.url} 
-                    map_title={thumbnail.title} />;
+                    map_title={thumbnail.title} controls_visible={false} />;
         }
       }
     );

@@ -10,10 +10,13 @@ export default class CardMenu extends React.Component {
     super(props);
   }
 
+
+
   render() {
-  	const { map_id } = this.props;
+  	const { map_id, controls_visible } = this.props;
+  	const visible = controls_visible ? "" : "invisible"
     return (
-      <div class="invisible mdl-card__menu">
+      <div class={visible+" mdl-card__menu"}>
 				    <button class="show-info mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"
 				            id={"map-info-" + map_id } data-id={ map_id }>
 				        <i class="material-icons">info</i>
