@@ -16,6 +16,8 @@ export default class Slider extends React.Component {
 
 
   render() {
+    const SliderLeftVisibleState = this.props.gui.SliderLeftVisible ? "active" : "";
+
     const { thumbs_list } = this.props.thumbs;
     const mapped_thumbs = thumbs_list.map((thumbnail) => {
         if (!thumbnail.selected){
@@ -25,15 +27,16 @@ export default class Slider extends React.Component {
       }
     );
     return (
-      <div id="slider" class="mdl-layout__drawer">
+      <div id="slider" class={"mdl-layout__drawer"+" "+SliderLeftVisibleState}>
           <header> 
               <span class="mdl-layout-title">
                   <a href="/">
                       <img id="mainLogo" src="../static/img/mapabazman-logo-v1.png"></img>
+
                   </a>
               </span>
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect layer-button-info" data-dialog="dialog">
-                  <i class="material-icons">info</i>
+                  <span class="material-icons">info</span>
               </button>
               <div class="mdl-grid">
                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">

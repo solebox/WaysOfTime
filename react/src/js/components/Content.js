@@ -11,8 +11,9 @@ export default class Content extends React.Component {
 
     render() {
         return (
-            <main class="mdl-layout__content">
-                  <div id="map"></div>
+
+            <div class="container">
+                   <div id="map"></div>
                   <div id="layers"> 
                       <div id="chosenLayers" class="mdl-layout--fixed-drawer">
                           <div class="mdl-layout__drawer">
@@ -21,12 +22,13 @@ export default class Content extends React.Component {
                                   <ul id="sortable"></ul>
                               </div>
                           </div>
-                          <main class="mdl-layout__content">
+                          <div class="content">
                               <div class="page-content"></div>
-                          </main>
+                          </div>
                       </div>
                   </div>
-              </main>
+
+              </div>
         );
     }
 }

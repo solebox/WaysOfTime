@@ -87,6 +87,7 @@ textarea {
 .mdl-layout__header, .mdl-layout__drawer-button,
 .mdl-layout__header-row .mdl-navigation__link {
  color: black;
+ z-index: 10;
 }
 
 .mdl-layout > .mdl-layout__drawer-button > i {
