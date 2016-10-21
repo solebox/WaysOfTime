@@ -1,6 +1,6 @@
 //guiReducer.js
 
-export default function reducer(state={ SliderLeftVisible: false }, action){
+export default function reducer(state={ SliderLeftVisible: false, infoModalVisible: -1 }, action){
 	switch (action.type){
 
 		case "TOGGLE_SLIDER_LEFT":{
@@ -10,10 +10,10 @@ export default function reducer(state={ SliderLeftVisible: false }, action){
 				SliderLeftVisible: !state.SliderLeftVisible,
 			}
 		}
-		case "moo": {
+		case "TOGGLE_INFO_MODAL": {
 			return {
 				...state,
-				error: action.payload,
+				infoModalVisible: action.payload,
 			}
 		}
 	
