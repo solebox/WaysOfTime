@@ -1,6 +1,10 @@
 # National Library Maps Project
 
 
+## Download the vagrant box release
+[![Download WaysOfTime](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/waysoftime/files/WaysOfTime/WaysOfTime_v1.0.box/download)
+
+
 ## cloning
     git clone --recursive git@github.com:soleboxy/WaysOfTime.git 
 ## Development
