@@ -31,3 +31,5 @@ user.save
 ```
 When you'll type the last command (`user.save`) there'll be a url in the console output, copy it to the browser to activate the user, and try to login to the system.
 
+## contributing 
+[contributing](https://github.com/soleboxy/WaysOfTime/blob/master/CONTRIBUTING.md)
