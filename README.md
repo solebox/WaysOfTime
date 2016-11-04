@@ -13,7 +13,7 @@ There is a vagrantfile you can use.
 First clone the project, and type `vagrant up` to get and install the virtual machine
 After that runs, type `vagrant ssh` to login.
 
-Now type `cd /srv/Maps` and migrate the db with the command `python manage.py migrate`, then start python server by type `python manage.py runserver 0:8000&` and enter [http://localhost:8000](http://localhost:8000) to see if it's worked.
+Now type `cd /srv/Maps` and migrate the db with the command `python manage.py migrate`, then start python server by typing `python manage.py runserver 0:8000&` and enter [http://localhost:8000](http://localhost:8000) to see if it's worked.
 
 Create a admin user with the command `python manage.py createsuperuser` and follow the instructions in the terminal. After you finish the inserucations enter to [http://localhost:8000/admin](http://localhost:8000/admin) and login.
 
