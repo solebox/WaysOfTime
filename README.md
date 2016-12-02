@@ -54,7 +54,7 @@ When you'll type the last command (`user.save`) there'll be a url in the console
 
 ### finally
 add maps to the project by using the interface at [http://localhost:3000](http://localhost:3000),
-using the username and password from the section above
+login using the username and password from the section above
 and view them using http://localhost:8000
 
 ## contributing 
