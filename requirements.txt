@@ -3,7 +3,7 @@ django-extensions==1.7.4
 django-geojson==2.8.1
 django-leaflet==0.16.0
 django-wms==0.1.12
-djangorestframework==3.4.7
+djangorestframework==3.11.2
 psycopg2==2.6.1
 six==1.10.0
 wheel==0.24.0
